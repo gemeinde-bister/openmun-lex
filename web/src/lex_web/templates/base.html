@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ lang|default('de') }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}openmunlex{% endblock %}</title>
+    <link rel="stylesheet" href="{{ root_path }}/static/style.css" integrity="{{ sri('style.css') }}">
+    {% block head %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}" data-root-path="{{ root_path }}">
+    <nav class="topnav">
+        <a href="{{ root_path }}/" class="nav-brand"><span class="brand-prefix">openmun</span>lex</a>
+        <div class="lang-toggle">
+            <form method="post" action="{{ root_path }}/lang">
+                {% if available_langs is defined and available_langs|length > 1 %}
+                    {# Document view: show only available document languages #}
+                    {% for al in available_langs %}
+                    <button type="submit" name="lang" value="{{ al }}"{% if lang == al %} class="active"{% endif %}>{{ al|upper }}</button>
+                    {% endfor %}
+                {% else %}
+                    {# All other pages: show DE / FR / IT #}
+                    {% for al in ("de", "fr", "it") %}
+                    <button type="submit" name="lang" value="{{ al }}"{% if lang == al %} class="active"{% endif %}>{{ al|upper }}</button>
+                    {% endfor %}
+                {% endif %}
+            </form>
+        </div>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

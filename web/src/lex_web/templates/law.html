@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}{{ metadata.sr_number }} – {{ metadata.title }}{% endblock %}
+{% block head %}
+{% endblock %}
+
+{% block content %}
+<div class="law-page">
+    <div class="law-sidebar">
+        <h3>{{ t('toc_heading', lang) }}</h3>
+        <nav class="toc">
+            {% for entry in toc %}
+            <a href="#{{ entry.eid }}"
+               class="toc-entry toc-depth-{{ entry.depth }} toc-{{ entry.tag }}"
+               >{% if entry.num %}{{ entry.num }}{% endif %}
+               {% if entry.heading %}{{ entry.heading }}{% endif %}</a>
+            {% endfor %}
+        </nav>
+    </div>
+    <div class="law-content">
+        {% if status == "repealed" %}
+        <div class="law-repealed-banner" role="status">
+            {{ t('repealed_banner', lang) }}{% if repealed_date %}
+            <span class="law-repealed-date">{{ t('repealed_on', lang) }} {{ repealed_date|format_date('long', lang) }}</span>{% endif %}
+        </div>
+        {% endif %}
+        <header class="law-header">
+            <div class="law-sr">{% if level == "ch" %}SR {% endif %}{{ metadata.sr_number }}</div>
+            <h1>{{ metadata.title }}{% if metadata.abbreviation %} ({{ metadata.abbreviation }}){% endif %}</h1>
+            {% if metadata.date_document %}
+            <div class="law-date"><em>{{ t('date_prefix', lang) }} {{ metadata.date_document|format_date('long', lang) }}</em></div>
+            {% endif %}
+            {% if metadata.date_applicability %}
+            <div class="law-stand">({{ t('stand_prefix', lang) }} {{ metadata.date_applicability|format_date('short', lang) }})</div>
+            {% endif %}
+            {% if editable %}
+            <div class="edit-indicator">{{ t('edit_mode', lang) }}</div>
+            {% endif %}
+        </header>
+        <div id="law-body" class="law-body{% if editable %} law-body-editable{% endif %}"
+             data-eli="{{ eli_path }}"
+             data-editable="{{ 'true' if editable else 'false' }}">
+            {{ body_html | safe }}
+        </div>
+    </div>
+</div>
+<div id="cite-toolbar" class="cite-toolbar">
+    <button data-format="text" title="{{ t('cite_text', lang) }}">Text</button>
+    <button data-format="citation" title="{{ t('cite_citation', lang) }}">Citation</button>
+    <button data-format="url" title="{{ t('cite_url', lang) }}">URL</button>
+    <button data-format="akn" title="{{ t('cite_akn', lang) }}">AKN</button>
+    <button data-format="bibtex" title="{{ t('cite_bibtex', lang) }}">BibTeX</button>
+    <span id="cite-toast" class="cite-toast"></span>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="application/json" id="lex-meta">
+{
+    "sr_number": {{ metadata.sr_number | tojson }},
+    "title": {{ metadata.title | tojson }},
+    "abbreviation": {{ metadata.abbreviation | tojson }},
+    "eli_path": {{ eli_path | tojson }},
+    "level": {{ level | tojson }},
+    "date_document": {{ (metadata.date_document.isoformat() if metadata.date_document else '') | tojson }}
+}
+</script>
+{% if editable %}
+<script type="module" src="{{ root_path }}/static/editor.js" integrity="{{ sri('editor.js') }}"></script>
+{% else %}
+<script src="{{ root_path }}/static/cite.js" integrity="{{ sri('cite.js') }}"></script>
+{% endif %}
+{% endblock %}

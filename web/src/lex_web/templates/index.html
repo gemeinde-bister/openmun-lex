@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block title %}openmunlex{% endblock %}
+{% block body_class %}is-index{% endblock %}
+{% block content %}
+<div class="index-page">
+    <h1><span class="brand-prefix">openmun</span><span class="brand-lex">lex</span></h1>
+
+    <div class="search-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input id="search-input" class="search-box" type="search" placeholder="{{ t('search_placeholder', lang) }}" autocomplete="off" autofocus>
+    </div>
+
+    <div id="search-filters" class="search-filters">
+        <button class="filter-chip active" data-level="">{{ t('level_all', lang) }} <span class="chip-count"></span></button>
+        <button class="filter-chip" data-level="ch">{{ t('level_ch', lang) }} <span class="chip-count"></span></button>
+        <button class="filter-chip" data-level="vs">{{ t('level_vs', lang) }} <span class="chip-count"></span></button>
+        <button class="filter-chip" data-level="mun">{{ t('level_mun', lang) }} <span class="chip-count"></span></button>
+    </div>
+    <div id="search-type-filters" class="search-filters"></div>
+
+    <div id="search-results"></div>
+
+    <div id="browse-content">
+        <p class="index-intro">{{ t('index_intro', lang) }}</p>
+
+        <section class="index-section">
+            <h2>{{ t('browse_federal', lang) }}</h2>
+            <p class="index-source">{{ t('browse_federal_source', lang) | safe }}</p>
+            <ul>
+                <li><a href="{{ root_path }}/eli/ch/">{{ ch_count }} {{ t('enactments', lang) }}</a></li>
+            </ul>
+        </section>
+
+        <section class="index-section">
+            <h2>{{ t('browse_cantonal', lang) }}</h2>
+            <p class="index-source">{{ t('browse_cantonal_source', lang) | safe }}</p>
+            <ul>
+                <li><a href="{{ root_path }}/eli/vs/">{{ vs_count }} {{ t('enactments', lang) }}</a></li>
+            </ul>
+        </section>
+
+        <section class="index-section">
+            <h2>{{ t('browse_municipal', lang) }}</h2>
+            <p class="index-source">{{ t('browse_municipal_source', lang) }}</p>
+            {% for mun_name, entity_groups in mun_groups %}
+            <h3>{{ mun_name }}</h3>
+            {% for entity_label, laws in entity_groups %}
+            <h4>{{ entity_label }}</h4>
+            <ul>
+                {% for law in laws %}
+                <li><a href="{{ root_path }}/eli/mun/{{ law.bfs }}/{{ law.entity }}/{{ law.reg_id }}">{{ law.reg_id }} – {{ law.title }}{% if law.abbreviation %} ({{ law.abbreviation }}){% endif %}</a></li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
+            {% endfor %}
+        </section>
+
+        {% if doc_entries %}
+        <section class="index-section">
+            <h2>{{ t('browse_documents', lang) }}</h2>
+            <p class="index-source">{{ t('browse_documents_source', lang) }}</p>
+            <ul>
+                {% for doc in doc_entries %}
+                <li><a href="{{ root_path }}/doc/{{ doc.doc_id }}">{{ doc.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        <footer class="index-footer">
+            <p>&copy; 2026 Kevin Bortis, <a href="https://www.gemeinde-bister.ch" rel="noopener">Gemeinde Bister</a></p>
+            <p>Lizenziert unter der <a href="https://opensource.org/licenses/MIT" rel="noopener">MIT-Lizenz</a></p>
+            <p class="footer-github">
+                <a href="https://github.com/gemeinde-bister/openmun-lex" rel="noopener">
+                    <svg class="github-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                    gemeinde-bister/openmun-lex
+                </a>
+            </p>
+        </footer>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script type="application/json" id="search-i18n">
+{
+    "level_labels": {
+        "ch": {{ t('level_ch', lang) | tojson }},
+        "vs": {{ t('level_vs', lang) | tojson }},
+        "mun": {{ t('level_mun', lang) | tojson }}
+    },
+    "doc_type_labels": {
+        "verfassung": {{ t('doctype_verfassung', lang) | tojson }},
+        "gesetz": {{ t('doctype_gesetz', lang) | tojson }},
+        "verordnung": {{ t('doctype_verordnung', lang) | tojson }},
+        "reglement": {{ t('doctype_reglement', lang) | tojson }},
+        "beschluss": {{ t('doctype_beschluss', lang) | tojson }},
+        "konkordat": {{ t('doctype_konkordat', lang) | tojson }},
+        "treaty": {{ t('doctype_treaty', lang) | tojson }},
+        "other": {{ t('doctype_other', lang) | tojson }}
+    },
+    "no_results": {{ t('no_results', lang) | tojson }},
+    "search_unavailable": {{ t('search_unavailable', lang) | tojson }},
+    "search_error": {{ t('search_error', lang) | tojson }},
+    "hits": {{ t('hits', lang) | tojson }},
+    "page_of": {{ t('page_of', lang) | tojson }}
+}
+</script>
+<script src="{{ root_path }}/static/search.js" integrity="{{ sri('search.js') }}"></script>
+{% endblock %}

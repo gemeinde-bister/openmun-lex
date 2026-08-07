@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ t('browse_federal', lang) }} - {{ t('sr_title', lang) }}{% endblock %}
+{% block content %}
+<div class="browse-page">
+    <h1>{{ t('browse_federal', lang) }}</h1>
+    <p>{{ t('sr_title', lang) }} &ndash; {{ t('sr_in_force', lang).replace('{count}', total_count|string) }}</p>
+
+    {% for category, entries in groups %}
+    <h2 id="cat-{{ loop.index }}">{{ category }} <small>({{ entries|length }})</small></h2>
+    <table class="browse-table">
+        <thead>
+            <tr>
+                <th class="col-sysno">SR</th>
+                <th>{{ t('col_title', lang) }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in entries %}
+            <tr>
+                <td class="col-sysno"><a href="{{ root_path }}/eli/ch/{{ entry.sr }}">{{ entry.sr }}</a></td>
+                <td>
+                    <a href="{{ root_path }}/eli/ch/{{ entry.sr }}">{{ entry.title_for(lang) }}{% if entry.abbreviation_for(lang) %} ({{ entry.abbreviation_for(lang) }}){% endif %}</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endfor %}
+</div>
+{% endblock %}

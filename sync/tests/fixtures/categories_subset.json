@@ -1,0 +1,173 @@
+[
+  {
+    "systematic_category": {
+      "id": 1,
+      "systematic_number": "1",
+      "name": "Staat, Volk, Behörden",
+      "children": [
+        {
+          "systematic_category": {
+            "id": 2,
+            "systematic_number": "10",
+            "name": "Verfassung",
+            "children": []
+          }
+        },
+        {
+          "systematic_category": {
+            "id": 61,
+            "systematic_number": "11",
+            "name": "Grundlagen",
+            "children": []
+          }
+        },
+        {
+          "systematic_category": {
+            "id": 62,
+            "systematic_number": "14",
+            "name": "Bürgerrecht. Niederlassung. Aufenthalt",
+            "children": []
+          }
+        },
+        {
+          "systematic_category": {
+            "id": 64,
+            "systematic_number": "15",
+            "name": "Grundrechte",
+            "children": []
+          }
+        },
+        {
+          "systematic_category": {
+            "id": 65,
+            "systematic_number": "16",
+            "name": "Politische Rechte",
+            "children": []
+          }
+        },
+        {
+          "systematic_category": {
+            "id": 12,
+            "systematic_number": "17",
+            "name": "Behörden",
+            "children": [
+              {
+                "systematic_category": {
+                  "id": 88,
+                  "systematic_number": "170",
+                  "name": "Verantwortlichkeit, Information, Kompetenzen",
+                  "children": []
+                }
+              },
+              {
+                "systematic_category": {
+                  "id": 13,
+                  "systematic_number": "171",
+                  "name": "Grosser Rat",
+                  "children": []
+                }
+              },
+              {
+                "systematic_category": {
+                  "id": 14,
+                  "systematic_number": "172",
+                  "name": "Staatsrat und Verwaltung",
+                  "children": []
+                }
+              },
+              {
+                "systematic_category": {
+                  "id": 86,
+                  "systematic_number": "173",
+                  "name": "Richterliche Behörden",
+                  "children": []
+                }
+              },
+              {
+                "systematic_category": {
+                  "id": 15,
+                  "systematic_number": "175",
+                  "name": "Gemeinden und Burgerschaften",
+                  "children": []
+                }
+              },
+              {
+                "systematic_category": {
+                  "id": 16,
+                  "systematic_number": "176",
+                  "name": "Einwohnerkontrolle",
+                  "children": []
+                }
+              },
+              {
+                "systematic_category": {
+                  "id": 17,
+                  "systematic_number": "177",
+                  "name": "Rechtsanwälte",
+                  "children": []
+                }
+              },
+              {
+                "systematic_category": {
+                  "id": 87,
+                  "systematic_number": "178",
+                  "name": "Notare",
+                  "children": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "systematic_category": {
+            "id": 18,
+            "systematic_number": "18",
+            "name": "Kirchen, Staat",
+            "children": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "systematic_category": {
+      "id": 4,
+      "systematic_number": "2",
+      "name": "Privatrecht, Zivilrechtspflege",
+      "children": [
+        {
+          "systematic_category": {
+            "id": 19,
+            "systematic_number": "21",
+            "name": "Vollstreckung des Zivilrechts",
+            "children": []
+          }
+        },
+        {
+          "systematic_category": {
+            "id": 20,
+            "systematic_number": "22",
+            "name": "Vollstreckung des Obligationenrecht",
+            "children": []
+          }
+        },
+        {
+          "systematic_category": {
+            "id": 21,
+            "systematic_number": "27",
+            "name": "Zivilrechtspflege",
+            "children": []
+          }
+        },
+        {
+          "systematic_category": {
+            "id": 22,
+            "systematic_number": "28",
+            "name": "Schuldbetreibung und Konkurs",
+            "children": []
+          }
+        }
+      ]
+    }
+  }
+]

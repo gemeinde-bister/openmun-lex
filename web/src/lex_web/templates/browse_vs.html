@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ t('browse_cantonal', lang) }} - {{ t('vs_collection', lang) }}{% endblock %}
+{% block content %}
+<div class="browse-page">
+    <h1>{{ t('browse_cantonal', lang) }}</h1>
+    <p>{{ t('vs_collection', lang) }} &ndash; {{ t('vs_count', lang).replace('{count}', total_count|string) }}</p>
+
+    {% for law_type, entries in groups %}
+    <h2 id="type-{{ loop.index }}">{{ t('lawtype_' + law_type, lang) }} <small>({{ entries|length }})</small></h2>
+    <table class="browse-table">
+        <thead>
+            <tr>
+                <th class="col-sysno">Nr.</th>
+                <th>{{ t('col_title', lang) }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in entries %}
+            <tr{% if entry.abrogated %} class="abrogated"{% endif %}>
+                <td class="col-sysno"><a href="{{ root_path }}/eli/vs/{{ entry.sysno }}">{{ entry.sysno }}</a></td>
+                <td>
+                    <a href="{{ root_path }}/eli/vs/{{ entry.sysno }}">{{ entry.title }}{% if entry.abbreviation %} ({{ entry.abbreviation }}){% endif %}</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endfor %}
+</div>
+{% endblock %}

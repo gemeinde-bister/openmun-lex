@@ -1,0 +1,851 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="guideline">
+    <meta>
+      <identification source="#openmun-lex">
+        <FRBRWork>
+          <FRBRthis value="/doc/leitfaden-sr-gemeinde"/>
+          <FRBRuri value="/doc/leitfaden-sr-gemeinde"/>
+          <FRBRdate date="2026-02-14" name="publication"/>
+          <FRBRalias value="Leitfaden zum Aufbau einer systematischen Rechtssammlung für Walliser Gemeinden" name="title"/>
+          <FRBRcountry value="CH-VS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/doc/leitfaden-sr-gemeinde/de"/>
+          <FRBRuri value="/doc/leitfaden-sr-gemeinde/de"/>
+          <FRBRdate date="2026-02-14" name="publication"/>
+          <FRBRlanguage language="de"/>
+        </FRBRExpression>
+      </identification>
+    </meta>
+    <preface>
+      <longTitle>
+        <p><docTitle>Leitfaden zum Aufbau einer systematischen Rechtssammlung für Walliser Gemeinden</docTitle></p>
+      </longTitle>
+      <p><docDate date="2026-02-14">Februar 2026</docDate></p>
+    </preface>
+    <body>
+      <section eId="sec_intro">
+        <heading>Einleitung</heading>
+        <paragraph eId="sec_intro/para_1">
+          <content>
+            <p>Eine systematisch aufgebaute Rechtssammlung macht das geltende Recht einer Gemeinde für Behörden und Bevölkerung jederzeit zugänglich und auffindbar. Sie schafft Transparenz, erleichtert die Rechtsanwendung und stärkt die Rechtssicherheit.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_intro/para_2">
+          <content>
+            <p>Anders als im Kanton Zürich, wo das Gemeindegesetz die Führung einer systematischen Rechtssammlung seit 2022 vorschreibt, besteht im Kanton Wallis keine gesetzliche Pflicht. Der vorliegende Leitfaden richtet sich an Walliser Gemeinden, die freiwillig eine solche Sammlung aufbauen möchten, und gibt ihnen dafür praktische Empfehlungen.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_intro/para_3">
+          <content>
+            <p>Der Leitfaden orientiert sich am Leitfaden des Gemeindeamts des Kantons Zürich und des Vereins Zürcher Gemeinde- und Verwaltungsfachleute (VZGV) vom Juni 2018 (ergänzt Februar 2019), passt dessen Empfehlungen jedoch an die Verhältnisse im Kanton Wallis an. Insbesondere berücksichtigt er die Walliser Gemeindestrukturen mit Burger- und Geteilschaften sowie die im Wallis übliche Erlassbezeichnung.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_intro/para_4">
+          <content>
+            <p>Das Begleitdokument <ref href="/doc/terminologie-erlassformen">Erlassformen und Behördenbezeichnungen im schweizerischen Recht</ref> erläutert die in diesem Leitfaden verwendeten Fachbegriffe und ordnet sie in den Zusammenhang der schweizerischen Rechtsordnung ein.</p>
+          </content>
+        </paragraph>
+      </section>
+
+      <section eId="sec_sr">
+        <heading>Die systematische Rechtssammlung</heading>
+        <paragraph eId="sec_sr/para_1">
+          <content>
+            <p>Die systematische Rechtssammlung (SR) enthält das geltende Recht einer Gemeinde, geordnet nach Sachgebieten. Wird ein Reglement teilrevidiert, wird die geänderte Fassung eingearbeitet (konsolidierte Darstellung). Die aktive Übersicht zeigt stets den aktuellen Stand des geltenden Rechts.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_sr/para_2">
+          <content>
+            <p>Aufgehobene Reglemente werden als solche gekennzeichnet und nicht mehr in der aktiven Übersicht angezeigt. Sie bleiben jedoch unter ihrer bisherigen Adresse dauerhaft abrufbar, damit bestehende Verweise — etwa in Gerichtsurteilen, amtlichen Publikationen oder anderen Erlassen — gültig bleiben.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_sr/para_3">
+          <content>
+            <p>Die systematische Rechtssammlung ersetzt nicht die amtliche Publikation. Reglemente, Beschlüsse von allgemeiner Tragweite und Wahlergebnisse müssen weiterhin amtlich publiziert werden — durch öffentlichen Anschlag und, soweit gesetzlich vorgeschrieben, im Amtsblatt (<ref href="/eli/vs/175.1">GemG</ref> Art. 102).</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_sr/para_4">
+          <content>
+            <p>Das <ref href="/eli/vs/175.1">Gemeindegesetz</ref> erfasst sowohl die Einwohnergemeinde als auch die Burgergemeinde (<ref href="/eli/vs/175.1">GemG</ref> Art. 1). Die systematische Rechtssammlung umfasst deshalb die Reglemente beider Körperschaften, in je eigenen Abschnitten. Geteilschaften, die als Körperschaften des kantonalen Privatrechts eigene Statuten und Reglemente führen (<ref href="/eli/vs/211.1">EGZGB</ref> Art. 126), können ebenfalls in die Sammlung aufgenommen werden.</p>
+          </content>
+        </paragraph>
+      </section>
+
+      <section eId="sec_anforderungen">
+        <heading>Anforderungen</heading>
+        <paragraph eId="sec_anforderungen/para_1">
+          <content>
+            <p>Eine systematische Rechtssammlung soll folgenden Anforderungen genügen:</p>
+            <blockList>
+              <item eId="sec_anforderungen/para_1/item_a">
+                <num>a)</num>
+                <p>Sie gliedert das Recht nach <b>Sachgebieten</b>. Eine rein alphabetische Auflistung genügt nicht.</p>
+              </item>
+              <item eId="sec_anforderungen/para_1/item_b">
+                <num>b)</num>
+                <p>Die Gliederung ist <b>stabil</b>: einmal gewählt, wird sie beibehalten und nicht ohne Not verändert.</p>
+              </item>
+              <item eId="sec_anforderungen/para_1/item_c">
+                <num>c)</num>
+                <p>Sie ist im <b>Internet</b> veröffentlicht und jederzeit frei zugänglich.</p>
+              </item>
+              <item eId="sec_anforderungen/para_1/item_d">
+                <num>d)</num>
+                <p>Sie enthält das <b>aktuell geltende</b> Recht. Aufgehobene Reglemente werden gekennzeichnet und aus der aktiven Übersicht entfernt. Teil- und Totalrevisionen werden zeitnah eingearbeitet.</p>
+              </item>
+              <item eId="sec_anforderungen/para_1/item_e">
+                <num>e)</num>
+                <p>Sie ist <b>vollständig</b>: sämtliche Reglemente und rechtsetzenden interkommunalen Verträge sind enthalten.</p>
+              </item>
+              <item eId="sec_anforderungen/para_1/item_f">
+                <num>f)</num>
+                <p>Die veröffentlichten Dokumente sind gegen <b>unberechtigte Veränderung</b> geschützt.</p>
+              </item>
+              <item eId="sec_anforderungen/para_1/item_g">
+                <num>g)</num>
+                <p>Jedem Erlass wird eine <b>eindeutige Nummer</b> zugewiesen, die mit der Ziffer des Sachgebiets beginnt.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+
+      <section eId="sec_inhalt">
+        <heading>Inhalt der Rechtssammlung</heading>
+
+        <section eId="sec_inhalt/sec_hinein">
+          <heading>Was gehört in die Rechtssammlung?</heading>
+          <paragraph eId="sec_inhalt/sec_hinein/para_1">
+            <content>
+              <p>In die systematische Rechtssammlung gehören alle rechtsetzenden Erlasse und rechtsetzenden interkommunalen Verträge. Ein rechtsetzender Erlass enthält generell-abstrakte Regelungen: Vorschriften, die sich an eine unbestimmte Zahl von Personen richten und eine unbestimmte Zahl von Sachverhalten regeln. Auf Gemeindestufe im Kanton Wallis haben rechtsetzende Erlasse stets die Form des <b>Reglements</b> (<ref href="/eli/vs/175.1">GemG</ref> Art. 2 Abs. 2).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_inhalt/sec_hinein/para_2">
+            <content>
+              <p>Im Einzelnen:</p>
+              <blockList>
+                <item eId="sec_inhalt/sec_hinein/para_2/item_a">
+                  <num>a)</num>
+                  <p><b>Reglemente der Urversammlung oder des Generalrats</b>: Sämtliche Reglemente mit Aussenwirkung, die von der Urversammlung (bzw. dem Generalrat) beraten und beschlossen werden (<ref href="/eli/vs/175.1">GemG</ref> Art. 17 Abs. 1 lit. a). Sie bilden den Kern der Rechtssammlung — Organisationsreglement, Polizeireglement, Bau- und Zonenreglement, Gebührenreglemente und weitere.</p>
+                </item>
+                <item eId="sec_inhalt/sec_hinein/para_2/item_b">
+                  <num>b)</num>
+                  <p><b>Reglemente des Gemeinderats</b>: Reglemente von rein interner Tragweite, die der Gemeinderat selbständig erlassen kann (<ref href="/eli/vs/175.1">GemG</ref> Art. 17 Abs. 1 lit. a e contrario) — etwa eine Geschäftsordnung der Verwaltung. Da auch sie generell-abstrakte Regelungen enthalten, gehören sie in die Rechtssammlung.</p>
+                </item>
+                <item eId="sec_inhalt/sec_hinein/para_2/item_c">
+                  <num>c)</num>
+                  <p><b>Rechtsetzende interkommunale Verträge</b>: Anschlussverträge, Zusammenarbeitsverträge und Zweckverbandsstatuten, die Zuständigkeiten, Verfahren oder Rechte und Pflichten der Einwohner regeln. Sie werden in den Rechtssammlungen aller beteiligten Gemeinden aufgeführt.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_inhalt/sec_hinein/para_3">
+            <content>
+              <p>Bei Gemeinden mit <b>Burgergemeinde</b> umfasst die Rechtssammlung auch deren Reglemente — namentlich das Burgerreglement und allfällige weitere Erlasse über Alp-, Wald- oder Wassernutzung. Die Burgergemeinde führt einen eigenen Abschnitt in der Rechtssammlung. Dasselbe gilt für <b>Geteilschaften</b>, deren Statuten und Reglemente ebenfalls aufgenommen werden können (<ref href="/eli/vs/211.1">EGZGB</ref> Art. 126).</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_inhalt/sec_nicht">
+          <heading>Was gehört nicht in die Rechtssammlung?</heading>
+          <paragraph eId="sec_inhalt/sec_nicht/para_1">
+            <content>
+              <p>Nicht in die Rechtssammlung aufgenommen werden:</p>
+              <blockList>
+                <item eId="sec_inhalt/sec_nicht/para_1/item_a">
+                  <num>a)</num>
+                  <p><b>Beschlüsse</b> (décisions): Einzelakte, die einen konkreten Sachverhalt regeln — Baubewilligungen, Kreditbeschlüsse, Personalernennungen, Steuerveranlagungen. Sie sind nicht rechtsetzend, auch wenn sie von der Urversammlung gefasst werden (<ref href="/eli/vs/175.1">GemG</ref> Art. 17 Abs. 1 lit. b–k).</p>
+                </item>
+                <item eId="sec_inhalt/sec_nicht/para_1/item_b">
+                  <num>b)</num>
+                  <p><b>Raumpläne</b>: Richt-, Zonen- und Gestaltungspläne. Es genügt ein Verweis auf den Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen (ÖREB-Kataster).</p>
+                </item>
+                <item eId="sec_inhalt/sec_nicht/para_1/item_c">
+                  <num>c)</num>
+                  <p><b>Verwaltungsanweisungen</b>: Dienstanweisungen, Merkblätter, Leitfäden und Richtlinien, die sich an Mitarbeitende richten und keine Rechte und Pflichten der Bevölkerung begründen.</p>
+                </item>
+                <item eId="sec_inhalt/sec_nicht/para_1/item_d">
+                  <num>d)</num>
+                  <p><b>Nicht rechtsetzende Verträge</b>: Verträge, die ausschliesslich die Rechte und Pflichten der Vertragsparteien regeln (z.B. Informatikdienstleistungen, Leistungsvereinbarungen), ohne Zuständigkeiten oder Verfahren festzulegen.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_inhalt/sec_beschluesse">
+          <heading>Beschlüsse von allgemeiner Tragweite</heading>
+          <paragraph eId="sec_inhalt/sec_beschluesse/para_1">
+            <content>
+              <p>Beschlüsse, die von allgemeiner Tragweite sind, unterliegen einer Publikationspflicht (<ref href="/eli/vs/175.1">GemG</ref> Art. 101 Abs. 3). Sie sind jedoch nicht rechtsetzend und gehören deshalb nicht in die systematische Rechtssammlung. Beispiel: Das Wasserreglement ermächtigt den Gemeinderat, den konkreten Tarif festzusetzen. Der Tariffestlegungsbeschluss hat allgemeine Tragweite und muss publiziert werden, ist aber ein Einzelakt im Rahmen des Reglements.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_inhalt/sec_beschluesse/para_2">
+            <content>
+              <p>Die Plattform kann solche Beschlüsse als eigenständige Dokumente ausserhalb der Rechtssammlung veröffentlichen. So wird die Publikationspflicht erfüllt, ohne die Rechtssammlung mit nicht rechtsetzenden Dokumenten zu vermischen.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_inhalt/sec_homologation">
+          <heading>Inkrafttreten und Homologation</heading>
+          <paragraph eId="sec_inhalt/sec_homologation/para_1">
+            <content>
+              <p>Reglemente, die der Genehmigung durch den Staatsrat bedürfen, werden erst nach erfolgter <b>Homologation</b> in die Rechtssammlung aufgenommen. Sie treten am Tag der Genehmigung in Kraft (<ref href="/eli/vs/175.1">GemG</ref> Art. 18). Dieses Datum wird im Reglement vermerkt.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_inhalt/sec_abgrenzung">
+          <heading>Abgrenzungshilfe</heading>
+          <paragraph eId="sec_inhalt/sec_abgrenzung/para_1">
+            <content>
+              <p>Im Zweifelsfall hilft die Frage: Enthält das Dokument <b>generell-abstrakte</b> Regelungen — Vorschriften, die sich an eine unbestimmte Zahl von Personen richten und eine unbestimmte Zahl von Sachverhalten regeln? Dann gehört es in die Rechtssammlung.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_inhalt/sec_abgrenzung/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_inhalt/sec_abgrenzung/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Für Aufnahme spricht</b>: Das Dokument heisst «Reglement», enthält nummerierte Artikel, regelt Rechte oder Pflichten der Bevölkerung, gilt dauerhaft, wird von der Urversammlung oder dem Gemeinderat in formeller Weise erlassen.</p>
+                </item>
+                <item eId="sec_inhalt/sec_abgrenzung/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Gegen Aufnahme spricht</b>: Das Dokument regelt einen Einzelfall, richtet sich an namentlich bestimmte Personen, enthält Prosatext statt Rechtssätze (Konzept, Merkblatt), oder ist eine verwaltungsinterne Anweisung ohne Aussenwirkung.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_inhalt/sec_abgrenzung/para_3">
+            <content>
+              <p>Die Abgrenzung ist nicht immer eindeutig. Leistungsvereinbarungen, Vereinbarungen zwischen Gemeinde und Geteilschaft oder Beschlüsse, die der Form nach Einzelakte sind, aber generell-abstrakte Regelungen enthalten, können Grenzfälle sein. Im Zweifel empfiehlt sich die Aufnahme in die Rechtssammlung.</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_bezeichnungen">
+        <heading>Erlassbezeichnungen</heading>
+        <paragraph eId="sec_bezeichnungen/para_1">
+          <content>
+            <p>Im Kanton Zürich empfiehlt der Leitfaden, Erlasse der Legislative einheitlich als «Verordnung» und Erlasse der Exekutive als «Reglement» zu bezeichnen, um den Urheber kenntlich zu machen. Im Kanton Wallis stellt sich diese Frage nicht: Auf Gemeindestufe heisst die einzige normative Erlassform <b>Reglement</b> — unabhängig davon, ob die Urversammlung oder der Gemeinderat sie erlässt (<ref href="/eli/vs/175.1">GemG</ref> Art. 2 Abs. 2, Art. 17 Abs. 1).</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_bezeichnungen/para_2">
+          <content>
+            <p>Der gleiche Begriff «Reglement» hat auf Kantonsstufe eine andere Bedeutung: Dort bezeichnet er die Ausführungsbestimmungen des Staatsrates (<ref href="/eli/vs/101.1">KV</ref> Art. 57 Abs. 1), im Unterschied zur «Verordnung» als delegierter Rechtsetzung (Art. 57 Abs. 2). Diese Mehrdeutigkeit ist in der <ref href="/doc/terminologie-erlassformen">Terminologie-Referenz</ref> ausführlich dokumentiert.</p>
+          </content>
+        </paragraph>
+      </section>
+
+      <section eId="sec_nummerierung">
+        <heading>Nummerierung und Sachgebiete</heading>
+
+        <section eId="sec_nummerierung/sec_schema">
+          <heading>Nummerierungsschema</heading>
+          <paragraph eId="sec_nummerierung/sec_schema/para_1">
+            <content>
+              <p>Jedem Reglement wird eine systematische Nummer zugewiesen. Das Schema folgt dem Muster der eidgenössischen Systematischen Rechtssammlung (SR) und der kantonalen Gesetzessammlung (SGS): eine dreistellige Sachgebietsnummer, gefolgt von einem Punkt und einer Individualnummer.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_nummerierung/sec_schema/para_2">
+            <content>
+              <p>Die erste Ziffer bezeichnet das <b>Sachgebiet</b> (Hauptgruppe 1–9). Die zweite und dritte Ziffer bezeichnen die <b>Untergruppe</b> innerhalb des Sachgebiets. Die Nummer nach dem Punkt identifiziert das einzelne Reglement innerhalb der Untergruppe.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_nummerierung/sec_schema/para_3">
+            <content>
+              <p>Beispiel: <b>724.100</b> — Sachgebiet 7 (Raumplanung, Bauen, Umwelt, Energie, Verkehr), Untergruppe 24 (Wasserversorgung), erstes Reglement (.100). Die kantonale SGS verwendet dieselbe Untergruppe: SGS 724 für die Wasserversorgungsgesetzgebung.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_nummerierung/sec_schema/para_4">
+            <content>
+              <p>Zwischen den Nummern werden bewusst Lücken gelassen, damit spätere Reglemente eingefügt werden können, ohne bestehende Nummern zu ändern. Das erste Reglement in einer Untergruppe erhält die Nummer .100, weitere Reglemente zum gleichen Thema .200, .300 und so fort.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_nummerierung/sec_sachgebiete">
+          <heading>Sachgebiete</heading>
+          <paragraph eId="sec_nummerierung/sec_sachgebiete/para_1">
+            <content>
+              <p>Die Gliederung in neun Sachgebiete folgt der Systematik des Bundes und des Kantons. Wer den Aufbau der SR des Bundes oder der SGS des Kantons kennt, findet sich auch in der Gemeindesammlung zurecht.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_nummerierung/sec_sachgebiete/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_nummerierung/sec_sachgebiete/para_2/item_1">
+                  <num>1</num>
+                  <p><b>Gemeinde, Behörden, Verwaltung, Bevölkerung</b> — Organisationsreglement, Personalrecht, Entschädigungen, Datenschutz, Archivierung</p>
+                </item>
+                <item eId="sec_nummerierung/sec_sachgebiete/para_2/item_2">
+                  <num>2</num>
+                  <p><b>Zivilrecht, Familie, Grundbuch</b> — Zivilstandswesen, Kindes- und Erwachsenenschutz</p>
+                </item>
+                <item eId="sec_nummerierung/sec_sachgebiete/para_2/item_3">
+                  <num>3</num>
+                  <p><b>Strafrecht, Opferhilfe, Gewaltschutz</b> — In der Regel keine kommunalen Reglemente; die Kategorie wird beibehalten, um die Parallele zu Bund und Kanton zu wahren.</p>
+                </item>
+                <item eId="sec_nummerierung/sec_sachgebiete/para_2/item_4">
+                  <num>4</num>
+                  <p><b>Schule, Bildung, Sport, Freizeit, Kultur</b> — Bibliothek, Benutzungsreglemente für Schul- und Sportanlagen</p>
+                </item>
+                <item eId="sec_nummerierung/sec_sachgebiete/para_2/item_5">
+                  <num>5</num>
+                  <p><b>Öffentliche Ordnung, Sicherheit, Polizei, Feuerwehr</b> — Polizeireglement, Hundehaltung, Schiessanlagen</p>
+                </item>
+                <item eId="sec_nummerierung/sec_sachgebiete/para_2/item_6">
+                  <num>6</num>
+                  <p><b>Finanzen, Steuern, Gebühren</b> — Allgemeine Finanzreglemente und Spezialfinanzierungen. Themenspezifische Gebührenreglemente gehören zum jeweiligen Sachgebiet (z.B. Wassergebühren unter 7, nicht unter 6).</p>
+                </item>
+                <item eId="sec_nummerierung/sec_sachgebiete/para_2/item_7">
+                  <num>7</num>
+                  <p><b>Raumplanung, Bauen, Umwelt, Energie, Verkehr</b> — Bau- und Zonenreglement, Kanalisation, Abfall, Wasserversorgung, Naturgefahren, Strassen. Erfahrungsgemäss die am stärksten besetzte Kategorie.</p>
+                </item>
+                <item eId="sec_nummerierung/sec_sachgebiete/para_2/item_8">
+                  <num>8</num>
+                  <p><b>Soziales, Gesundheit, Arbeit</b> — Sozialhilfe, Friedhof, Bestattung, Spitex</p>
+                </item>
+                <item eId="sec_nummerierung/sec_sachgebiete/para_2/item_9">
+                  <num>9</num>
+                  <p><b>Wirtschaft, Landwirtschaft, Gewerbe</b> — Tourismus, Kurtaxen, Jagd, Forstwirtschaft</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_nummerierung/sec_sachgebiete/para_3">
+            <content>
+              <p>Leere Sachgebiete — insbesondere Kategorie 3 (Strafrecht) — werden in der Übersicht beibehalten, damit die Struktur stabil bleibt und die Parallele zur kantonalen und eidgenössischen Systematik erkennbar ist.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_nummerierung/sec_untergruppen">
+          <heading>Untergruppen</heading>
+          <paragraph eId="sec_nummerierung/sec_untergruppen/para_1">
+            <content>
+              <p>Innerhalb der neun Sachgebiete werden die Untergruppen nach Möglichkeit an die Nummern der kantonalen Gesetzessammlung (SGS) angelehnt. So entspricht die kommunale Untergruppe 724 (Wasserversorgung) der kantonalen SGS-Untergruppe 724, und die Untergruppe 721 (Kanalisation) der SGS 721. Diese Übereinstimmung erleichtert die Zuordnung und schafft einen durchgehenden Bezug von der Bundes- über die Kantons- zur Gemeindestufe.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_nummerierung/sec_untergruppen/para_2">
+            <content>
+              <p>Wo die kantonale SGS keine direkte Entsprechung bietet, kann die Gemeinde eine eigene Untergruppe wählen. Die Zuordnung sollte dokumentiert werden, damit sie für Aussenstehende nachvollziehbar ist.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_nummerierung/sec_entitaeten">
+          <heading>Nummerierung nach Körperschaft</heading>
+          <paragraph eId="sec_nummerierung/sec_entitaeten/para_1">
+            <content>
+              <p>Jede Körperschaft — Einwohnergemeinde, Burgergemeinde, Geteilschaft — führt einen eigenen Abschnitt in der Rechtssammlung und nummeriert ihre Reglemente unabhängig. Die Nummer 100.100 kann sowohl für das Organisationsreglement der Einwohnergemeinde als auch für das Burgerreglement der Burgergemeinde stehen, da die Abschnitte klar voneinander getrennt sind.</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_vertraege">
+        <heading>Interkommunale Verträge</heading>
+        <paragraph eId="sec_vertraege/para_1">
+          <content>
+            <p>Rechtsetzende interkommunale Verträge gehören in die systematische Rechtssammlung aller beteiligten Gemeinden. Jede Gemeinde weist dem Vertrag eine eigene systematische Nummer zu und ordnet ihn dem Sachgebiet zu, zu dem er inhaltlich gehört — beispielsweise Zweckverbandsstatuten einer Wasserversorgung unter Sachgebiet 7 oder eine Spitalvereinbarung unter Sachgebiet 8.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_vertraege/para_2">
+          <content>
+            <p>Rechtsetzend ist ein Vertrag dann, wenn er Zuständigkeiten, Verfahren oder Rechte und Pflichten der Einwohner regelt, die über das blosse Vertragsverhältnis zwischen den Gemeinden hinausgehen. Typische Beispiele:</p>
+            <blockList>
+              <item eId="sec_vertraege/para_2/item_a">
+                <num>—</num>
+                <p><b>Zweckverbandsstatuten</b>: Organisationsgrundlage eines Gemeindeverbands (z.B. für Wasserversorgung, Abwasser, Feuerwehr, Schule).</p>
+              </item>
+              <item eId="sec_vertraege/para_2/item_b">
+                <num>—</num>
+                <p><b>Anschlussverträge</b>: Anschluss an die Infrastruktur oder Dienste einer anderen Gemeinde.</p>
+              </item>
+              <item eId="sec_vertraege/para_2/item_c">
+                <num>—</num>
+                <p><b>Zusammenarbeitsverträge</b>: Gemeinsame Aufgabenerfüllung mit verbindlicher Zuständigkeitsregelung.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_vertraege/para_3">
+          <content>
+            <p>Nicht in die Rechtssammlung gehören rein vertragliche Vereinbarungen ohne rechtsetzenden Charakter — etwa Verträge über Informatikdienstleistungen, Materiallieferungen oder Leistungsvereinbarungen, die lediglich die Rechte und Pflichten der Vertragsparteien regeln.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_vertraege/para_4">
+          <content>
+            <p>Im Kanton Wallis können vergleichbare Vereinbarungen auch zwischen verschiedenen Körperschaften auf demselben Gemeindegebiet bestehen — etwa zwischen Einwohnergemeinde und Burgergemeinde oder zwischen Gemeinde und Geteilschaft. Soweit diese Vereinbarungen Zuständigkeiten oder Verfahren festlegen, die über das bilaterale Verhältnis hinausgehen, werden sie in den Rechtssammlungen beider Körperschaften aufgeführt. Rein interne Verwaltungsvereinbarungen (z.B. Nutzung von Räumlichkeiten) gehören nicht in die Rechtssammlung.</p>
+          </content>
+        </paragraph>
+      </section>
+
+      <section eId="sec_aufhebung">
+        <heading>Aufhebung und Temporalität</heading>
+
+        <section eId="sec_aufhebung/sec_grundsatz">
+          <heading>Grundsatz der Adresspermanenz</heading>
+          <paragraph eId="sec_aufhebung/sec_grundsatz/para_1">
+            <content>
+              <p>Jedes Reglement erhält bei seiner Aufnahme in die Rechtssammlung eine systematische Nummer und eine permanente Internetadresse. Diese Adresse bleibt <b>dauerhaft gültig</b> — auch nach einer Totalrevision oder Aufhebung des Reglements. Bestehende Verweise aus Gerichtsurteilen, amtlichen Publikationen, Verträgen oder anderen Erlassen bleiben damit auflösbar.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_aufhebung/sec_grundsatz/para_2">
+            <content>
+              <p>Dieser Grundsatz folgt dem Europäischen Gesetzesidentifikator (ELI), den auch der Bund (Fedlex) und der Kanton (lex.vs.ch) anwenden: einmal vergebene Adressen werden nie gelöscht und nie für andere Inhalte wiederverwendet.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_aufhebung/sec_aufgehoben">
+          <heading>Aufgehobene Reglemente</heading>
+          <paragraph eId="sec_aufhebung/sec_aufgehoben/para_1">
+            <content>
+              <p>Ein Reglement, das von der Urversammlung aufgehoben wird, wird in der Rechtssammlung als <b>aufgehoben</b> gekennzeichnet. Es verschwindet aus der aktiven Übersicht, bleibt aber unter seiner bisherigen Adresse abrufbar. Der Text wird mit einem Vermerk versehen, der das Datum der Aufhebung und — sofern vorhanden — den Nachfolgeerlass nennt.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_aufhebung/sec_aufgehoben/para_2">
+            <content>
+              <p>Die systematische Nummer eines aufgehobenen Reglements wird <b>nicht</b> neu vergeben. Wird ein neues Reglement zum selben Thema erlassen, erhält es eine eigene Nummer — in der Regel die nächste freie Nummer in derselben Untergruppe.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_aufhebung/sec_versionen">
+          <heading>Historische Fassungen</heading>
+          <paragraph eId="sec_aufhebung/sec_versionen/para_1">
+            <content>
+              <p>Wird ein Reglement teilrevidiert, wird die geänderte Fassung in die Rechtssammlung eingearbeitet (konsolidierte Darstellung). Die aktive Übersicht zeigt stets die aktuell geltende Fassung.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_aufhebung/sec_versionen/para_2">
+            <content>
+              <p>Die <b>frühere Fassung</b> bleibt unter einer eigenen Adresse dauerhaft zugänglich. Diese Adresse enthält das Datum, ab dem die Fassung in Kraft war. So kann nachvollzogen werden, welcher Text an einem bestimmten Stichtag galt — etwa für die Beurteilung eines Baugesuchs, das unter einer älteren Fassung des Baureglements eingereicht wurde.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_aufhebung/sec_versionen/para_3">
+            <content>
+              <p>Die Adresse ohne Datum zeigt immer die aktuell geltende Fassung. Die Adresse mit Datum zeigt immer dieselbe historische Fassung, unabhängig von späteren Änderungen.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_aufhebung/sec_artikel">
+          <heading>Aufgehobene und eingefügte Artikel</heading>
+          <paragraph eId="sec_aufhebung/sec_artikel/para_1">
+            <content>
+              <p>Einzelne Artikel, die im Rahmen einer Teilrevision aufgehoben werden, bleiben als Platzhalter im Reglement stehen und werden mit dem Vermerk «aufgehoben» versehen. Ihre Nummer wird nicht neu vergeben.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_aufhebung/sec_artikel/para_2">
+            <content>
+              <p>Neue Artikel, die zwischen bestehenden Artikeln eingefügt werden, erhalten Buchstabensuffixe: Art. 5a, Art. 5b usw. Die bestehenden Artikelnummern ändern sich nicht. Diese Konvention gilt auf allen Stufen des schweizerischen Rechts — vom Bundesrecht (z.B. StGB Art. 260quinquies) bis zum Gemeindereglement.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_aufhebung/sec_artikel/para_3">
+            <content>
+              <p>Die Nummernstabilität ist wesentlich für die Verlässlichkeit von Querverweisen. Ein Verweis auf «Art. 12 Polizeireglement» bleibt korrekt, auch wenn vor oder nach Art. 12 neue Artikel eingefügt werden.</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_pflege">
+        <heading>Pflege und Nachführung</heading>
+
+        <section eId="sec_pflege/sec_workflow">
+          <heading>Lebenszyklus eines Reglements</heading>
+          <paragraph eId="sec_pflege/sec_workflow/para_1">
+            <content>
+              <p>Ein Reglement durchläuft von der Erarbeitung bis zur Veröffentlichung in der Rechtssammlung folgende Schritte:</p>
+              <blockList>
+                <item eId="sec_pflege/sec_workflow/para_1/item_a">
+                  <num>1.</num>
+                  <p><b>Entwurf</b>: Der Gemeinderat erarbeitet den Entwurf. Die Plattform stellt dafür einen Entwurfsbereich bereit, der unter einer eigenen Adresse erreichbar ist, aber nicht in der aktiven Rechtssammlung erscheint.</p>
+                </item>
+                <item eId="sec_pflege/sec_workflow/para_1/item_b">
+                  <num>2.</num>
+                  <p><b>Auflage</b>: Mindestens 20 Tage vor der Urversammlung wird der Entwurf in seiner vorgesehenen endgültigen Fassung öffentlich aufgelegt (<ref href="/eli/vs/160.1">kGPR</ref> Art. 30 Abs. 3 i.V.m. <ref href="/eli/vs/175.1">GemG</ref> Art. 14 Abs. 3). Die Plattform kann die Auflage unterstützen, indem der Entwurf unter seiner Adresse für alle Stimmberechtigten einsehbar ist. Die Auflagepflicht kann auch auf herkömmlichem Weg erfüllt werden (öffentlicher Anschlag, Einsichtnahme beim Gemeindebüro).</p>
+                </item>
+                <item eId="sec_pflege/sec_workflow/para_1/item_c">
+                  <num>3.</num>
+                  <p><b>Beschluss</b>: Die Urversammlung (bzw. der Generalrat) berät und beschliesst das Reglement (<ref href="/eli/vs/175.1">GemG</ref> Art. 17 Abs. 1 lit. a). Reglemente von rein interner Tragweite beschliesst der Gemeinderat selbständig.</p>
+                </item>
+                <item eId="sec_pflege/sec_workflow/para_1/item_d">
+                  <num>4.</num>
+                  <p><b>Homologation</b>: Sofern das Reglement der Genehmigung durch den Staatsrat bedarf, wird es zur Homologation eingereicht. Es tritt am Tag der Genehmigung in Kraft (<ref href="/eli/vs/175.1">GemG</ref> Art. 18). Korrekturen, die der Staatsrat im Homologationsverfahren verlangt, werden im Entwurf eingearbeitet — sie sind keine Änderungen eines geltenden Reglements, sondern Korrekturen am noch nicht in Kraft getretenen Text.</p>
+                </item>
+                <item eId="sec_pflege/sec_workflow/para_1/item_e">
+                  <num>5.</num>
+                  <p><b>Amtliche Publikation</b>: Das Reglement wird durch öffentlichen Anschlag und, soweit gesetzlich vorgeschrieben, im Amtsblatt publiziert (<ref href="/eli/vs/175.1">GemG</ref> Art. 102).</p>
+                </item>
+                <item eId="sec_pflege/sec_workflow/para_1/item_f">
+                  <num>6.</num>
+                  <p><b>Aufnahme in die Rechtssammlung</b>: Nach dem Inkrafttreten wird das Reglement in die aktive Rechtssammlung übernommen. Handelt es sich um eine Revision, wird die bisherige Fassung als historische Version archiviert und die neue Fassung tritt an ihre Stelle.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_pflege/sec_teilrevision">
+          <heading>Einarbeitung von Teilrevisionen</heading>
+          <paragraph eId="sec_pflege/sec_teilrevision/para_1">
+            <content>
+              <p>Bei einer Teilrevision wird nicht das gesamte Reglement neu beschlossen, sondern nur die geänderten Artikel. Die Rechtssammlung zeigt stets die <b>konsolidierte Fassung</b> — den vollständigen Text mit allen eingearbeiteten Änderungen.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_pflege/sec_teilrevision/para_2">
+            <content>
+              <p>Die Einarbeitung erfolgt nach dem Inkrafttreten der Änderung. Die bisherige Fassung wird unter ihrem Datum archiviert. Die konsolidierte Fassung wird mit dem Datum des Inkrafttretens der Änderung versehen.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_pflege/sec_zeitnah">
+          <heading>Zeitnahe Nachführung</heading>
+          <paragraph eId="sec_pflege/sec_zeitnah/para_1">
+            <content>
+              <p>Die Rechtssammlung soll zeitnah nachgeführt werden. Zwischen dem Inkrafttreten einer Änderung und ihrer Einarbeitung in die Rechtssammlung sollte möglichst wenig Zeit vergehen. Eine veraltete Rechtssammlung verliert ihren Nutzen: Behörden und Bevölkerung können sich nicht mehr darauf verlassen, dass der angezeigte Text dem geltenden Recht entspricht.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_pflege/sec_zeitnah/para_2">
+            <content>
+              <p>Empfehlenswert ist, die Einarbeitung innerhalb von zwei Wochen nach Inkrafttreten vorzunehmen. Bei Totalrevisionen, die ein bestehendes Reglement vollständig ersetzen, genügt es, die alte Fassung als aufgehoben zu kennzeichnen und die neue Fassung unter ihrer eigenen Nummer aufzunehmen.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_pflege/sec_verantwortung">
+          <heading>Verantwortung</heading>
+          <paragraph eId="sec_pflege/sec_verantwortung/para_1">
+            <content>
+              <p>Die Nachführung der Rechtssammlung obliegt der Gemeindekanzlei. Es empfiehlt sich, eine Person namentlich mit dieser Aufgabe zu betrauen. Bei jeder Urversammlung, die Reglemente beschliesst oder ändert, ist die Einarbeitung in die Rechtssammlung als Folgeaufgabe vorzusehen.</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_anhang">
+        <heading>Anhänge</heading>
+
+        <section eId="sec_anhang/sec_sachgebiete">
+          <heading>Anhang A: Sachgebiete und Untergruppen</heading>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_1">
+            <content>
+              <p>Übersicht der neun Sachgebiete mit den für Walliser Gemeinden typischen Untergruppen. Die Untergruppen orientieren sich an der kantonalen Gesetzessammlung (SGS).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_2/item_1">
+                  <num>1</num>
+                  <p><b>Gemeinde, Behörden, Verwaltung, Bevölkerung</b></p>
+                </item>
+              </blockList>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_2/item_100">
+                  <num>100</num>
+                  <p>Gemeindeorganisation (SGS 170–175)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_2/item_140">
+                  <num>140</num>
+                  <p>Bürgerrecht, Einbürgerung (SGS 141–142)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_2/item_150">
+                  <num>150</num>
+                  <p>Politische Rechte (SGS 160)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_2/item_170">
+                  <num>170</num>
+                  <p>Datenschutz, Archivierung, Öffentlichkeit (SGS 170.2)</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_3">
+            <content>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_3/item_2">
+                  <num>2</num>
+                  <p><b>Zivilrecht, Familie, Grundbuch</b></p>
+                </item>
+              </blockList>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_3/item_210">
+                  <num>210</num>
+                  <p>Zivilstandswesen (SGS 211)</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_4">
+            <content>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_4/item_3">
+                  <num>3</num>
+                  <p><b>Strafrecht, Opferhilfe, Gewaltschutz</b> — in der Regel keine kommunalen Reglemente</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_5">
+            <content>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_5/item_4">
+                  <num>4</num>
+                  <p><b>Schule, Bildung, Sport, Freizeit, Kultur</b></p>
+                </item>
+              </blockList>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_5/item_410">
+                  <num>410</num>
+                  <p>Schule (SGS 400)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_5/item_440">
+                  <num>440</num>
+                  <p>Sport, Freizeit (SGS 440)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_5/item_450">
+                  <num>450</num>
+                  <p>Kultur, Bibliothek (SGS 445)</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_6">
+            <content>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_6/item_5">
+                  <num>5</num>
+                  <p><b>Öffentliche Ordnung, Sicherheit, Polizei, Feuerwehr</b></p>
+                </item>
+              </blockList>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_6/item_500">
+                  <num>500</num>
+                  <p>Polizei, öffentliche Ordnung (SGS 550)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_6/item_510">
+                  <num>510</num>
+                  <p>Feuerwehr (SGS 540)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_6/item_520">
+                  <num>520</num>
+                  <p>Hundehaltung</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_6/item_530">
+                  <num>530</num>
+                  <p>Schiessanlagen</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_7">
+            <content>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_7/item_6">
+                  <num>6</num>
+                  <p><b>Finanzen, Steuern, Gebühren</b></p>
+                </item>
+              </blockList>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_7/item_610">
+                  <num>610</num>
+                  <p>Finanzhaushalt, Spezialfinanzierungen (SGS 610–612)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_7/item_620">
+                  <num>620</num>
+                  <p>Steuern (SGS 631–642)</p>
+                </item>
+              </blockList>
+              <p>Themenspezifische Gebührenreglemente gehören zum jeweiligen Sachgebiet, nicht unter 6 (z.B. Wassergebühren → 724, Abfallgebühren → 710).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_8">
+            <content>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_8/item_7">
+                  <num>7</num>
+                  <p><b>Raumplanung, Bauen, Umwelt, Energie, Verkehr</b></p>
+                </item>
+              </blockList>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_8/item_700">
+                  <num>700</num>
+                  <p>Raumplanung, Bau- und Zonenordnung (SGS 701)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_8/item_710">
+                  <num>710</num>
+                  <p>Abfallentsorgung</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_8/item_721">
+                  <num>721</num>
+                  <p>Kanalisation, Abwasser (SGS 721)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_8/item_724">
+                  <num>724</num>
+                  <p>Wasserversorgung (SGS 724)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_8/item_726">
+                  <num>726</num>
+                  <p>Naturgefahren, Schutzbauten (SGS 726)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_8/item_740">
+                  <num>740</num>
+                  <p>Energie (SGS 730)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_8/item_750">
+                  <num>750</num>
+                  <p>Strassen, Verkehr (SGS 725)</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_9">
+            <content>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_9/item_8">
+                  <num>8</num>
+                  <p><b>Soziales, Gesundheit, Arbeit</b></p>
+                </item>
+              </blockList>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_9/item_810">
+                  <num>810</num>
+                  <p>Sozialhilfe (SGS 850)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_9/item_820">
+                  <num>820</num>
+                  <p>Friedhof, Bestattung</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_9/item_830">
+                  <num>830</num>
+                  <p>Spitex, Gesundheit (SGS 800)</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_sachgebiete/para_10">
+            <content>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_10/item_9">
+                  <num>9</num>
+                  <p><b>Wirtschaft, Landwirtschaft, Gewerbe</b></p>
+                </item>
+              </blockList>
+              <blockList>
+                <item eId="sec_anhang/sec_sachgebiete/para_10/item_900">
+                  <num>900</num>
+                  <p>Gewerbe, Handel</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_10/item_910">
+                  <num>910</num>
+                  <p>Landwirtschaft, Alpwirtschaft (SGS 910)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_10/item_920">
+                  <num>920</num>
+                  <p>Forstwirtschaft, Jagd (SGS 921)</p>
+                </item>
+                <item eId="sec_anhang/sec_sachgebiete/para_10/item_935">
+                  <num>935</num>
+                  <p>Tourismus, Kurtaxen (SGS 935)</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_anhang/sec_beispiel">
+          <heading>Anhang B: Beispiel-Rechtssammlung einer kleinen Walliser Gemeinde</heading>
+          <paragraph eId="sec_anhang/sec_beispiel/para_1">
+            <content>
+              <p>Das folgende Beispiel zeigt eine vollständige Rechtssammlung für eine Einwohnergemeinde mit rund zehn Reglementen — ein typischer Umfang für eine kleine Walliser Gemeinde. Burgergemeinde und Geteilschaften führen je einen eigenen Abschnitt mit unabhängiger Nummerierung.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_beispiel/para_2">
+            <content>
+              <p><b>Einwohnergemeinde</b></p>
+              <blockList>
+                <item eId="sec_anhang/sec_beispiel/para_2/item_a">
+                  <num>100.100</num>
+                  <p>Organisationsreglement</p>
+                </item>
+                <item eId="sec_anhang/sec_beispiel/para_2/item_b">
+                  <num>500.100</num>
+                  <p>Polizeireglement</p>
+                </item>
+                <item eId="sec_anhang/sec_beispiel/para_2/item_c">
+                  <num>610.100</num>
+                  <p>Reglement über Spezialfinanzierungen</p>
+                </item>
+                <item eId="sec_anhang/sec_beispiel/para_2/item_d">
+                  <num>700.100</num>
+                  <p>Bau- und Zonenreglement</p>
+                </item>
+                <item eId="sec_anhang/sec_beispiel/para_2/item_e">
+                  <num>710.100</num>
+                  <p>Abfallreglement</p>
+                </item>
+                <item eId="sec_anhang/sec_beispiel/para_2/item_f">
+                  <num>721.100</num>
+                  <p>Kanalisationsreglement</p>
+                </item>
+                <item eId="sec_anhang/sec_beispiel/para_2/item_g">
+                  <num>724.100</num>
+                  <p>Trinkwasserreglement</p>
+                </item>
+                <item eId="sec_anhang/sec_beispiel/para_2/item_h">
+                  <num>726.100</num>
+                  <p>Vergandungsreglement (Naturgefahren)</p>
+                </item>
+                <item eId="sec_anhang/sec_beispiel/para_2/item_i">
+                  <num>935.100</num>
+                  <p>Tourismus- und Kurtaxenreglement</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_beispiel/para_3">
+            <content>
+              <p><b>Burgergemeinde</b></p>
+              <blockList>
+                <item eId="sec_anhang/sec_beispiel/para_3/item_a">
+                  <num>100.100</num>
+                  <p>Burgerreglement</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_beispiel/para_4">
+            <content>
+              <p><b>Geteilschaft Gorneralpe</b></p>
+              <blockList>
+                <item eId="sec_anhang/sec_beispiel/para_4/item_a">
+                  <num>100.100</num>
+                  <p>Reglement der Geteilschaft</p>
+                </item>
+                <item eId="sec_anhang/sec_beispiel/para_4/item_b">
+                  <num>100.200</num>
+                  <p>Nutzungsreglement Alpgebäude</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_anhang/sec_beispiel/para_5">
+            <content>
+              <p>Die Sachgebiete 2, 3, 4 und 8 sind in diesem Beispiel leer — das ist typisch für eine kleine Gemeinde und kein Mangel. Die Kategorien bleiben reserviert, damit die Struktur stabil bleibt und spätere Reglemente an der richtigen Stelle eingeordnet werden können.</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+    </body>
+  </doc>
+</akomaNtoso>

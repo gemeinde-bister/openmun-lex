@@ -1,0 +1,4112 @@
+{
+  "101.1": {
+    "version_uid": "26f2b98384c2cfe7bec8f2d03947c338",
+    "title": "Verfassung des Kantons Wallis (KV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:58"
+  },
+  "111.1": {
+    "version_uid": "37adbf79fde0d56d8ded8b95bb31d3fd",
+    "title": "Gesetz über das Siegel der Republik",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:58"
+  },
+  "111.010": {
+    "version_uid": "0948a37f40983a15b4a1dd4eb433e2bb",
+    "title": "Gesetz über die Umsetzung der Neugestaltung des Finanzausgleichs und der Aufgabenteilung zwischen Bund, Kanton und Gemeinden",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:58"
+  },
+  "111.21": {
+    "version_uid": "86bfc33e56908e60e2386e8ec6621492",
+    "title": "Das Karlsruher Übereinkommen über die grenzüberschreitende Zusammenarbeit zwischen Gebietskörperschaften und örtlichen öffentlichen Stellen (Das Karlsruher Übereinkommen)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:58"
+  },
+  "112.1": {
+    "version_uid": "21355de9478c28d63b93ee279938ac20",
+    "title": "Gesetz betreffend die Leistungen der Stadt Sitten als Hauptort des Kantons Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:58"
+  },
+  "141.1": {
+    "version_uid": "fe0ad3d27c55a1fc62d3e8ca4fc66ec1",
+    "title": "Gesetz über das Walliser Bürgerrecht",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:58"
+  },
+  "141.100": {
+    "version_uid": "3369e00bd2ed81575805d511097b81d7",
+    "title": "Reglement betreffend den Vollzug des Gesetzes über das Walliser Bürgerrecht",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "142.1": {
+    "version_uid": "964378f26afc9c11c4c8835a1764afaa",
+    "title": "Einführungsgesetz zum Bundesgesetz über die Ausländerinnen und Ausländer (EGAuG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "142.3": {
+    "version_uid": "6fa0a43e028ea49fa20945d0c829c41e",
+    "title": "Gesetz über die Sammelunterkunft für Personen aus dem Asylbereich",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "142.100": {
+    "version_uid": "8c6fe9efa732bfa13a019c2c96ad49b6",
+    "title": "Verordnung zum Einführungsgesetz zum Bundesgesetz über die Ausländerinnen und Ausländer (VEGAuG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "142.104": {
+    "version_uid": "545876af0f482bf994c339a92a977eb9",
+    "title": "Reglement über die Festsetzung der fremdenpolizeilichen Gebühren und den Verteilungsmodus zwischen Kanton und Gemeinden",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "142.400": {
+    "version_uid": "bdb0f99366de04a5e1b05ca9308e6e24",
+    "title": "Ausführungsverordnung zum Einführungsgesetz zum Bundesgesetz über Zwangsmassnahmen im Ausländerrecht (VEGBGZ)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "143.102": {
+    "version_uid": "17cf4bb2d64b66f761d6d3c1c26a11a1",
+    "title": "Beschluss betreffend den Ausweis zum Bezug von Einheimischbilletten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "143.300": {
+    "version_uid": "515d871635dd1476a589bca7ad50a04c",
+    "title": "Anwendungsverordnung über die Ausweisschriften",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "151.1": {
+    "version_uid": "e576f9fce2d7a1cbc1e1693cc3519cd3",
+    "title": "Gesetz über die Anwendung des Grundsatzes der Gleichstellung von Frau und Mann",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "151.100": {
+    "version_uid": "65b0e8193fae9eafaccc2931907209a1",
+    "title": "Reglement über die Aufgaben und Kompetenzen des kantonalen Amts für Gleichstellung und Familie und des Rats für Gleichstellung und Familie",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:32:59"
+  },
+  "160.1": {
+    "version_uid": "ca016f09396f226379146ef593bee82b",
+    "title": "Gesetz über die politischen Rechte (kGPR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:00"
+  },
+  "160.3": {
+    "version_uid": "c3ba232b437e0e9c29700f7438da484a",
+    "title": "Ausführungsgesetz betreffend das Bundesgesetz über die politischen Rechte (AGBPR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:00"
+  },
+  "160.5": {
+    "version_uid": "daff16eaeb9b2462bd4ea5ac9283c36a",
+    "title": "Gesetz über die Unvereinbarkeiten (GU)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:00"
+  },
+  "160.102": {
+    "version_uid": "dd1a8671fc9873d50dc1faa385bfc421",
+    "title": "Verordnung über die briefliche Stimmabgabe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:00"
+  },
+  "160.500": {
+    "version_uid": "1507048ccd0014c60bae7c09356ac8c2",
+    "title": "Verordnung über die Unvereinbarkeiten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:01"
+  },
+  "170.1": {
+    "version_uid": "2a4d22cdcc60f469b4708e29a17ba884",
+    "title": "Gesetz über die Verantwortlichkeit der öffentlichen Gemeinwesen und ihrer Amtsträger",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:01"
+  },
+  "170.2": {
+    "version_uid": "487479498551989db87a62170f161cde",
+    "title": "Gesetz über die Information der Öffentlichkeit, den Datenschutz und die Archivierung (GIDA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:01"
+  },
+  "170.3": {
+    "version_uid": "404adc4ede33a71ea826a3a7107e1d84",
+    "title": "Gesetz über die Beteiligung des Staates an juristischen Personen und anderen Einrichtungen (GBetSt)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:01"
+  },
+  "170.5": {
+    "version_uid": "11ee3c745f409dbd31a32453610adba6",
+    "title": "Reglement über das Amtsblatt (RAbl)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:01"
+  },
+  "170.6": {
+    "version_uid": "17a18e8676c11bdbcaeca5da57d70502",
+    "title": "Gesetz über die Mediation in Verwaltungsangelegenheiten (MedG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:01"
+  },
+  "170.7": {
+    "version_uid": "d7073fb4962319753d83e254cdccb274",
+    "title": "Gesetz über die Organisation des Gerichtshofs, der über die Kompetenzkonflikte zwischen der Verwaltungs- und der Gerichtsbehörde zu entscheiden hat",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:01"
+  },
+  "170.8": {
+    "version_uid": "85c42b0345ad87fd057bdc2ba3f05b7a",
+    "title": "Gesetz über die digitalen Dienste der Behörden (GDDB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:02"
+  },
+  "170.30": {
+    "version_uid": "0df040df005b9d9a0901c5b1b08807d7",
+    "title": "Reglement über die Beteiligung des Staates an juristischen Personen und anderen Einrichtungen (RBetSt)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:02"
+  },
+  "170.202": {
+    "version_uid": "cdfe53516aa646ca0b8cf65ecf491416",
+    "title": "Ausführungsreglement zum Gesetz über die Information der Öffentlichkeit, den Datenschutz und die Archivierung (ARGIDA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:02"
+  },
+  "170.204": {
+    "version_uid": "83091fe5050774c76dcd7d25b1df2173",
+    "title": "Beschluss über die Festlegung der Entschädigungen für die Mitglieder der kantonalen Datenschutz- und Öffentlichkeitskommission",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:02"
+  },
+  "170.206": {
+    "version_uid": "a1f57016d3389027e435cd27efb8340f",
+    "title": "Reglement der kantonalen Datenschutz- und Öffentlichkeitskommission (RKDSÖK)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:02"
+  },
+  "170.510": {
+    "version_uid": "1b08efe618288f3958335fd8cde2c012",
+    "title": "Reglement über die Online-Veröffentlichung der Sammlungen des Kantonsrechts",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:02"
+  },
+  "170.530": {
+    "version_uid": "beb44b6b1aeaf13ef4a2eb0277153b9a",
+    "title": "Beschluss über die kantonalen Einsichtnahmestellen der eidgenössischen Gesetzessammlungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:02"
+  },
+  "170.800": {
+    "version_uid": "83b668bd9157937a007e9a9052ed3458",
+    "title": "Verordnung über die digitalen Dienste der Behörden (VDDB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:02"
+  },
+  "171.1": {
+    "version_uid": "8f6f14e0201f7793e3e63bb7aaa6e830",
+    "title": "Gesetz über die Organisation der Räte und die Beziehungen zwischen den Gewalten (GORBG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:03"
+  },
+  "171.2": {
+    "version_uid": "fe3348582de53922367254f6407457b2",
+    "title": "Vertrag über die Mitwirkung der Kantonsparlamente bei der Ausarbeitung, der Ratifizierung, dem Vollzug und der Änderung von interkantonalen Verträgen und von Verträgen der Kantone mit dem Ausland (Vertrag über die Mitwirkung der Parlamente, ParlVer)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:03"
+  },
+  "171.100": {
+    "version_uid": "7aca1dec8af06304234030b6fde79e7d",
+    "title": "Reglement des Grossen Rates (RGR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:03"
+  },
+  "172.2": {
+    "version_uid": "f71dbb3d656e48540fc58ce512a94baf",
+    "title": "Gesetz über das Personal des Staates Wallis (kGPers)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:03"
+  },
+  "172.4": {
+    "version_uid": "09299c664189a8ada7df878e27d828a7",
+    "title": "Gesetz betreffend die Besoldung der Angestellten des Staates Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:04"
+  },
+  "172.6": {
+    "version_uid": "e5acf88fdcb797bf22c06f6b14985043",
+    "title": "Gesetz über das Verwaltungsverfahren und die Verwaltungsrechtspflege (VVRG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:04"
+  },
+  "172.8": {
+    "version_uid": "6d5ec55cf184261535c6df6d7ce45f57",
+    "title": "Gesetz über die Referenzdatenbanken und die Harmonisierung des Personenregisters, des Betriebs- und Unternehmensregisters sowie des Gebäude- und Wohnungsregisters (GRDB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:04"
+  },
+  "172.010": {
+    "version_uid": "bc1288a9611532e6fef7fb1ef736fc5f",
+    "title": "Verordnung über die Befugnisse des Präsidiums und der Departemente",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:04"
+  },
+  "172.10": {
+    "version_uid": "80df9ae788887c53f95f655a1d1c5b45",
+    "title": "Gesetz über die kantonale öffentliche Statistik (GStat)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:04"
+  },
+  "172.011": {
+    "version_uid": "e8d40667ec3a1dea2bfa5aa959a5e4bd",
+    "title": "Reglement des Staatsrates",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:04"
+  },
+  "172.12": {
+    "version_uid": "8d91ce2fee440eb674123c68f6d71a77",
+    "title": "Gesetz betreffend die Bezüge der Magistraten der vollziehenden Behörde",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:04"
+  },
+  "172.13": {
+    "version_uid": "a6ca1f088134cddb2b75d2027df6558a",
+    "title": "Gesetz über die berufliche Vorsorge der Magistraten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:05"
+  },
+  "172.15": {
+    "version_uid": "a3fd06105b2a7dab900b1cf5c92bdabd",
+    "title": "Gesetz betreffend die Organisation und die Befugnisse der Bezirksräte",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:05"
+  },
+  "172.16": {
+    "version_uid": "cf8aac53182602d5663200f42e337d2c",
+    "title": "Gesetz über die Amtsbefugnisse der Regierungsstatthalter",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:05"
+  },
+  "172.050": {
+    "version_uid": "07f04521665730920046a01dc57083f8",
+    "title": "Reglement über die Organisation der Kantonsverwaltung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:05"
+  },
+  "172.51": {
+    "version_uid": "208ba63153e1b49342560d611f4b1878",
+    "title": "Gesetz über die Pensionskasse des Kantons Wallis (PKWAL) (GPKWAL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:05"
+  },
+  "172.61": {
+    "version_uid": "101c208bbd39a426214001a34a56de50",
+    "title": "Gesetz zur Aufhebung einer verwaltungsinternen Beschwerdeinstanz",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:05"
+  },
+  "172.130": {
+    "version_uid": "c1ee1fa1c17e0c9aa4168ce1d28e1984",
+    "title": "Verordnung über die berufliche Vorsorge der Magistraten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:05"
+  },
+  "172.132": {
+    "version_uid": "0874baaedc572b90a67dd7b8f6b8406c",
+    "title": "Reglement über die Ruhegehaltsordnung der Magistraten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:05"
+  },
+  "172.200": {
+    "version_uid": "df7749bd1852c33ea6efbaf5dd5b0eaf",
+    "title": "Verordnung über das Personal des Staates Wallis (kVPers)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:05"
+  },
+  "172.211": {
+    "version_uid": "9976d35701f78514936ec95c94894176",
+    "title": "Reglement über die Arbeitszeit in der kantonalen Verwaltung (RAZ)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:06"
+  },
+  "172.212": {
+    "version_uid": "af208db2065ca2e29ebaa75b0c554ecc",
+    "title": "Reglement über die Organisation und Umsetzung der Sicherheit und des Gesundheitsschutzes des Personals des Staates Wallis am Arbeitsplatz (RSG-Pers)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:06"
+  },
+  "172.216": {
+    "version_uid": "adb28e52d75a2b695a6e514567102d81",
+    "title": "Reglement betreffend die Personen in der beruflichen Grundbildung der Kantonsverwaltung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:06"
+  },
+  "172.218": {
+    "version_uid": "9cad67d4c39ab47d064b5873df3fb067",
+    "title": "Reglement zur Festlegung der Entschädigungen und Honorare im Bereich Landwirtschaft (REHBL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:06"
+  },
+  "172.220": {
+    "version_uid": "5016cae143bef0e2e6ae95ecafe7a8d9",
+    "title": "Reglement über die Weiterbildung des Personals der kantonalen Verwaltung (Weiterbildungsreglement)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:06"
+  },
+  "172.224": {
+    "version_uid": "7b2c3b725d93b191437bfe647662604b",
+    "title": "Reglement über die Legitimationskarten für Staatsangestellte mit polizeilichen Aufgaben",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:06"
+  },
+  "172.230": {
+    "version_uid": "2ef8843c66bd8515290e5376ad216993",
+    "title": "Verordnung zur Anerkennung der Diensttreue, Grundausbildung und Pensionierung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:06"
+  },
+  "172.410": {
+    "version_uid": "18a1fd10891fad68dbbd412bcb9e55cf",
+    "title": "Verordnung über die Besoldung der Angestellten des Staates Wallis (VBes)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:07"
+  },
+  "172.420": {
+    "version_uid": "d1a78d52b6a4ff27a4feda27aea25cdf",
+    "title": "Verordnung über die Entschädigung für Erwerbsausfall bei Krankheit und Nichtberufsunfall des Personals des Kantons Wallis (VEEA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:07"
+  },
+  "172.431": {
+    "version_uid": "078d96a5e2b9d661fa364b2eb875071b",
+    "title": "Spesenreglement",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:07"
+  },
+  "172.432": {
+    "version_uid": "a52dd6d5c6b46e792a871ba0727b8d34",
+    "title": "Reglement welches die verschiedenen Spesen- und Reiseentschädigungen für die Arbeiter und die Strassenwärter der Dienststelle für Mobilität festlegt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:07"
+  },
+  "172.433": {
+    "version_uid": "9bcbd9c98c0e5113211af335f11faac6",
+    "title": "Beschluss über die Kommissionsentschädigungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:07"
+  },
+  "172.512": {
+    "version_uid": "f27f7239e00ddd154003c6f4349cd0f7",
+    "title": "Ausführungsreglement betreffend das Gesetz über die Pensionskasse des Kantons Wallis (PKWAL) (RPKWAL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:07"
+  },
+  "172.514": {
+    "version_uid": "c37465841de1312bed56393989aac983",
+    "title": "Ausführungsreglement betreffend die Verwendung der vom PKWAL-Fonds finanzierten Rückstellung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:07"
+  },
+  "172.810": {
+    "version_uid": "1112b5b2226ec67a052a2a0b28f3fd0d",
+    "title": "Allgemeine Ausführungsverordnung zum Gesetz über die Referenzdatenbanken und die Harmonisierung der Register (AVGRDB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:07"
+  },
+  "172.820": {
+    "version_uid": "168c43f3341de73c6901bc41e5e9aebe",
+    "title": "Verordnung über die Referenzdatenbank der natürlichen Personen (VRDB-NP)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:08"
+  },
+  "172.830": {
+    "version_uid": "e08389e8a1c3ac4a5e185627eaffebe0",
+    "title": "Verordnung über die Referenzdatenbank der Betriebe und Unternehmen (VRDB-BU)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:08"
+  },
+  "172.840": {
+    "version_uid": "dde3265eb660936ded28de3c1ed2c81e",
+    "title": "Verordnung über die Referenzdatenbank der Gebäude und der Wohnungen (VRDB-GW)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:08"
+  },
+  "173.1": {
+    "version_uid": "152d34f312de6e7230d4ef45a960e4f4",
+    "title": "Gesetz über die Rechtspflege (RPflG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:08"
+  },
+  "173.7": {
+    "version_uid": "c6e23fc564520efd3ad07bb6f2ba556e",
+    "title": "Gesetz über den Justizrat (GJR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:08"
+  },
+  "173.8": {
+    "version_uid": "90b2506b085dbe17880e22c4cff9a449",
+    "title": "Gesetz betreffend den Tarif der Kosten und Entschädigungen vor Gerichts- oder Verwaltungsbehörden (GTar)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:08"
+  },
+  "173.12": {
+    "version_uid": "17bad3de491a2c0167a9ac44ec8752f2",
+    "title": "Gesetz betreffend die Gehälter der Gerichtsbehörden und der Vertreter der Staatsanwaltschaft",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:09"
+  },
+  "173.100": {
+    "version_uid": "517dd00b305c7b27fe24c0dd1d8a0b3b",
+    "title": "Organisationsreglement der Walliser Gerichte (ORG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:09"
+  },
+  "173.101": {
+    "version_uid": "74d09bc0d4598dffe18fb7d3b55b7783",
+    "title": "Reglement der Staatsanwaltschaft des Kantons Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:09"
+  },
+  "173.102": {
+    "version_uid": "e3b768a20889b50b22a0005054b542e1",
+    "title": "Reglement über die Archivierung der Gerichtsakten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:09"
+  },
+  "173.104": {
+    "version_uid": "85b32eb13ca48893f73123ababe598ec",
+    "title": "Reglement über die Akkreditierung von Journalisten an den Walliser Gerichten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:09"
+  },
+  "173.105": {
+    "version_uid": "bc046b538277cd5e85dd383f2c3e415a",
+    "title": "Reglement betreffend den Beitrag der Gemeinden für die Einrichtungs- und Betriebskosten der Gerichte und der Ämter der Staatsanwaltschaft (ReBG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:10"
+  },
+  "173.122": {
+    "version_uid": "d036801ddf6e7e8e47574486170ba3ca",
+    "title": "Reglement über die Revision der Besoldungskonzeption der Gerichtsschreiber",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:11"
+  },
+  "173.400": {
+    "version_uid": "7bd3d8fcb66466ce7f0119db6fcb0954",
+    "title": "Verfahrensreglement des kantonalen Versicherungsgerichtes",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:11"
+  },
+  "173.700": {
+    "version_uid": "15dc28eabb4c7c262005e3f28a10840a",
+    "title": "Reglement des Justizrates (RJR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:11"
+  },
+  "173.710": {
+    "version_uid": "ef6b3a6c393d240116a4052c39ffe74d",
+    "title": "Reglement der Rekurskommission des Justizrates (ReReKoJ)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:11"
+  },
+  "175.1": {
+    "version_uid": "3755d9213407ec27e6beb366118da90a",
+    "title": "Gemeindegesetz (GemG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:11"
+  },
+  "175.2": {
+    "version_uid": "e84ea51fae4c1e5d20074f2281e8131e",
+    "title": "Gesetz über die Burgerschaften",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:11"
+  },
+  "175.100": {
+    "version_uid": "554763b14d2102b81b0fad1c90713418",
+    "title": "Verordnung über Gemeindefusionen (FusV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:11"
+  },
+  "175.101": {
+    "version_uid": "b6a18017ca4f4cb928f6b83133d19c93",
+    "title": "Gesetz über die Fusion der Einwohner- und Burgergemeinden Sitten und Les Agettes",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:11"
+  },
+  "176.1": {
+    "version_uid": "bf1476ea6486c61832b6cb91e8a1a9a0",
+    "title": "Gesetz über die Einwohnerkontrolle",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:12"
+  },
+  "177.1": {
+    "version_uid": "893382ffac738f544a96cc46527ed814",
+    "title": "Gesetz über den Anwaltsberuf zur Vertretung von Parteien vor den Gerichtsbehörden (Gesetz über den Anwaltsberuf, AnwG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:12"
+  },
+  "177.7": {
+    "version_uid": "c67ecad1b4b94a27a515c6827631ef13",
+    "title": "Gesetz über die unentgeltliche Rechtspflege (GUR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:12"
+  },
+  "177.101": {
+    "version_uid": "ef62a6a8ce58723886580b1a601ebe11",
+    "title": "Reglement betreffend das Gesetz über den Anwaltsberuf (RAnwG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:12"
+  },
+  "177.700": {
+    "version_uid": "d833c49f56de9edb2eb7deca568939bb",
+    "title": "Verordnung über den gerichtlichen Rechtsbeistand (VGR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:13"
+  },
+  "178.1": {
+    "version_uid": "b57c30b9a705f610baa4621b6c6cac76",
+    "title": "Notariatsgesetz (NG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:13"
+  },
+  "178.101": {
+    "version_uid": "6e0320508c37aec46503cbc794caaf08",
+    "title": "Reglement betreffend das Notariatsgesetz (RNG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:13"
+  },
+  "178.104": {
+    "version_uid": "3e2491ca13e5dec80ba18ffcbad640ae",
+    "title": "Reglement über den Tarif der Gebühren und der Auslagen der Notare",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:13"
+  },
+  "180.1": {
+    "version_uid": "b957b7a8ad98d06ee998e167d6201298",
+    "title": "Gesetz über das Verhältnis zwischen Kirchen und Staat im Kanton Wallis (GVKS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:13"
+  },
+  "180.100": {
+    "version_uid": "7cccb6db6ef590037d695b54b47bce92",
+    "title": "Ausführungsreglement zum Gesetz über das Verhältnis zwischen Kirchen und Staat im Kanton Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:13"
+  },
+  "211.1": {
+    "version_uid": "f73e67fdde04026f5aadd508e3a138a5",
+    "title": "Einführungsgesetz zum Schweizerischen Zivilgesetzbuch (EGZGB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:14"
+  },
+  "211.6": {
+    "version_uid": "1da1d3cf16a38150ee4d5a926e4ca93c",
+    "title": "Gesetz über die amtliche Vermessung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:14"
+  },
+  "211.7": {
+    "version_uid": "4448ad21bc11c8ca4c94d257ba1d5a58",
+    "title": "Ausführungsgesetz zum Bundesgesetz über Geoinformation (kGeoIG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:14"
+  },
+  "211.15": {
+    "version_uid": "fa874338b58abeacaa9adb3729594a6c",
+    "title": "Einführungsgesetz zum Bundesgesetz über die eingetragene Partnerschaft gleichgeschlechtlicher Paare (EGPartG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:14"
+  },
+  "211.41": {
+    "version_uid": "5fb4985a615e50e5f9beb70350267898",
+    "title": "Gesetz betreffend die Anwendung des Bundesgesetzes über den Erwerb von Grundstücken durch Personen im Ausland (GABewG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:14"
+  },
+  "211.100": {
+    "version_uid": "1c672ec3f5c91de391e0d3200ddde37a",
+    "title": "Ausführungsverordnung zum Einführungsgesetz zum Schweizerischen Zivilgesetzbuch (AVEGZGB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:14"
+  },
+  "211.130": {
+    "version_uid": "2ebb255e22cf0565da4f4f6c2750423e",
+    "title": "Zivilstandsverordnung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:14"
+  },
+  "211.250": {
+    "version_uid": "fb6edd2743a06d08e6c2ead8b214cba1",
+    "title": "Verordnung über den Kindes- und Erwachsenenschutz (VKES)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:15"
+  },
+  "211.255": {
+    "version_uid": "f33d2408f6baef9fa2df81fc92024264",
+    "title": "Reglement über die Festsetzung der Kosten der Kindes- und Erwachsenenschutzbehörden (ReKK)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:15"
+  },
+  "211.260": {
+    "version_uid": "b4f6283fbf6f2e9b91d504c7175c2674",
+    "title": "Verordnung zur Festlegung des Sitzes der kantonalen Kindes- und Erwachsenenschutzbehörden (VFSK)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:15"
+  },
+  "211.410": {
+    "version_uid": "66bfb910e1eb978a32106718ec5feb6e",
+    "title": "Reglement über den Erwerb von Grundstücken durch Personen im Ausland (REwG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:15"
+  },
+  "211.412": {
+    "version_uid": "561cdcb1c613124f4bbbeffdfd6f93f5",
+    "title": "Gesetz betreffend die Anwendung des bäuerlichen Bodenrechts (GABGBB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:15"
+  },
+  "211.600": {
+    "version_uid": "b310880fe041395db79351bc0205a721",
+    "title": "Verordnung über die amtliche Vermessung (kVaV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:15"
+  },
+  "211.610": {
+    "version_uid": "f88f844a563ee75c45b9a9b12d555891",
+    "title": "Verordnung betreffend die Grundbucheinführung im Kanton Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:15"
+  },
+  "211.611": {
+    "version_uid": "d2e6f0cc578a0fe84efaea21e52d31aa",
+    "title": "Kantonale Grundbuchverordnung (kGBV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:15"
+  },
+  "211.612": {
+    "version_uid": "861101f82dfeb89a4eacb259ddde3d34",
+    "title": "Verordnung über die Führung des informatisierten Grundbuchs",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:16"
+  },
+  "211.613": {
+    "version_uid": "097b9199b2ba72fbb3033dcf51bf1402",
+    "title": "Beschluss betreffend das Stockwerkeigentum",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:16"
+  },
+  "211.700": {
+    "version_uid": "2b5feffc2a04bc64f220930d46b100a4",
+    "title": "Verordnung über Geoinformation (kGeoIV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:16"
+  },
+  "211.705": {
+    "version_uid": "9c43e4e394892c0ef84973f8afbf44d5",
+    "title": "Verordnung über den Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen (kÖREBKV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:16"
+  },
+  "221.21": {
+    "version_uid": "c3e24711c103954aa2108ed7cc6f854a",
+    "title": "Ausführungsgesetz zum Bundesgesetz über den Konsumkredit",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:16"
+  },
+  "221.210": {
+    "version_uid": "4079b25e07e3a3411e075b6c8e904605",
+    "title": "Verordnung betreffend die Gewährung und Vermittlung von Konsumkrediten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:16"
+  },
+  "221.214": {
+    "version_uid": "0f099fa2502eba866910a137a6278fea",
+    "title": "Beschluss über die Entschädigung an die Mitglieder der kantonalen Schlichtungskommission für Mietverhältnisse",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:16"
+  },
+  "221.400": {
+    "version_uid": "06532c35b657b1af5d6520c24067e943",
+    "title": "Beschluss über die Organisation der Handelsregisterämter, das Statut und die Entlöhnung des Personals",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:16"
+  },
+  "221.600": {
+    "version_uid": "4e803189e7ba7b3d6a7cbaf2513dc539",
+    "title": "Beschluss über den Erlass eines Normalarbeitsvertrags mit zwingenden Mindestlöhnen für Arbeitnehmer des Sektors der industriellen Wartung und Reinigung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:17"
+  },
+  "221.602": {
+    "version_uid": "2449127b3dd28603ce1146387f686811",
+    "title": "Beschluss betreffend den Erlass eines Normalarbeitsvertrags für hauswirtschaftliche Arbeitnehmer",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:17"
+  },
+  "221.604": {
+    "version_uid": "abe21e25d190518f315ff1b7e498c672",
+    "title": "Beschluss über den Erlass eines Normalarbeitsvertrags für das Personal von Seilbahnen, Sesselliften, Skiliften und ähnlichen Betrieben",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:18"
+  },
+  "221.605": {
+    "version_uid": "31cc6b773c01c64ac405edddc112c939",
+    "title": "Beschluss über den Erlass eines Normalarbeitsvertrags mit zwingenden Mindestlöhnen für das Personal von Seilbahnen, Sesselliften, Skiliften und ähnlichen Betrieben",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:19"
+  },
+  "221.606": {
+    "version_uid": "1eaa3e127f509163691f5c227ffcffa2",
+    "title": "Beschluss über den Erlass eines Normalarbeitsvertrags für das Personal der Ingenieur-, Architektur- und anderen Planungsbüros des Kantons Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:19"
+  },
+  "221.608": {
+    "version_uid": "2296a138a5a7f342ba6f3b573d452b8c",
+    "title": "Beschluss über den Erlass eines Normalarbeitsvertrags für die Landwirtschaft",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:19"
+  },
+  "270.1": {
+    "version_uid": "3730882b3c66c707692f3b56bf726006",
+    "title": "Einführungsgesetz zur Schweizerischen Zivilprozessordnung (EGZPO)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:19"
+  },
+  "271.100": {
+    "version_uid": "856ede5f1f52a252dc1960d4d58cd1b6",
+    "title": "Reglement über die finanzielle Unterstützung in der zivilrechtlichen Mediation",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:19"
+  },
+  "281.1": {
+    "version_uid": "ed3c5a5fe1172e2caccee5e0910aef16",
+    "title": "Einführungsgesetz zum Bundesgesetz über Schuldbetreibung und Konkurs (EGSchKG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:19"
+  },
+  "281.100": {
+    "version_uid": "0f27a1ee7e3972b7d08833d06ccd34f9",
+    "title": "Ausführungsverordnung zur Gesetzgebung über Schuldbetreibung und Konkurs (AusVSchKG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:19"
+  },
+  "311.1": {
+    "version_uid": "32df9f7a265f4209d5bf8d456c4c7c0b",
+    "title": "Einführungsgesetz zum Strafgesetzbuch (EGStGB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:20"
+  },
+  "311.200": {
+    "version_uid": "0b09aaf97ba47fe2501b1673219baa3a",
+    "title": "Allgemeine Ausführungsverordnung zum Einführungsgesetz zum Schweizerischen Strafgesetzbuch (AVEGStGB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:20"
+  },
+  "311.210": {
+    "version_uid": "c78d164e1a4069e88725fcff6ddd683c",
+    "title": "Verordnung über den Vollzug von Einziehungen (VVE)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:20"
+  },
+  "311.300": {
+    "version_uid": "bb199e5c129120eaeb60646daa6f7151",
+    "title": "Reglement über die Verwendung eines Fonds zur Unterstützung von Gefangenen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:20"
+  },
+  "312.0": {
+    "version_uid": "35c2534f414c6a67944238327d76458a",
+    "title": "Einführungsgesetz zur Schweizerischen Strafprozessordnung (EGStPO)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:20"
+  },
+  "312.1": {
+    "version_uid": "08ed24210d0bde56a97d7b43948f2f3c",
+    "title": "Gesetz über die Akten der gerichtlichen Polizei (GAgPol)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:21"
+  },
+  "312.2": {
+    "version_uid": "fe59b1832ce5fa1bdddd263f232aef5f",
+    "title": "Einführungsgesetz zum Ordnungsbussengesetz (EGOBG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:21"
+  },
+  "312.5": {
+    "version_uid": "09eb7c19376d9cd9a0d78cc607e3280a",
+    "title": "Ausführungsgesetz zum Bundesgesetz über die Hilfe an Opfer von Straftaten (AGOHG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:21"
+  },
+  "312.100": {
+    "version_uid": "a7a6166b75abd53a1ed3b054e18cb65b",
+    "title": "Ausführungsreglement zum Gesetz über die Akten der gerichtlichen Polizei (ARGAgPol)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:21"
+  },
+  "314.1": {
+    "version_uid": "2ed08aa0caf3b6d45b6773a411c4fb28",
+    "title": "Einführungsgesetz zum Bundesgesetz über das Jugendstrafrecht (EGJStG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:21"
+  },
+  "314.2": {
+    "version_uid": "ac3167c0bf2b53209c2ba2872e4cb2d9",
+    "title": "Einführungsgesetz zur Schweizerischen Jugendstrafprozessordnung (EGJStPO)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:21"
+  },
+  "340.100": {
+    "version_uid": "e03e0ddd7943a0a97ab1759f64383f81",
+    "title": "Verordnung über die Rechte und Pflichten von inhaftierten Personen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:21"
+  },
+  "340.104": {
+    "version_uid": "0901ddd5288448c7cf24cd37bbde0c33",
+    "title": "Verordnung betreffend die Organisation, die Rechte und Pflichten des Personals der Dienststelle für Straf- und Massnahmenvollzug",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.340-1": {
+    "version_uid": "8d8fc10c6978e9f9bf2ff257ee9d9a36",
+    "title": "Reglement über den Vollzug von Freiheitsstrafen unter elektronischer Überwachung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.3": {
+    "version_uid": "d762d40d226b558b65e1b20c26f5acaa",
+    "title": "Konkordat über den Vollzug der Freiheitsstrafen und Massnahmen an Erwachsenen und jungen Erwachsenen in den Kantonen der lateinischen Schweiz (Konkordat über den strafrechtlichen Freiheitsentzug an Erwachsenen)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.4": {
+    "version_uid": "ff6af802c09bfce3c341cda698498f33",
+    "title": "Konkordat über den Vollzug der strafrechtlichen Einschliessung Jugendlicher aus den Westschweizer Kantonen (und teilweise aus dem Kanton Tessin) (Konkordat über die strafrechtliche Einschliessung Jugendlicher)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.300": {
+    "version_uid": "ef5fd82644cf1e38a25aebaa6fee4a30",
+    "title": "Reglement über die Gewährung von Ausgangsbewilligungen für erwachsene und junge erwachsene Verurteilte",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.301": {
+    "version_uid": "dc3868500c887e2b30b0b3c578daf7ef",
+    "title": "Reglement über die Stiftung der lateinischen Schweiz Pilotprojekte - Sucht",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.310": {
+    "version_uid": "39b28f9249087b6d7cef7b0f884f11f5",
+    "title": "Reglement über die Liste der Anstalten für den Vollzug der strafrechtlichen Freiheitsentzüge",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.320": {
+    "version_uid": "bf3ac8c88489a6177319c880e569c742",
+    "title": "Reglement über den Vollzug von Strafen in Form von gemeinnütziger Arbeit (Reglement über die GA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.330": {
+    "version_uid": "488a7add456685034007f421961fd99a",
+    "title": "Reglement über den Strafvollzug in Form von Halbgefangenschaft (Reglement über die Halbgefangenschaft)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.340": {
+    "version_uid": "cb96c500b166c0cbefbb126485f5d18a",
+    "title": "Verordnung über die elektronische Überwachung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:22"
+  },
+  "343.400": {
+    "version_uid": "4bc012191f348e08d67bdbf6a0b33ada",
+    "title": "Reglement über die Gewährung von Ausgangsbewilligungen für minderjährige Verurteilte",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:23"
+  },
+  "343.401": {
+    "version_uid": "4bfbeba04ec38a20e6a57c6ac7bb6881",
+    "title": "Reglement über das Disziplinarrecht für Personen in strafrechtlicher Einschliessung oder Unterbringung in geschlossenen Anstalten für Jugendliche",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:23"
+  },
+  "362.1": {
+    "version_uid": "3015788ecb597b7a6218f912585d1465",
+    "title": "Vereinbarung zwischen Bund und Kantonen betreffend Umsetzung, Anwendung und Entwicklung des Schengen/Dublin-Besitzstands",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:23"
+  },
+  "400.1": {
+    "version_uid": "01ff4904c5090d58d492127f02f6e643",
+    "title": "Gesetz über das öffentliche Unterrichtswesen (GUW)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:23"
+  },
+  "400.2": {
+    "version_uid": "65d15c5189a566c38146cf42216f2652",
+    "title": "Gesetz über das Personal der obligatorischen Schulzeit und der allgemeinen Mittelschule und Berufsfachschule (GPOS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:23"
+  },
+  "400.9": {
+    "version_uid": "21891eb464db11065d3497705e6f290e",
+    "title": "Konkordat über die Schulkoordination",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:23"
+  },
+  "400.20": {
+    "version_uid": "565cf5cfe45ead2b434dccfca71e34e1",
+    "title": "Verordnung über das Personal der obligatorischen Schulzeit und der allgemeinen Mittelschule und Berufsfachschule (VPOS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:23"
+  },
+  "400.21": {
+    "version_uid": "68c2d9b0e98acb9ebc5319a183e082f6",
+    "title": "Reglement über die Subventionierung der individuellen Weiterbildung des Lehrpersonals der obligatorischen Schulzeit und der allgemeinbildenden Sekundarstufe II (RSubIWL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.050": {
+    "version_uid": "8dfc1c67948796f9dd74a21294cd126e",
+    "title": "Reglement betreffend den Spezialfinanzierungsfonds Kantonale Lehrmittelausgabestelle",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.90": {
+    "version_uid": "c9e9d652cc9a7da146470a414e66a4f6",
+    "title": "Gesetz über die Schulkoordination",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.100": {
+    "version_uid": "48061dc5697c761ee1242c748fd635e2",
+    "title": "Reglement über die Gewährung von diversen Beiträgen aufgrund des Gesetzes über das öffentliche Unterrichtswesen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.101": {
+    "version_uid": "472e35762f5ca04c58927475eeb9216a",
+    "title": "Reglement betreffend die Übernahme der Kosten für Schulmaterial und kulturelle und sportliche Aktivitäten in Zusammenhang mit der obligatorischen Schule",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.102": {
+    "version_uid": "72b7f8e1dbbd5531a4c8d190c71f50fb",
+    "title": "Reglement über Turnen und Sport in der Schule",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.103": {
+    "version_uid": "7bbbbdd1fc28c32ca024030fd58f4253",
+    "title": "Beschluss betreffend den Verkehrsunterricht in der Schule",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.104": {
+    "version_uid": "ed8fc8ad37e374b7898cf180cbe87a5b",
+    "title": "Reglement über die Anwendungsmodalitäten der Aktion Schneesports (RASS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.105": {
+    "version_uid": "747eaaf087377950f0ef9c917a6d5b2c",
+    "title": "Reglement über die amtliche Unterzeichnung und die Verwendung von staatlichen Stempeln bei Diplomen oder ähnlichen Dokumenten privater Anstalten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.106": {
+    "version_uid": "c3b426fe5a08619507760f81fc9c67fb",
+    "title": "Reglement über die Anerkennung einer privaten Sekundar- oder Mittelschule",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:24"
+  },
+  "400.107": {
+    "version_uid": "980863460ea20838dc2c06c123071f09",
+    "title": "Reglement über das Schulinspektorat der obligatorischen Schulzeit und des Unterrichts der Sekundarstufe II",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:25"
+  },
+  "400.108": {
+    "version_uid": "f9e6abfc3159b0c73f1e72078060b0e1",
+    "title": "Reglement über die Hilfen für Sprachaustausche und ‑aufenthalte (RSAA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:25"
+  },
+  "400.109": {
+    "version_uid": "0d1b2d34a10e87b9f73a106b61f44633",
+    "title": "Reglement betreffend den Erziehungsrat",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:25"
+  },
+  "400.110": {
+    "version_uid": "7acaa8bc86bf9a6354606711ae555f2a",
+    "title": "Reglement über die Kostenübernahme für pädagogische Ressourcen im Zusammenhang mit der obligatorischen Schulzeit (RKPR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:25"
+  },
+  "400.120": {
+    "version_uid": "94ab21a4418745388cf4f4ab097a38e3",
+    "title": "Reglement über die Übernahme der Fahrkosten im öffentlichen Verkehr der Lernenden und Schüler der Sekundarstufe II (RÜFÖV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:25"
+  },
+  "400.200": {
+    "version_uid": "c2dc1451e4d1ef92f603db299d5b6df0",
+    "title": "Reglement zur Festlegung der Weisungen und Richtlinien über Schulhausbauten der obligatorischen Schule (RSB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:25"
+  },
+  "400.300": {
+    "version_uid": "86acb968ca53d4136c1702eea9bea696",
+    "title": "Reglement betreffend die Entschädigung, die Lehrpersonen für die Nutzung ihrer Informatikausrüstung für berufliche Zwecke gezahlt wird",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:25"
+  },
+  "405.1": {
+    "version_uid": "430e21d40d08ac2d748fe7b4873a68c1",
+    "title": "Gesetz über den Gemeindeanteil an den Gehältern des Personals der obligatorischen Schulzeit und an den Betriebsausgaben der spezialisierten Institutionen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:26"
+  },
+  "405.3": {
+    "version_uid": "781dd6df3095928ac421f3a42abab6a1",
+    "title": "Gesetz über die Besoldung des Personals der obligatorischen Schulzeit und der allgemeinen Mittelschule und Berufsfachschule (GBOS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:26"
+  },
+  "405.20": {
+    "version_uid": "8adcb07ae96b93bb06f11b6eb4195bcf",
+    "title": "Verordnung über die Direktion der obligatorischen Schulen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:26"
+  },
+  "405.30": {
+    "version_uid": "83bd33d71afb8c6bb0b93ace5dcd349d",
+    "title": "Verordnung über die Besoldung des Personals der obligatorischen Schulzeit und der allgemeinen Mittelschule und Berufsfachschule (VBOS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:26"
+  },
+  "405.100": {
+    "version_uid": "0fec4732f87be8739af22b423feca215",
+    "title": "Reglement über den Gemeindeanteil an den Gehältern des Personals der obligatorischen Schulzeit und an den Betriebsausgaben der spezialisierten Institutionen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:26"
+  },
+  "411.0": {
+    "version_uid": "28dcb658b50c8810ac9a8c2d6cc4fd46",
+    "title": "Gesetz über die Primarschule (GPS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:26"
+  },
+  "411.001": {
+    "version_uid": "f1391a397c051e5484d6dc8b0b156871",
+    "title": "Verordnung betreffend das Gesetz über die Primarschule (VGPS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:27"
+  },
+  "411.2": {
+    "version_uid": "f419e9445890ed4a426e7437f025fdcc",
+    "title": "Gesetz über die Orientierungsschule (GOS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:27"
+  },
+  "411.3": {
+    "version_uid": "555580ed366d4ee863fc1b098f7066b7",
+    "title": "Gesetz über die Sonderschulung (GSS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:27"
+  },
+  "411.4": {
+    "version_uid": "94cfbd724494c3ee99509df035b3d4aa",
+    "title": "Interkantonale Vereinbarung über die Harmonisierung der obligatorischen Schule (HarmoS-Konkordat)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:27"
+  },
+  "411.5": {
+    "version_uid": "133b201e4e43fb681a82d6300ff29073",
+    "title": "Westschweizer Schulvereinbarung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:27"
+  },
+  "411.35": {
+    "version_uid": "2165d161afd066c51be3aa7b702a9dba",
+    "title": "Interkantonale Vereinbarung über die Zusammenarbeit im Bereich der Sonderpädagogik",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:27"
+  },
+  "411.100": {
+    "version_uid": "addfe3a671b81d80ff9f4f30391bc495",
+    "title": "Verordnung betreffend das Statut der Schulkommission",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:27"
+  },
+  "411.101": {
+    "version_uid": "b47a3b56645c9ea90fe832f140a9b08c",
+    "title": "Reglement betreffend Urlaube und die im Rahmen der obligatorischen Schulpflicht anwendbaren Disziplinarmassnahmen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:27"
+  },
+  "411.102": {
+    "version_uid": "e8463a9a91163bbc081d6ba43d476b9d",
+    "title": "Reglement über die Organisation und den Aufgabenbereich der kantonalen Mittelschulkommission",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:28"
+  },
+  "411.106": {
+    "version_uid": "bd92b6c59b09ff40da78a5cb0bea5414",
+    "title": "Verordnung über die Beurteilung der Leistungen der Schülerinnen und Schüler der obligatorischen Schulzeit",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:28"
+  },
+  "411.200": {
+    "version_uid": "c96dd822f1ccb6b9115d556db07612a2",
+    "title": "Verordnung über die überregionalen Strukturen der Orientierungsschule",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:28"
+  },
+  "411.300": {
+    "version_uid": "42a6c543c5a6ed0491aa27287d7bf8a6",
+    "title": "Verordnung zum Gesetz über die Sonderschulung (VGSS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:28"
+  },
+  "411.320": {
+    "version_uid": "57aa7a4eabc6057241e39d0875d6ef48",
+    "title": "Reglement über die Organisation und die Zuständigkeiten der kantonalen strategischen Kommission für Sonderpädagogik",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:28"
+  },
+  "411.350": {
+    "version_uid": "4b195172506b2d13b6eb41c686eaab61",
+    "title": "Beschluss betreffend die provisorische Beschränkung der Anerkennung durch die kantonale Dienststelle für die Jugend vom neuen Dienstleistungserbringern von pädagogisch-therapeutischen Massnahmen (Logopädie) zu Gunsten von Kindern und Jugendlichen von der Geburt an bis zum vollendetem 20. Lebensjahr",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:28"
+  },
+  "411.354": {
+    "version_uid": "647a6c65b9b6a5ce98049e6390635d62",
+    "title": "Beschluss zur Definition der Liste der durch das Amt für Sonderschulwesen anerkannten Fachstellen für das standardisierte Abklärungsverfahren im Rahmen der Zuteilung von Sonderschulmassnahmen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:28"
+  },
+  "412.1": {
+    "version_uid": "612ec84fc73005bb7dafdbe2700fab03",
+    "title": "Einführungsgesetz zum Bundesgesetz über die Berufsbildung (EGBBG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:28"
+  },
+  "412.5": {
+    "version_uid": "49ce4efe6090cf3fb1822d9ed24d4f39",
+    "title": "Gesetz über den kantonalen Berufsbildungsfonds (GBBF)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:29"
+  },
+  "412.6": {
+    "version_uid": "cc01304e278762f77f596be79f5cf81f",
+    "title": "Interkantonale Vereinbarung über die Beiträge an die Ausbildungskosten in der beruflichen Grundbildung (Berufsfachschulvereinbarung, BFSV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:29"
+  },
+  "412.100": {
+    "version_uid": "90947d15345ce874a38ec1da768a8921",
+    "title": "Verordnung zum Einführungsgesetz des Bundesgesetzes über die Berufsbildung (VOEGBBG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:29"
+  },
+  "412.101": {
+    "version_uid": "b3c72e50db285beaa324d66899cb38aa",
+    "title": "Verordnung über das Dienstverhältnis und die Besoldung der Berufsschullehrer der überbetrieblichen Kurse, die in den kantonalen Berufsfachschulen organisiert werden",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:29"
+  },
+  "412.102": {
+    "version_uid": "82123b941dbfa998391ab30788aa03c1",
+    "title": "Beschluss betreffend die Entschädigung der Branchenkommissäre und der Experten im Rahmen der Qualifikationsverfahren",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:29"
+  },
+  "412.103": {
+    "version_uid": "698be0725d256174f8997f7eb8dee08b",
+    "title": "Verordnung über die Berufs-, Studien- und Laufbahnberatung (VBSLB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:29"
+  },
+  "412.104": {
+    "version_uid": "f2b4851b7d2f881fcaeaa429072cea85",
+    "title": "Verordnung über die beruflichen Qualifikationsverfahren für Erwachsene",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:29"
+  },
+  "412.105": {
+    "version_uid": "b11376aa70b6ed7ed0184da927076505",
+    "title": "Reglement über die Anerkennung von Berufserfahrung (ABE)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:29"
+  },
+  "412.106": {
+    "version_uid": "757fc74d440ceb379398b88022d7b78e",
+    "title": "Verordnung über die Organisation der Berufsmaturität",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:29"
+  },
+  "412.107": {
+    "version_uid": "6c085d5d99ed8815102521b861bd0875",
+    "title": "Beschluss betreffend die Kostenbeiträge, Gebühren und Ausgaben zulasten der Teilnehmer einer berufsorientierten Weiterbildung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:30"
+  },
+  "412.309": {
+    "version_uid": "eacd66f3ca8ebdf73f9e81cc224886e6",
+    "title": "Verordnung über den Betrieb der kantonalen Berufsfachschulen der Sekundarstufe II",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:30"
+  },
+  "412.310": {
+    "version_uid": "ec64e7be6264d360b9f65a3b52740d52",
+    "title": "Verordnung betreffend die Organisation und die Direktionen der kantonalen Berufsfachschulen der Sekundarstufe II (VODKBS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:30"
+  },
+  "412.500": {
+    "version_uid": "5104f626d7ac7d0df4769379ea131fa1",
+    "title": "Vollzugsreglement zum Gesetz über den kantonalen Berufsbildungsfonds",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:31"
+  },
+  "412.510": {
+    "version_uid": "db69d427af1f6695584e73e8b3c7aa23",
+    "title": "Reglement zum kantonalen Weiterbildungsfonds (RKWBF)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:31"
+  },
+  "412.550": {
+    "version_uid": "09e28fe156e1456ab6fd6e6bd5dd28ce",
+    "title": "Reglement über den Spezialfinanzierungsfonds \"Berufsbildung\"",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:31"
+  },
+  "413.10": {
+    "version_uid": "b9aeeb8c8fb22127ebf937567a1f3d68",
+    "title": "Gesetz betreffend die Festsetzung des Beitrages der Gemeinden, die Sitz von Kollegien und kantonalen Bildungsanstalten sind",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:31"
+  },
+  "413.21": {
+    "version_uid": "773ba7334fb3d8119ecf336aecd3d25a",
+    "title": "Interkantonale Vereinbarung über die Anerkennung von Ausbildungsabschlüssen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:32"
+  },
+  "413.100": {
+    "version_uid": "93f3e6ec829192e1f8cd02c22e957afa",
+    "title": "Allgemeines Reglement über die Mittelschulen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:32"
+  },
+  "413.101": {
+    "version_uid": "62f2062dfd06a6137d2314185d10f9c1",
+    "title": "Verordnung über die Direktionen der allgemeinen Mittelschulen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:32"
+  },
+  "413.105": {
+    "version_uid": "1df3bebc8ab7bdb371abf5528de01bc7",
+    "title": "Reglement des Kantons Wallis über die Fachmaturität im Berufsfeld Pädagogik (RFMP)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:32"
+  },
+  "413.106": {
+    "version_uid": "4d7563250f2698319956fcd2a507d0b5",
+    "title": "Reglement der Handelsmittelschulen (RHMS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:32"
+  },
+  "413.108": {
+    "version_uid": "63f16e25ebae5f8ae74908e2ffeeb200",
+    "title": "Reglement über die Fachmittelschulen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:32"
+  },
+  "413.109": {
+    "version_uid": "ab7d30710deb7e068c4afdd4ba865590",
+    "title": "Reglement der Schule für Berufsvorbereitung des Kantons Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:32"
+  },
+  "413.110": {
+    "version_uid": "2e47497d2ae7f35839549eb8f7ba87a7",
+    "title": "Reglement über die Schulzeit am Gymnasium und die Maturitätsprüfungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:33"
+  },
+  "413.111": {
+    "version_uid": "69e19bc0a6f3913437aabb6473ed82b8",
+    "title": "Reglement über die Fachmaturität im Berufsfeld \"Soziale Arbeit\" des Kantons Wallis (RFMSA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:33"
+  },
+  "413.112": {
+    "version_uid": "68bd32c8b5cea5bf2fff7899a8f74581",
+    "title": "Reglement betreffend die Studienreisen der Gymnasien, Handels- und Fachmittelschulen sowie der Schulen für Berufsvorbereitung (RStR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:33"
+  },
+  "413.113": {
+    "version_uid": "dd87ac9076c6e7c731c2a48787e792f4",
+    "title": "Reglement über die Ergänzungsprüfung für die Zulassung von Inhaberinnen und Inhabern eines eidgenössischen Berufsmaturitätszeugnisses oder eines gesamtschweizerisch anerkannten Fachmaturitätszeugnisses zu den universitären Hochschulen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:33"
+  },
+  "413.114": {
+    "version_uid": "b31e7831a1ff6b97d3cee148f8068995",
+    "title": "Beschluss über die Festsetzung der Einschreibegebühren ür die Diplom- und Maturitätsprüfungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:33"
+  },
+  "413.115": {
+    "version_uid": "32a5dd87f8a31011910eb026b2ac4958",
+    "title": "Reglement über die Fachmaturität im Berufsfeld \"Gesundheit/Naturwissenschaften\" des Kantons Wallis (RFMGes)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:33"
+  },
+  "413.116": {
+    "version_uid": "2bc7a6dcf400606b23bc6c9df387387b",
+    "title": "Reglement über die Fachmaturität im Berufsfeld \"Musik und Theater\" des Kantons Wallis (RFMMT)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:33"
+  },
+  "413.210": {
+    "version_uid": "95661d1671e58ed496330e65b8affd1e",
+    "title": "Verordnung über die Titel und Diplome für den Unterricht in den Schulen der Sekundarstufe I und der allgemeinen Sekundarstufe II (VTUS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:33"
+  },
+  "414.1": {
+    "version_uid": "857011512b9153383fd427f8459501cc",
+    "title": "Interkantonale Vereinbarung über Beiträge an die Bildungsgänge der höheren Fachschulen (HFSV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:33"
+  },
+  "414.2": {
+    "version_uid": "2c696dbf916673020166076d545a5914",
+    "title": "Interkantonale Vereinbarung über den schweizerischen Hochschulbereich (Hochschulkonkordat)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:34"
+  },
+  "414.7": {
+    "version_uid": "f5cb1d961cab9b81b1fe5de4dbb908e3",
+    "title": "Interkantonale Vereinbarung der Fachhochschule der Westschweiz (HES-SO)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:34"
+  },
+  "414.31": {
+    "version_uid": "1aca8ab2c4dd1d8657f0f80c45ec509c",
+    "title": "Interkantonale Vereinbarung über die Beiträge an die Ausbildungskosten von universitären Hochschulen (Interkantonale Universitätsvereinbarung, IUV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:34"
+  },
+  "414.70": {
+    "version_uid": "36fda82f28d0f3dbb1d9e6a5f13b157e",
+    "title": "Gesetz über die Fachhochschule Westschweiz Valais/Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:34"
+  },
+  "414.71": {
+    "version_uid": "034b28a77a2c16364d9df7fba44715d4",
+    "title": "Interkantonale Fachhochschulvereinbarung ab 2005 (FHV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:34"
+  },
+  "414.75": {
+    "version_uid": "613bda324295c4b04272eab141a69bff",
+    "title": "Interkantonales Abkommen betreffend die parlamentarische Kontrolle über die Fachhochschule der Westschweiz (HES-SO)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:34"
+  },
+  "414.300": {
+    "version_uid": "d1446c76879096bae5ca7b1816a6fbd6",
+    "title": "Studienreglement über die Studiengänge Höhere Fachschule (HF) Kindheitspädagogik und Arbeitsagogische Leitung der Fachhochschule Westschweiz Valais-Wallis (Reglement HF Soziales)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:34"
+  },
+  "414.305": {
+    "version_uid": "09432fecadb096d69421668ac0974693",
+    "title": "Studienreglement betreffend den Bildungsgang Pflege HF (höhere Fachschule)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:35"
+  },
+  "414.701": {
+    "version_uid": "09c0ffe42a32cf8c0461b4a39dfff629",
+    "title": "Verordnung betreffend das Statut des Personals der Fachhochschule Westschweiz Valais/Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:35"
+  },
+  "414.702": {
+    "version_uid": "bb9aa5c422ac6821aeb970924b48172f",
+    "title": "Verordnung betreffend die Besoldung des Personals der Fachhochschule Westschweiz Valais/Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:35"
+  },
+  "414.703": {
+    "version_uid": "3b22b19b0cca6e3e602916f89d3e828e",
+    "title": "Verordnung über die Geschäftsführung und die Finanzkontrolle sowie die Leistungen der HES-SO Valais/Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:35"
+  },
+  "414.705": {
+    "version_uid": "f5545cd5df1725608306992641486f3c",
+    "title": "Verordnung über die Verwendung von Französisch und/oder Deutsch im Unterricht an der Fachhochschule Westschweiz Valais/Wallis (HES-SO Valais/Wallis) und in ihren Beziehungen zu den Studierenden (Sprachen-Verordnung der HES-SO Valais/Wallis)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:35"
+  },
+  "414.720": {
+    "version_uid": "2cd7053aaac56b3b4067b3dc278e2e47",
+    "title": "Reglement über die Zusatzmodule im Berufsfeld Gesundheit",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:35"
+  },
+  "414.733": {
+    "version_uid": "29605a7610c9704af438a2946e534c58",
+    "title": "Reglement über das geistige Eigentum, die Verwertung und Nutzung der Forschungsergebnisse der HES-SO Valais/Wallis (RGEVHES)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:35"
+  },
+  "415.1": {
+    "version_uid": "97a971a29c716750da306d5a78aa049a",
+    "title": "Gesetz über den Sport",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:36"
+  },
+  "415.2": {
+    "version_uid": "46347fb4523bcd76b53e2313b2c5fa9c",
+    "title": "Gesetz über die Gewährung von Kantonsbeiträgen an den Bau und die Erweiterung von Turn- und Sportplätzen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:36"
+  },
+  "415.100": {
+    "version_uid": "54750579a85788a54eacd629133d57b8",
+    "title": "Verordnung über den Sport",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:36"
+  },
+  "415.102": {
+    "version_uid": "d2a8c8fdca4c307241aaee2a6e7fb4fc",
+    "title": "Reglement über die Subventionierung von Sportanlagen (RSSA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:36"
+  },
+  "415.200": {
+    "version_uid": "3b9c56a8c5b944ad5690998f4cc51ec0",
+    "title": "Vollziehungsreglement betreffend das Gesetz über die Gewährung von Kantonsbeiträgen an den Bau und die Erweiterung von Turn und Sportstätten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:36"
+  },
+  "416.1": {
+    "version_uid": "4ff02ea3213f6829fe726acf27cd94b1",
+    "title": "Gesetz über Stipendien und Studiendarlehen (GSSD)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:36"
+  },
+  "416.2": {
+    "version_uid": "a2bd6fa2d2502b6ef2e91e9de135c6ec",
+    "title": "Interkantonale Vereinbarung zur Harmonisierung von Ausbildungsbeiträgen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:36"
+  },
+  "416.100": {
+    "version_uid": "a72cc3ac3f8ed8f7ca18196f5b013a4d",
+    "title": "Verordnung über Stipendien und Studiendarlehen (VSSD)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:36"
+  },
+  "416.110": {
+    "version_uid": "8e3b8198265d405efd1df7ef70cf3311",
+    "title": "Reglement über Ausbildungsbeiträge für Bildungsgänge an höheren Fachschulen und Fachhochschulen im Bereich der Pflege (PfABR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:37"
+  },
+  "417.03": {
+    "version_uid": "f86f08253cefc4417b47d2d894f6e68e",
+    "title": "Gesetz über die Besoldung des Lehrpersonals der Lehranstalten für eine höhere berufliche Ausbildung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:37"
+  },
+  "417.4": {
+    "version_uid": "8141f4c29c9a0a19cef5d0d41809edcd",
+    "title": "Weiterbildungsgesetz (WBG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:37"
+  },
+  "417.10": {
+    "version_uid": "a7a774ccc0fa6ad6db8cfac9b930b912",
+    "title": "Gesetz über den Beitrag der Standortgemeinden an die Bildungs- und Forschungsinstitutionen der Tertiärstufe (GBSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:37"
+  },
+  "417.030": {
+    "version_uid": "5472c6f4341007dc3198b6d8dea724c4",
+    "title": "Verordnung über die Besoldung des Personals der Lehranstalten des Kantons Wallis für eine höhere Berufsausbildung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:37"
+  },
+  "417.100": {
+    "version_uid": "28cb95cd4f469e26d4e15a69d0c1295a",
+    "title": "Reglement über die Beiträge der Standortgemeinden an die kantonalen Bildungs- und Forschungsinstitutionen der Tertiärstufe (R-GBSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:37"
+  },
+  "417.403": {
+    "version_uid": "f13238face94528892eb5551e3a72bf5",
+    "title": "Reglement über die institutionelle Anerkennung von informell erworbenen Fähigkeiten (RIA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:37"
+  },
+  "419.1": {
+    "version_uid": "0bf05c25a1d9b3bd4c224bcff7470b2d",
+    "title": "Gesetz über die Pädagogische Hochschule Wallis (GPH)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:38"
+  },
+  "419.101": {
+    "version_uid": "78cab669d58fa13635efb63f0f55f089",
+    "title": "Verordnung über Aufnahme und Grundausbildung an der Pädagogischen Hochschule (VOPH)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:38"
+  },
+  "419.104": {
+    "version_uid": "9935dc77dd3b7f9eba8262de4480aed6",
+    "title": "Reglement betreffend Gebühren und finanzielle Beiträge an der Pädagogischen Hochschule Wallis (RGeb-PHVS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:38"
+  },
+  "419.105": {
+    "version_uid": "ceea9217064e78ebaed09d806868ddc7",
+    "title": "Reglement über das Rahmenausbildungsprogramm für die Grundausbildung der Pädagogischen Hochschule Wallis (PH)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:38"
+  },
+  "419.106": {
+    "version_uid": "1469ffbecac82b1c7db82eb2db960bcb",
+    "title": "Allgemeines Reglement über die Zusatzausbildungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:38"
+  },
+  "419.107": {
+    "version_uid": "b2ba3fabab1c9a9175d9a402e4bec4b2",
+    "title": "Verordnung über die Ausbildung für den Unterricht auf der Sekundarstufe I und/oder der Sekundarstufe II (VAUS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:38"
+  },
+  "419.109": {
+    "version_uid": "07ff49d0d154bd244811f906e7bc2c75",
+    "title": "Reglement über die Besoldung der externen Auftragnehmer durch die Pädagogische Hochschule Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:38"
+  },
+  "419.200": {
+    "version_uid": "d1e79aaeca6377e5f4824fb616b5b72a",
+    "title": "Verordnung betreffend das Statut des Personals der Pädagogischen Hochschule Wallis (VSP-PH-VS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:38"
+  },
+  "419.202": {
+    "version_uid": "b9ecf0ef6ae5b6a1c0fe30bcf2b2d2c7",
+    "title": "Verordnung betreffend die Besoldung des Personals der Pädagogischen Hochschule Wallis (VBP-PH-VS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:38"
+  },
+  "419.204": {
+    "version_uid": "977e0b82081038bfc7872e759208f1af",
+    "title": "Verordnung über die Geschäftsführung und Finanzkontrolle der PH-VS (VGFk-PH-VS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:39"
+  },
+  "419.206": {
+    "version_uid": "7ac2e536b651445eb92c302afc14536c",
+    "title": "Reglement über die Zusammensetzung, die Organisation und die Zuständigkeiten des strategischen Rates der PH-VS (Rstr-PH-VS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:39"
+  },
+  "420.1": {
+    "version_uid": "00be8a9abdbcc648bd3a8d0e2cf9868f",
+    "title": "Gesetz über die Förderung von Hochschulen und Forschung (FHFG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:39"
+  },
+  "420.100": {
+    "version_uid": "07e253bbf20ea1323728582faa09f983",
+    "title": "Reglement zur Anwendung des Gesetzes über Bildung und Forschung von universitären Hochschulen und Forschungsinstituten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:39"
+  },
+  "420.102": {
+    "version_uid": "ba42525a2c3cdcf72a9a844f23a933b5",
+    "title": "Verordnung über die universitären Bildungsgänge",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:39"
+  },
+  "420.104": {
+    "version_uid": "6f261854d0d473d7059c90ce4785c3ec",
+    "title": "Reglement über die Ausübung von Bildungstätigkeiten der Tertiärstufe durch private, vom Staat Wallis nicht subventionierte Leistungserbringer (RABTP)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:39"
+  },
+  "440.1": {
+    "version_uid": "6136adec210e645e0aab31ac897efa87",
+    "title": "Kulturförderungsgesetz (KFG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:40"
+  },
+  "440.100": {
+    "version_uid": "2e3393be77a0843c6f66959d8fbea6a8",
+    "title": "Reglement zur Kulturförderung (RKF)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:40"
+  },
+  "440.102": {
+    "version_uid": "189cefef85beb531e04ffe969bc7ee83",
+    "title": "Reglement über die Bewahrung des beweglichen, dokumentarischen, immateriellen und sprachlichen Kulturerbes",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:40"
+  },
+  "440.104": {
+    "version_uid": "6276e5679d4e385cdfa528ae5bfc2a33",
+    "title": "Reglement für die Musikschulen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:40"
+  },
+  "451.1": {
+    "version_uid": "1912ff5015a390c9e17d8f92d13a3d6f",
+    "title": "Gesetz über den Natur- und Heimatschutz (kNHG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:40"
+  },
+  "451.100": {
+    "version_uid": "efb79f707fc135cc9b0e30deacfb7891",
+    "title": "Verordnung über den Natur- und Heimatschutz (kNHV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:40"
+  },
+  "451.102": {
+    "version_uid": "4617e86cccd90146bb581ea537d7039a",
+    "title": "Verordnung betreffend Bewirtschaftungsbeiträge an die Landwirtschaft für Leistungen zugunsten von Natur und Landschaft",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:40"
+  },
+  "451.104": {
+    "version_uid": "92ec89ae4f9a6f5660e90e00fe740fbe",
+    "title": "Reglement über die Verwaltung des kantonalen Fonds für den Schutz von Ortsbildern, Denkmälern und des archäologischen Erbes",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:40"
+  },
+  "451.111": {
+    "version_uid": "0a2b41a455a9e2adc752ed308ac12381",
+    "title": "Entscheid betreffend den Schutz des Aletschwaldes, Gemeinde Riederalp",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:40"
+  },
+  "451.112": {
+    "version_uid": "8046d6586831b70657e6d1ae6f3925bf",
+    "title": "Entscheid betreffend den Schutz der Gegend des Märjelensees",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.113": {
+    "version_uid": "fd68b154b6ec69c8d59106c030212284",
+    "title": "Entscheid betreffend den Schutz der Hügel von Gerunden, Plantzette, Alt-Siders und Rawyre",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.114": {
+    "version_uid": "d58552d61296c4056412d19f6024502b",
+    "title": "Entscheid betreffend den Schutz der Waldung und der Landschaft von Derborence",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.115": {
+    "version_uid": "799d78a24a5abf411d4459158b5450e9",
+    "title": "Entscheid betreffend den Schutz des Landschaftsbildes vom Burghügel in Raron",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.116": {
+    "version_uid": "b6c28acbae342db13d56ff6c2955d35d",
+    "title": "Entscheid betreffend den Schutz des Landschaftsbildes der Kapelle in Bettmeralp",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.117": {
+    "version_uid": "a9ca1d2f1eccdca65b17071a19ef019a",
+    "title": "Entscheid für den Schutz der paläontologischen Landschaft von Vieux-Emosson",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.118": {
+    "version_uid": "a50a7eb64873008d40ffa045702eb023",
+    "title": "Entscheid betreffend den Schutz der Landschaft von Borgne",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.119": {
+    "version_uid": "405ab948f0d94df434674a5e7ec19d04",
+    "title": "Entscheid betreffend den Schutz der Landschaft von Mont d'Orge in Sitten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.120": {
+    "version_uid": "55c4b98b7f476bf395cbf8884c5c55bc",
+    "title": "Entscheid betreffend den Schutz des Gebietes von Pfyn in Siders, Salgesch, Varen und Leuk",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.121": {
+    "version_uid": "33e993fb4f4ac9f532072183849a7cf6",
+    "title": "Entscheid betreffend den Schutz des Gebietes \"Achera Biela\", Gemeinden Ried-Brig und Termen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.313": {
+    "version_uid": "5eebed0a303fa25cfea02977a1f01d09",
+    "title": "Entscheid womit das Pflücken der Adonis vernalis (Frühlingsteufelsauge) auf Gebiet der Gemeinde Turtmann vollständig verboten wird",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.314": {
+    "version_uid": "1ff0c40b8f8a6b9c271b8f1494277f0e",
+    "title": "Entscheid betreffend den Schutz der Schwefel- und Alpenanemonen sowie der Enzianpflanzen jeder Gattung in der nachstehend bezeichneten Gegend auf Gebiet der Gemeinden Lens, Chermignon, Montana, Randogne und Icogne",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:41"
+  },
+  "451.315": {
+    "version_uid": "e56ae63a3eac7ad798b239e18b826fe3",
+    "title": "Entscheid betreffend den Schutz der Grengjer Tulpe \"Tulipa grengiolensis\" in Grengiols",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.320": {
+    "version_uid": "2a3be66b157c08397d85d8d1f728f3df",
+    "title": "Entscheid betreffend den Schutz des Sumpfgebietes von Poutafontanaz",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.321": {
+    "version_uid": "0d7d46f9687cb3a125d1e22938904dfe",
+    "title": "Entscheid betreffend den Schutz des Gebietes des Sees von Morgins, auf Territorium der Gemeinde Troistorrents",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.322": {
+    "version_uid": "cc2d363da85bcb0775035daff6b07a46",
+    "title": "Entscheid betreffend den Schutz des Flachmoors und Amphibienlaichgebietes von Ardon und Chamoson",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.323": {
+    "version_uid": "86e1c3f944b09c7170f48bc2684a1fa0",
+    "title": "Entscheid betreffend den Schutz des Moors \"Les Rigoles\" in Vionnaz",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.324": {
+    "version_uid": "30879464a5857b6b0b85268db572a9d9",
+    "title": "Entscheid betreffend den Schutz der Moore auf der Moosalpe in Törbel",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.325": {
+    "version_uid": "fc523da64a966b72739a53608a3c72e2",
+    "title": "Entscheid betreffend den Schutz des Hochmoors \"La Maraîche de Plex\" in Collonges",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.326": {
+    "version_uid": "88d5e2b68362aa375b4fed1566fae133",
+    "title": "Entscheid betreffend den Schutz des Auengebietes \"Sand\" in Oberwald",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.327": {
+    "version_uid": "d5e80053014f0df21500fec1382aeb52",
+    "title": "Entscheid betreffend den Schutz der Moore: \"Bärfel\", \"Triest\", \"Blasestafel\" und \"Mutterseewji\", Gemeinde Oberwald",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.328": {
+    "version_uid": "14fba42017374d7dd8c6e43b361084eb",
+    "title": "Entscheid betreffend den Schutz des Hochmoors Simplon-Hopschusee und Umfeld",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:42"
+  },
+  "451.329": {
+    "version_uid": "83b12e6aae210bcd435aed04e2c6bba1",
+    "title": "Entscheid betreffend den Schutz des Hochmoors \"Flesch\", Gemeinde Goppisberg",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.330": {
+    "version_uid": "5edd4d6f8b36eb856457a341a9d9485f",
+    "title": "Entscheid betreffend den Schutz der Auengebiete «Zeiterbode» in Biel und Selkingen und «Matte» in Gluringen und Reckingen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.331": {
+    "version_uid": "2dbdfe8ebbf9709dd7f03b397e6e87a6",
+    "title": "Entscheid betreffend den Schutz des Flachmoors \"Mutt\" in Raron",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.332": {
+    "version_uid": "3f2464d22e897de8b24d76f386e22f87",
+    "title": "Entscheid betreffend den Schutz des Moores von Champex in Orsières",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.333": {
+    "version_uid": "2ad274568da270caabcbdf132580583e",
+    "title": "Entscheid betreffend den Schutz des Auengebietes \"Grund\" von nationaler Bedeutung auf Gemeindegebiet von Ried-Brig und Brig-Glis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.334": {
+    "version_uid": "3420a37aecdf637231d778d2da6dd38b",
+    "title": "Entscheid betreffend den Schutz des Auengebietes \"Bilderne\" in Mörel und Filet",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.335": {
+    "version_uid": "265628bb23acacbf96b134276481471a",
+    "title": "Entscheid betreffend den Schutz der vier Auengebiete von nationaler Bedeutung und der Gletschervorfelder des Jegi- und des Langgletschers im Lötschental",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.336": {
+    "version_uid": "a0b3d93d7400d6bbf5c862a15af01a90",
+    "title": "Entscheid betreffend den Schutz der Moore \"La Gouille Verte\", Gemeinde Martinach-Combe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.337": {
+    "version_uid": "93887e89f25b421df7bb0fc2162b857f",
+    "title": "Entscheid betreffend den Schutz des Auengebietes Gletschboden sowie des Gletschervorfeldes des Rhonegletschers in Oberwald",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.339": {
+    "version_uid": "f97ab7d184c2d957f9de375448c22029",
+    "title": "Entscheid betreffend den Schutz des Flachmoors \"Zwisched Bäch\" in Obergesteln",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:43"
+  },
+  "451.340": {
+    "version_uid": "fc8e6450e9ea843c9c3e1cd825084d78",
+    "title": "Entscheid betreffend den Schutz der Moorlandschaft \"Albrun\", des Flachmoors \"Oxefeld\" und des Flachmoors \"Blatt\" in Binn",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.341": {
+    "version_uid": "f8dd974395c80ff33001456524b9109a",
+    "title": "Entscheid betreffend den Schutz des Gebietes \"Les Epines\" in Conthey",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.342": {
+    "version_uid": "755a0fc491446a077bd87fa4888bfaff",
+    "title": "Entscheid betreffend den Schutz der Ersatzbiotope Cleuson-Dixence auf Territorium der Gemeinde Nendaz, erste Serie",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.343": {
+    "version_uid": "8bed3f5680c1fafa599d745d0cf2455d",
+    "title": "Entscheid betreffend den Schutz des Feuchtbiotops Brigerbad, Gemeinde Brig-Glis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.344": {
+    "version_uid": "0db9948435cbf4416e693fc659780879",
+    "title": "Entscheid betreffend den Schutz des Flachmoores \"L'Echereuse\" in Champéry",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.345": {
+    "version_uid": "4d6c58700cea895218d51746a078b729",
+    "title": "Entscheid betreffend den Schutz des Moors \"Les Moilles\", Gemeinde Troistorrents",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.346": {
+    "version_uid": "24b24262c0974476db30eb7af79e2f3a",
+    "title": "Entscheid betreffend den Schutz der Flachmoore von nationaler Bedeutung \"Champoussin\" und \"Bochasse\" und des Flachmoors von kantonaler Bedeutung \"Les Champeys\", Gemeinden Val-d'Illiez und Troistorrents",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.347": {
+    "version_uid": "f08636d92b2ceacfcaf836f15b8a46a2",
+    "title": "Entscheid betreffend den Schutz des Flachmoors \"Les Esserts\" in Verbier, Gemeinde Bagnes",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.348": {
+    "version_uid": "673fd85be5dbd27ec9e34acd66c2e242",
+    "title": "Entscheid betreffend den Schutz der Auengebiete von nationaler Bedeutung \"Lotrey\", \"Pramousse-Satarma\", \"La Borgne en amont d'Arolla\", \"Salay\" und \"Ferpècle\", Gemeinde Evolène",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.349": {
+    "version_uid": "cb037f82be531a2ef56ac264627514c7",
+    "title": "Entscheid betreffend den Schutz der Flachmoore von kantonaler Bedeutung Culet, Madzé, Gemeinde Troistorrents; Délifrête, Sur Crête, Lac Vert, Gemeinde Val-d'Illiez; Planachaux, Le Pisa-Ripaille, Gemeinde Champéry",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.350": {
+    "version_uid": "ec52b1c8cdb47deba2e17e6dddb8b717",
+    "title": "Entscheid betreffend den Schutz des Hochmoores von nationaler Bedeutung Barme; Gemeinde Champéry",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:44"
+  },
+  "451.351": {
+    "version_uid": "a33e4a48d90d58246b4739639ab46c1e",
+    "title": "Entscheid betreffend den Schutz der Ersatzbiotope Cleuson-Dixence auf Territorium der Gemeinden Hérémence und Nendaz, zweite Serie",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:45"
+  },
+  "451.352": {
+    "version_uid": "3dbc9eb9ab37fb30591df49cf89c4219",
+    "title": "Entscheid betreffend den Schutz der Moorlandschaft \"val de Réchy\" und des Flachmoors \"Ar du Tsan\", Gemeinde Mont-Noble",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:45"
+  },
+  "451.353": {
+    "version_uid": "173d1268b4d4a415f3a4ec12e5cf4ace",
+    "title": "Entscheid betreffend den Schutz des Auengebietes von nationaler Bedeutung \"Feegletscher Nord\", Gemeinde Saas-Fee",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:45"
+  },
+  "451.354": {
+    "version_uid": "da996c7302f51c2a80724c63d9b09d80",
+    "title": "Entscheid betreffend den Schutz des Amphibienlaichgebietes von nationaler Bedeutung Lac Noir, auf Gebiet der Gemeinden Nendaz und Isérables",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:45"
+  },
+  "452.100": {
+    "version_uid": "4b2264783da312041b404b345115ac4a",
+    "title": "Entscheid womit der Fang von Schmetterlingen im Laggintal verboten wird",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:45"
+  },
+  "452.102": {
+    "version_uid": "8da212e9fb5798f1122ad2b8f66e957d",
+    "title": "Verordnung betreffend das Sammeln von Schnecken",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:45"
+  },
+  "455.1": {
+    "version_uid": "a13e13f9149d4ef940a795c81e023ec7",
+    "title": "Ausführungsgesetz zum eidgenössischen Tierschutzgesetz (AGTSchG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:45"
+  },
+  "455.100": {
+    "version_uid": "52c9ad8f303ff6e3a8a527c277850e58",
+    "title": "Verordnung über die Ausbildung von neuen Hundehaltern",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:46"
+  },
+  "501.1": {
+    "version_uid": "c2ca8680b764ec0bd0b00206413d13cd",
+    "title": "Gesetz über den Bevölkerungsschutz und die Bewältigung von besonderen und ausserordentlichen Lagen (GBBAL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:46"
+  },
+  "501.20": {
+    "version_uid": "431881df7128cf5bfefe3658b94266f6",
+    "title": "Dekret zur Bewältigung der Folgen der Naturereignisse im Lötschental",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:46"
+  },
+  "501.100": {
+    "version_uid": "a267121cfb85df0a0716baa78f6a980c",
+    "title": "Verordnung über den Bevölkerungsschutz und die Bewältigung von besonderen und ausserordentlichen Lagen (VBBAL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:46"
+  },
+  "502.1": {
+    "version_uid": "2a702eb82fc37cc388011bf4a4fd1f17",
+    "title": "Ausführungsgesetz zum Bundesgesetz über Waffen, Waffenzubehör und Munition (AGWG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:46"
+  },
+  "503.100": {
+    "version_uid": "55fcf015c2b4d7ca0303b0bab1fe0c03",
+    "title": "Verordnung über die Aufsicht des Schiesswesens, die Schiessanlagen und die zuständigen Behörden, die für die Anordnung der disziplinarischen Sanktionen zuständig sind (VASDS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:46"
+  },
+  "504.1": {
+    "version_uid": "546629bf41ed53dc8e71c5728178bee7",
+    "title": "Ausführungsgesetz zum Bundesgesetz über die Armee und die Militärverwaltung (AGMG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:46"
+  },
+  "520.1": {
+    "version_uid": "88668b800e85cd033a5a5b14ccefb62d",
+    "title": "Ausführungsgesetz zur Bundesgesetzgebung über den Zivilschutz (AGZSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:47"
+  },
+  "520.3": {
+    "version_uid": "95ea51f0c0544fd8081f95d1abd60a06",
+    "title": "Gesetz betreffend die Anwendung des Bundesgesetzes über den Schutz der Kulturgüter bei bewaffneten Konflikten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:47"
+  },
+  "520.100": {
+    "version_uid": "1d31b592d73829dbbd73954812d113e3",
+    "title": "Verordnung zum Ausführungsgesetz zur Bundesgesetzgebung über den Zivilschutz (VAGZSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:47"
+  },
+  "520.101": {
+    "version_uid": "ca4a5d4c49bf9abcd3083e23a6c020be",
+    "title": "Reglement über die Administration während des Zivilschutzdienstes (RAZSD)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:47"
+  },
+  "520.110": {
+    "version_uid": "7b964e1b2826da9a458d78e1504bc246",
+    "title": "Beschluss über den Betrag der Ersatzbeiträge für Schutzräume",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:47"
+  },
+  "520.120": {
+    "version_uid": "6e42779df7fe964c80d0388dba619030",
+    "title": "Beschluss über die von der Dienststelle für zivile Sicherheit und Militär erhobenen Kosten und Gebühren",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:47"
+  },
+  "520.200": {
+    "version_uid": "d9810f1672ab057880def6016a22c3f7",
+    "title": "Verordnung über den kantonalen Ersatzbeitragsfonds zugunsten der Zivilschutzbauten (VEBF)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:47"
+  },
+  "520.300": {
+    "version_uid": "dc7679e1af196c6a7c8c7e4e2d27951b",
+    "title": "Beschluss betreffend die Bezeichnung der Kulturgüter von nationaler (A) und regionaler Bedeutung (B), in Anwendung des Bundesgesetzes über den Schutz der Kulturgüter bei bewaffneten Konflikten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:48"
+  },
+  "531.110": {
+    "version_uid": "e34d7470343f15793dc0675713635636",
+    "title": "Beschluss betreffend die Organisation der Kriegswirtschaft auf kantonaler Ebene",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:48"
+  },
+  "540.1": {
+    "version_uid": "a55cd5c934097cf202a6d5d703b1dea1",
+    "title": "Gesetz zum Schutz gegen Feuer und Naturelemente (GSFN)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:48"
+  },
+  "540.100": {
+    "version_uid": "f60a7684b4659609ae03bedcb0b662a9",
+    "title": "Reglement welches die Ausführungsbestimmungen zum Schutz gegen Feuer und Naturelemente festlegt (RSFN)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:48"
+  },
+  "540.101": {
+    "version_uid": "a1213509ed5ff0a8654c003773ee543e",
+    "title": "Verordnung betreffend den Unterhalt, die Reinigung und die Kontrolle der Feuerungs- und Rauchabzugsanlagen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:48"
+  },
+  "540.102": {
+    "version_uid": "10abfb40cae5396f39741c7850ee3b37",
+    "title": "Verordnung betreffend Brandverhütungsmassnahmen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:48"
+  },
+  "550.1": {
+    "version_uid": "91bb36638fc2170b4142bcca90341829",
+    "title": "Gesetz über die Kantonspolizei (PolG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:49"
+  },
+  "550.2": {
+    "version_uid": "bf2dcce8d2d2885dbdf70bada90387ef",
+    "title": "Konkordat über die polizeiliche Zusammenarbeit in der Westschweiz",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:49"
+  },
+  "550.3": {
+    "version_uid": "70ace0e10ec81eff0bc8c2986d5eaadb",
+    "title": "Konkordat über die Sicherheitsunternehmen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:49"
+  },
+  "550.5": {
+    "version_uid": "badd472371012fa51078275d6ded6827",
+    "title": "Konkordat über Massnahmen gegen Gewalt anlässlich von Sportveranstaltungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:49"
+  },
+  "550.6": {
+    "version_uid": "be4288cdc0fcf1dbf4fd6872510912d5",
+    "title": "Gesetz über häusliche Gewalt (GhG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:49"
+  },
+  "550.7": {
+    "version_uid": "67f11a4fe61f9a6f378cf267c5827ef6",
+    "title": "Vereinbarung über die interkantonalen Polizeieinsätze (IKAPOL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:49"
+  },
+  "550.100": {
+    "version_uid": "0fe6965062349e16d5053faebc6ef7fe",
+    "title": "Verordnung zum Gesetz über die Kantonspolizei (PolV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:49"
+  },
+  "550.101": {
+    "version_uid": "b533de5150f3493498afbc17146b3d26",
+    "title": "Verordnung über die Anwendung von Zwangsmitteln durch die Kantonspolizei (kZAV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:50"
+  },
+  "550.102": {
+    "version_uid": "19e3ba316c85138c88a92d9c92f3d441",
+    "title": "Verordnung über Video- und Audioüberwachungsmassnahmen durch die Kantonspolizei (VidPolV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:50"
+  },
+  "550.103": {
+    "version_uid": "f7d776885b60444237cd467593346e1d",
+    "title": "Reglement über die Schaffung eines Fonds für die Finanzierung vertraulicher Ermittlungsaufgaben der Polizei",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:50"
+  },
+  "550.110": {
+    "version_uid": "52aceab827302bbe55708f0dfabbeec9",
+    "title": "Verordnung über Besoldung, Auslagen und Spesen der Mitglieder des Korps der Kantonspolizei (BesPolV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:50"
+  },
+  "550.300": {
+    "version_uid": "71cff3471e9a67f88b94dd6b7b11daee",
+    "title": "Reglement betreffend die Sicherheitsunternehmen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:50"
+  },
+  "550.500": {
+    "version_uid": "e8c1202a7deebd6af240423521604efc",
+    "title": "Ausführungsreglement zum Konkordat über Massnahmen gegen Gewalt anlässlich von Sportveranstaltungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:50"
+  },
+  "550.600": {
+    "version_uid": "18a501d6746df5453ed9269f53f3b9a1",
+    "title": "Verordnung über häusliche Gewalt (VhG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:50"
+  },
+  "611.1": {
+    "version_uid": "f255641d5892e8cca567b11b09533c0b",
+    "title": "Gesetz über die Geschäftsführung und den Finanzhaushalt des Kantons und deren Kontrolle (FHG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:51"
+  },
+  "611.5": {
+    "version_uid": "facc5f89c8f1f8c4b8fb0c74b863405e",
+    "title": "Rahmenvereinbarung für die interkantonale Zusammenarbeit mit Lastenausgleich (Rahmenvereinbarung, IRV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:51"
+  },
+  "611.6": {
+    "version_uid": "ca082071f2d26159cebeec953f8d3c0e",
+    "title": "Dekret über die Obergrenze und Einlage des Kompensationsfonds für Ertragsschwankungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:51"
+  },
+  "611.100": {
+    "version_uid": "217619da40925141ccb918b0c6a0b7d7",
+    "title": "Verordnung betreffend den Finanzhaushalt (FHV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:51"
+  },
+  "611.101": {
+    "version_uid": "42f7acc4ee8c8262d04d8de22d0604c2",
+    "title": "Verordnung betreffend die Delegation von finanziellen Kompetenzen des Staatsrates an die Departemente und Dienststellen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:51"
+  },
+  "611.102": {
+    "version_uid": "65016c3afd7bc8e280b6a631b05b6452",
+    "title": "Verordnung betreffend die Führung des Finanzhaushaltes der Gemeinden (VFFHGem)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:51"
+  },
+  "611.103": {
+    "version_uid": "968a027f0329477fd38be422d804a44e",
+    "title": "Reglement betreffend die Vertretung des Staates vor den Gerichten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:52"
+  },
+  "611.104": {
+    "version_uid": "57d1e5d84a1b66d0795ea13ca923f961",
+    "title": "Verordnung zum Inkasso- und Eintreibungsverfahren",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:52"
+  },
+  "611.105": {
+    "version_uid": "d0761a1e0b8d4f211799c49678e87658",
+    "title": "Verordnung über das Finanz-, Personal- und Leistungscontrolling",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:52"
+  },
+  "612.1": {
+    "version_uid": "77f469a0a4a68e0058bbf743cbc4ec15",
+    "title": "Gesetz über die Ausgaben- und Schuldenbremse",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:52"
+  },
+  "612.2": {
+    "version_uid": "fa138444dd23cc7915f3ec86d6a8c144",
+    "title": "Dekret über die Anwendung der Bestimmungen über die Ausgaben- und Schuldenbremse im Rahmen des Budgets 2025 im Zusammenhang mit der Verwaltung der Fonds",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:52"
+  },
+  "612.3": {
+    "version_uid": "7a41e857188ba940f456729e03b6ef83",
+    "title": "Gesetz über den Fonds zur Finanzierung der Investitionen und der Geschäftsführung staatlicher Immobilien (Fonds FIGI)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:52"
+  },
+  "612.5": {
+    "version_uid": "24ad3fc01f194edb975df14bbb3ee03c",
+    "title": "Gesetz betreffend die Finanzierung der Infrastrukturgrossprojekte des 21. Jahrhunderts",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:52"
+  },
+  "612.7": {
+    "version_uid": "44a5100431b023613f224f8940ba10ff",
+    "title": "Gesetz über die Finanzierung der 3. Rhonekorrektion (GFinR3)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:52"
+  },
+  "613.1": {
+    "version_uid": "6687d9bc48e60c6921a2fae21781f32d",
+    "title": "Gesetz über den interkommunalen Finanzausgleich (GIFA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:52"
+  },
+  "613.100": {
+    "version_uid": "0605e6c02590a9d8df5688b66ac0611b",
+    "title": "Verordnung über den interkommunalen Finanzausgleich (VIFA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:53"
+  },
+  "613.104": {
+    "version_uid": "db4ce56c5079483f15f8fa852097f980",
+    "title": "Beschluss über den interkommunalen Finanzausgleich 2026",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:53"
+  },
+  "614.100": {
+    "version_uid": "2f1d577e7c0adffe667ef74471992a3c",
+    "title": "Reglement betreffend das kantonale Finanzinspektorat (RKFI)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:53"
+  },
+  "616.1": {
+    "version_uid": "942431078f0e08276915d6429dd7a1e1",
+    "title": "Subventionsgesetz (SubG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:53"
+  },
+  "616.100": {
+    "version_uid": "a8e584b6e462f931fc81689fc8ce58c1",
+    "title": "Subventionsverordnung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:53"
+  },
+  "620.1": {
+    "version_uid": "b92fa7374c141d0e91053a5d7be9e8e1",
+    "title": "Gesetz über die Walliser Kantonalbank (Kantonalbankgesetz, GWKB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:53"
+  },
+  "620.310": {
+    "version_uid": "6df17ccdcc3f784937178547a196aeff",
+    "title": "Beschluss zur Vollziehung des Bundesgesetzes über die Banken und Sparkassen betreffend die Bezeichnung der zuständigen kantonalen Behörden im Stundungs-, Konkurs- und Nachlassverfahren der Banken und Sparkassen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:53"
+  },
+  "641.5": {
+    "version_uid": "154231cac738d5a9ea5b695480d78850",
+    "title": "Gesetz über die Besteuerung der Motorfahrzeuge",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:53"
+  },
+  "641.52": {
+    "version_uid": "55e0accc0e030ee0d1c6001938da101c",
+    "title": "Gesetz über die Besteuerung der Schiffe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:53"
+  },
+  "641.800": {
+    "version_uid": "c9c27caafeaa42458f0b60688bb27b19",
+    "title": "Beschluss über die Verwendung des Kantonsanteils an der leistungsabhängigen Schwerverkehrsabgabe LSVA",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:54"
+  },
+  "642.1": {
+    "version_uid": "5e8ded0291871ff9fbbda86705ed1dda",
+    "title": "Steuergesetz (StG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:54"
+  },
+  "642.034": {
+    "version_uid": "1b65d60a178f003ed0be324dfcbfbf2d",
+    "title": "Vereinbarung zwischen dem Schweizerischen Bundesrat und der Regierung der Französischen Republik über die Besteuerung der Erwerbseinkünfte von Grenzgängern",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:54"
+  },
+  "642.100": {
+    "version_uid": "1d747e9248f51dab7fdafd0f38f4e49c",
+    "title": "Ausführungsreglement zum Steuergesetz (ARStG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:54"
+  },
+  "642.103": {
+    "version_uid": "a1813e69b7e217ceea29400da6aaceb6",
+    "title": "Beschluss betreffend die Entschädigungen an die Mitglieder der kantonalen Kommission für die Einschätzung der juristischen Personen und der kantonalen Steuerkommission für die natürlichen Personen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:54"
+  },
+  "642.104": {
+    "version_uid": "5476411b81921469fa9e6535468c7d52",
+    "title": "Beschluss betreffend den Gebührentarif der kantonalen Steuerverwaltung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:54"
+  },
+  "642.105": {
+    "version_uid": "29ef828f2572217f70c6b58146778bbb",
+    "title": "Beschluss über die Pauschalsteuer",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "642.106": {
+    "version_uid": "c514e7245b1e37c792fecf1ef526ace3",
+    "title": "Beschluss über den ratenweisen Bezug der Kantons- und Gemeindesteuern",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "642.107": {
+    "version_uid": "f11a9eedb7403128513b2eddf6c0b3ee",
+    "title": "Beschluss betreffend den vom Schuldner im Rahmen des Bezugsverfahrens zu tragenden Anteil an den Verwaltungskosten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "642.108": {
+    "version_uid": "b99ae8900d49b9be1e37e08478939e9a",
+    "title": "Verordnung über die Mitteilung des Grundstückerwerbs an die Steuerbehörden",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "642.109": {
+    "version_uid": "2c57cf75e5ae7f2dca674573b884d160",
+    "title": "Beschluss betreffend die Entschädigungen an die Mitglieder der kantonalen Kommission für Katasterschatzungen und der kantonalen Expertenkommission (Industrieanlagen)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "642.111": {
+    "version_uid": "37ffe87c3c1a0ff9cb0a17a6c5cfec23",
+    "title": "Verordnung über die elektronische Einreichung der Steuererklärung von natürlichen Personen ohne Unterschrift",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "642.200": {
+    "version_uid": "16c08091e350e839319332ee2d28ddef",
+    "title": "Ausführungsverordnung zum Bundesgesetz über die Verrechnungssteuer und der eidgenössischen Verordnung über die Anrechnung ausländischer Quellensteuern (AusVVStG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "642.300": {
+    "version_uid": "d89df4ce0bd7051318ea95b9b4f3d9fe",
+    "title": "Verordnung über die Festsetzung der konfiskatorischen Belastung durch die Vermögenssteuer",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "642.400": {
+    "version_uid": "4fd5342bd70b45ce970e8963c4648349",
+    "title": "Verordnung über die Besteuerung nach dem Aufwand",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "642.500": {
+    "version_uid": "0bb3c343ca8f8e5bc0a5e7983b1908de",
+    "title": "Verordnung über die Hingabe an Erfüllungs statt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:55"
+  },
+  "643.1": {
+    "version_uid": "2da3e4fa094479dfa77afac64f50bc37",
+    "title": "Gesetz über die Handänderungssteuer (HG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:56"
+  },
+  "645.100": {
+    "version_uid": "dc16cd2cd81c105aa5143afd60d17ba1",
+    "title": "Reglement betreffend die Katastertaxen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:56"
+  },
+  "645.102": {
+    "version_uid": "1cdd3a2c2986184db8daf2acdcebc3b6",
+    "title": "Reglement betreffend die Steuerregisterhalter in den Gemeinden",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:56"
+  },
+  "645.104": {
+    "version_uid": "9a4b2c17c352613fcd256d62ed594249",
+    "title": "Beschluss über die Festsetzung der Tarife betreffend die Gebühren der Steuerregisterhalter",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:56"
+  },
+  "652.100": {
+    "version_uid": "fe1b2b52057037cd78dd0a84bbd14308",
+    "title": "Reglement betreffend die Erhebung der Hundesteuer",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:56"
+  },
+  "658.1": {
+    "version_uid": "9e8e01cf1b7bedbaff9c6203bf9b44f2",
+    "title": "Ausführungsgesetz zum Bundesgesetz über die direkte Bundessteuer (AGDBG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:56"
+  },
+  "660.1": {
+    "version_uid": "6fc97c233a28edfa76dacd66e801fd60",
+    "title": "Ausführungsgesetz zum Bundesgesetz über die Wehrpflichtersatzabgabe (AGWPEG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:56"
+  },
+  "671.1": {
+    "version_uid": "f0812f21f7b1e136f3a16b35b21aa3ed",
+    "title": "Konkordat zwischen den Kantonen der Schweizerischen Eidgenossenschaft über den Ausschluss von Steuerabkommen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:56"
+  },
+  "671.2": {
+    "version_uid": "9918aa47014e8d175ee7b66cd52a2bf6",
+    "title": "Vereinbarung zwischen dem Schweizerischen Bundesrat und der Regierung der Französischen Republik über die steuerliche Behandlung von Zuwendungen zu ausschliesslich uneigennützigen Zwecken",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:56"
+  },
+  "681.105": {
+    "version_uid": "11dbdedbbad07e30a46e15c7760d01a8",
+    "title": "Richtlinie für die Verleihung des kantonalen Preises \"Alkoholzehntel\" des Staates Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:57"
+  },
+  "691.1": {
+    "version_uid": "b12770cbdec1882121062e62a160c2e6",
+    "title": "Interkantonale Vereinbarung über den Salzverkauf in der Schweiz",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:57"
+  },
+  "701.1": {
+    "version_uid": "36fae283c3c6ea3b296749e5ff2f55a7",
+    "title": "Ausführungsgesetz zum Bundesgesetz über die Raumplanung (kRPG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:57"
+  },
+  "701.2": {
+    "version_uid": "1ab21c1c1dc7f7e744b287d5f400b2df",
+    "title": "Gesetz über die Landumlegung und die Grenzregulierung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:57"
+  },
+  "701.6": {
+    "version_uid": "88abc89d30031e2feef29b2587e9e835",
+    "title": "Gesetz über die Erhebung von Grundeigentümerbeiträgen an die Erschliessungskosten und an weitere öffentliche Werke (Grundeigentümerbeitragsgesetz)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:57"
+  },
+  "701.102": {
+    "version_uid": "780849deaa1dfd2efbac8d851a4140e6",
+    "title": "Beschluss über die Genehmigung des kantonalen Raumentwicklungskonzepts",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:57"
+  },
+  "701.105": {
+    "version_uid": "da4e90f71e152a208def3ac8a9323ee3",
+    "title": "Reglement betreffend die Förderungsmassnahmen und die Ausgleichsregelung in Sachen Raumplanung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:57"
+  },
+  "701.201": {
+    "version_uid": "cb062b6f840b897bb25f6e6ad9a11df1",
+    "title": "Reglement zur Festlegung des Tarifs der kantonalen Leistungen in Sachen Baulandumlegungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:57"
+  },
+  "702.1": {
+    "version_uid": "8da230bc7df1d23a65da5a4ef76215a0",
+    "title": "Ausführungsgesetz zum Bundesgesetz über Zweitwohnungen (AGZWG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:57"
+  },
+  "704.1": {
+    "version_uid": "4bbbac958ff3b3b4f5e7ece0c1d88504",
+    "title": "Gesetz über die Wege des Freizeitverkehrs (GWFV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:58"
+  },
+  "704.100": {
+    "version_uid": "b292fb578c143d53e2d44da121ed95df",
+    "title": "Reglement über die Wege des Freizeitverkehrs (RWFV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:58"
+  },
+  "705.1": {
+    "version_uid": "8d9056f8ba18e7992791556ee4507242",
+    "title": "Baugesetz (BauG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:58"
+  },
+  "705.100": {
+    "version_uid": "588c9f8bd69133535cca0d8de2b3a6e4",
+    "title": "Bauverordnung (BauV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:58"
+  },
+  "705.101": {
+    "version_uid": "70cdccbe72d6a216d585f2926318560c",
+    "title": "Interkantonale Vereinbarung über die Harmonisierung der Baubegriffe (IVHB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:59"
+  },
+  "705.102": {
+    "version_uid": "99c1f4d319e6d59406110a90af9675da",
+    "title": "Beschluss betreffend die Entschädigungen an die Mitglieder der kantonalen Baukommission",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:59"
+  },
+  "705.104": {
+    "version_uid": "b3c40e468fe1fae5ba87d5769c0cfe94",
+    "title": "Beschluss welcher die Gebühren betreffend die vom kantonalen Bausekretariat behandelten Baugesuche festsetzt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:59"
+  },
+  "705.105": {
+    "version_uid": "7c3e8f73e3b98bbfd60276844f75eece",
+    "title": "Beschluss welcher die Kosten und Gebühren betreffend die von der kantonalen Baukommission erteilten Baubewilligungen festsetzt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:59"
+  },
+  "705.106": {
+    "version_uid": "05f6b6c34de743d18b51f67f1365be14",
+    "title": "Reglement über den Zugang und die Benutzung der kantonalen Plattform eConstruction (Reglement eConstruction, ReC)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:59"
+  },
+  "710.1": {
+    "version_uid": "7f787980dd68548fb4a308f79b5c249d",
+    "title": "Enteignungsgesetz (kEntG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:59"
+  },
+  "710.110": {
+    "version_uid": "782a836ca2b3facbe570ef9d552a3daf",
+    "title": "Beschluss über die Entschädigungen der Mitglieder des Expertenkollegiums in Enteignungssachen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:59"
+  },
+  "710.200": {
+    "version_uid": "9fb6a84cc7524074f59218d824a59de9",
+    "title": "Beschluss betreffend Vollziehung des Artikels 15 des Bundesgesetzes über die Enteignung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:59"
+  },
+  "721.1": {
+    "version_uid": "3329c3a7b547039b17150b9aedfd6d11",
+    "title": "Gesetz über die Naturgefahren und den Wasserbau (GNGWB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:33:59"
+  },
+  "721.8": {
+    "version_uid": "19739c385d19daa7038c1fcd9e672f55",
+    "title": "Gesetz über die Nutzbarmachung der Wasserkräfte (kWRG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:00"
+  },
+  "721.100": {
+    "version_uid": "a57d55ec7dc22f8041e83877270c42bc",
+    "title": "Verordnung über die Naturgefahren und den Wasserbau (VNGWB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:00"
+  },
+  "721.200": {
+    "version_uid": "820dbc7010088b2615afcd953b3911b7",
+    "title": "Verordnung über die Bestimmung des Gewässerraums bei grossen Fliessgewässern",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:00"
+  },
+  "721.800": {
+    "version_uid": "06c841db06ad118f6a569f3a9a397fad",
+    "title": "Reglement betreffend die Ausführung des Gesetzes über die Nutzbarmachung der Wasserkräfte (RAkWRG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:00"
+  },
+  "721.801": {
+    "version_uid": "9405b4b04fd7412065f8613cc79dc9e1",
+    "title": "Reglement betreffend die Ausführung von Artikel 46 des Gesetzes über die Nutzbarmachung der Wasserkräfte (Versicherungsreglement)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:00"
+  },
+  "721.802": {
+    "version_uid": "a590256dfde866738ae2903e73392ecd",
+    "title": "Beschluss betreffend die Benutzung von Wasserleitungen, die ihren Ausgang von konzessionierten Flüssen nehmen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:00"
+  },
+  "721.803": {
+    "version_uid": "d76757a5fd92d89fd75952112caafb4b",
+    "title": "Reglement über die Solidaritätsgewinne (RSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:00"
+  },
+  "721.805": {
+    "version_uid": "9b846e4bbbf2770a1e92749b1f216fe5",
+    "title": "Beschluss über die Spülungen, die Entleerungen von Stauanlagen und Speicherstollen und die Reinigung der Wasserläufe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:00"
+  },
+  "725.1": {
+    "version_uid": "05133d5391d61967428f41698be741f4",
+    "title": "Strassengesetz (StrG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:01"
+  },
+  "725.100": {
+    "version_uid": "77e0774a79fc105725bcf1e393dd248f",
+    "title": "Beschluss über die Deklassierung und Klassierung von Strassen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:01"
+  },
+  "725.101": {
+    "version_uid": "62974360388eba6320baceb9d458c9bc",
+    "title": "Beschluss betreffend die Kriterien zur Festlegung der Prioritäten für den Bau, die Korrektion und Wiederinstandstellung der Strassen und öffentlichen Verkehrswege",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:01"
+  },
+  "725.105": {
+    "version_uid": "a41aab401c5a88a4131cc7a763340fea",
+    "title": "Reglement über die Wintersperre von kantonalen Strassen und Wegen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:01"
+  },
+  "725.109": {
+    "version_uid": "8267b6a3a3f6977fcba23d62928bcac1",
+    "title": "Reglement über die Gebühren für den Sondergebrauch des öffentlichen Eigentums auf kantonalen Verkehrswegen, an der Rhone und am Genfersee",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:01"
+  },
+  "725.111": {
+    "version_uid": "2548e865b06d438aab878ecb37c47878",
+    "title": "Beschluss betreffend die Erstellung und Einrichtung von Benzin-Tankstellen, Verkaufsständen und Auslagen längs der öffentlichen Strassen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:01"
+  },
+  "726.1-1": {
+    "version_uid": "e034cfc739c97664ce2dba76bf919e75",
+    "title": "Interkantonale Vereinbarung über das öffentliche Beschaffungswesen (IVöB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:01"
+  },
+  "726.1": {
+    "version_uid": "c587566ca9b4fdb54b1a561d2e5f9c44",
+    "title": "Gesetz über den Beitritt des Kantons Wallis zur Interkantonalen Vereinbarung über das öffentliche Beschaffungswesen vom 15. November 2019 (kGIVöB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:02"
+  },
+  "726.100": {
+    "version_uid": "23abef6a72d97b1e1c4f5314d6235d53",
+    "title": "Verordnung über das öffentliche Beschaffungswesen (kVöB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:02"
+  },
+  "726.101": {
+    "version_uid": "072c743103fde5da7bce39a9c27c3d5e",
+    "title": "Verordnung über die Verzeichnisse der Unternehmen welche die Teilnahmebedingungen und die Eignungskriterien erfüllen (VVTE)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:02"
+  },
+  "730.1": {
+    "version_uid": "dd81eb817e7be9003f413f7284b7803b",
+    "title": "Energiegesetz (kEnG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:02"
+  },
+  "730.100": {
+    "version_uid": "30ec4c0a66ee9cc4382f87f252b42c2d",
+    "title": "Energieverordnung (kEnV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:04"
+  },
+  "730.102": {
+    "version_uid": "271cc6100f935dd25a5eea48007a6e4c",
+    "title": "Beschluss betreffend die Nutzung des Grundwassers, der Seen oder Wasserläufe zur Gewinnung thermischer Energie",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:04"
+  },
+  "731.1": {
+    "version_uid": "96be5c28709532362997ed9b444059b1",
+    "title": "Gesetz über die Walliser Elektrizitätsgesellschaft (GWEG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:04"
+  },
+  "734.1": {
+    "version_uid": "b658828f7c0133695a952417506716cd",
+    "title": "Kantonales Gesetz über die Stromversorgung (kStromVG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:04"
+  },
+  "740.1": {
+    "version_uid": "fd84a90be789d51ced7c4d544a26ab35",
+    "title": "Gesetz über den öffentlichen Verkehr und den Alltagslangsamverkehr (GöVALV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:04"
+  },
+  "740.100": {
+    "version_uid": "5f11a95bee61f1e1e3345150bd2e3ea5",
+    "title": "Reglement über die Erteilung von kantonalen Bewilligungen für die Personenbeförderung (REPB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:04"
+  },
+  "740.200": {
+    "version_uid": "64e14124caa3e0cb153aa8bfe784c1d7",
+    "title": "Reglement über den öffentlichen Verkehr und den Alltagslangsamverkehr (RGöVALV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:04"
+  },
+  "741.1": {
+    "version_uid": "e0f3848572f06cc63c3f5f141b73ab1e",
+    "title": "Ausführungsgesetz über die Bundesgesetzgebung betreffend den Strassenverkehr (AGSVG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "741.100": {
+    "version_uid": "3327884cae0e55decb195ea23e41e806",
+    "title": "Reglement der Kantonalen Kommission für Strassensignalisation",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "741.102": {
+    "version_uid": "dcd17a8a2d0d302e69131d80648346d9",
+    "title": "Beschluss betreffend die Hinterlegung der Motorfahrzeugschilder",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "741.104": {
+    "version_uid": "a8b10e1539fc228fcac4dbc564b22ea6",
+    "title": "Reglement über den Tarif der Gebühren und Kosten im Bereich der Zulassung von Personen und Fahrzeugen zum Strassenverkehr (RTarVZV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "741.106": {
+    "version_uid": "0291f135934be200f33eed45983ebd43",
+    "title": "Beschluss durch welchen die Bewilligungsgebühren für sportliche Anlässe der Automobilisten, Motorradfahrer, Radfahrer und anderer festgelegt werden",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "741.108": {
+    "version_uid": "320074492047141dfdda087ff32ff852",
+    "title": "Beschluss betreffend die Verkehrsbeschränkungen von Motorfahrzeugen auf gewissen Strassen und Wegen des Kantons",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "741.109": {
+    "version_uid": "da615e9258fbcfb09c3a877cfcbc3b45",
+    "title": "Beschluss betreffend die Beschränkungen des Motorfahrzeugverkehrs auf der Kantonsstrasse NG 13 Täsch - Zermatt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "741.110": {
+    "version_uid": "cab0c3b273e7cd7118630fd1a50efdca",
+    "title": "Reglement über Karting-, Motocross- oder ähnliche Bahnen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "741.111": {
+    "version_uid": "0cc76b0cdd5c3af469093da32693b47c",
+    "title": "Reglement über die Benutzung von Raupenfahrzeugen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "743.2": {
+    "version_uid": "8eab0b867171de74a1d81108a42f5194",
+    "title": "Konkordat über die nicht eidgenössisch konzessionierten Luftseilbahnen und Skilifte",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:05"
+  },
+  "743.20": {
+    "version_uid": "75684919f0dc33ea9454df1596f95083",
+    "title": "Verordnung betreffend den Bau und den Betrieb von nicht eidgenössisch konzessionierten Luftseilbahnen und Skiliften",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:06"
+  },
+  "746.10": {
+    "version_uid": "3708ce5fd1d8d216370fd89b83a506e7",
+    "title": "Beschluss betreffend Rohrleitungsanlagen zur Beförderung flüssiger oder gasförmiger Brenn- oder Treibstoffe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:06"
+  },
+  "747.2": {
+    "version_uid": "196c3d7ff10ba947ea278a1943648bf3",
+    "title": "Gesetz betreffend die Anwendung des Bundesgesetzes über die Binnenschiffahrt und das Abkommen zwischen dem Schweizerischen Bundesrat und der Regierung der Französischen Republik betreffend die Schiffahrt auf dem Genfersee",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:06"
+  },
+  "747.201": {
+    "version_uid": "0280a9f3d92107377c1519facea41a5a",
+    "title": "Reglement betreffend die motorisierte Vergnügungs-Schiffahrt auf den Walliser Wasserläufen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:06"
+  },
+  "747.202": {
+    "version_uid": "3edd47462eda91877bd2bc4539d8d0c1",
+    "title": "Reglement über das Verbot der Schifffahrt auf der Rhone (RSchiffRhone)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:06"
+  },
+  "747.204": {
+    "version_uid": "7a7f8f2854818af401ebcb1d688a8c19",
+    "title": "Reglement über den Tarif der Gebühren und Kosten in der Binnenschifffahrt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:06"
+  },
+  "748.100": {
+    "version_uid": "6146e367c6de54ceed72862e634794ed",
+    "title": "Ausführungsreglement zum Bundesgesetz über die Luftfahrt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:06"
+  },
+  "748.101": {
+    "version_uid": "345b174bb5b42908cfb50f1743a45b2a",
+    "title": "Verordnung über die Aufhebung der Sicherungsbeschlagnahme von Luftfahrzeugen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:06"
+  },
+  "800.1": {
+    "version_uid": "b209cf8c85bc236c2b9255017d7cbc5c",
+    "title": "Gesundheitsgesetz (GG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:07"
+  },
+  "800.6": {
+    "version_uid": "380248aa2acb149c7e1e9b1d7a219feb",
+    "title": "Interkantonalen Vereinbarung über die Digitalisierung des Gesundheitswesens",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:07"
+  },
+  "800.9": {
+    "version_uid": "e1fb5fd3bb301aae55685a3dbf045648",
+    "title": "Interkantonale Vereinbarung über die hochspezialisierte Medizin (IVHSM)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:07"
+  },
+  "800.10": {
+    "version_uid": "a5e1ca97b7f00ac19247be87028ecc8c",
+    "title": "Gesetz über die Krankenanstalten und -institutionen (GKAI)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:07"
+  },
+  "800.15": {
+    "version_uid": "591b08f4821baee18f25c35802cf4d0e",
+    "title": "Verordnung über die Lohn- und die Sozialbedingungen sowie über die berufliche Vorsorge des Personals der psychiatrischen Institutionen des französischsprachigen Wallis und des Walliser Zentrums für Pneumologie (kantonale Krankenanstalten)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:07"
+  },
+  "800.16": {
+    "version_uid": "d02b5bcaa960ed6b83aee8764b41f602",
+    "title": "Verordnung zur Übertragung der Infrastrukturen der Spitäler",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:07"
+  },
+  "800.100": {
+    "version_uid": "b3ba34379a61c1d598f2bb002b81c7a3",
+    "title": "Verordnung über das Spital Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:07"
+  },
+  "800.101": {
+    "version_uid": "858dcc01b8df5378a28e537739847b35",
+    "title": "Verordnung über die Zusammensetzung des Spital Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:07"
+  },
+  "800.102": {
+    "version_uid": "ee524f7f10ea3f8a4de5500f2f855685",
+    "title": "Verordnung über die Ombudsstelle für das Gesundheitswesen und die sozialen Institutionen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:07"
+  },
+  "800.104": {
+    "version_uid": "c6ac2b0b38ffcf740d2aabfd59e2d3a2",
+    "title": "Beschluss betreffend die beim Vollzug des Gesundheitsgesetzes anfallenden Kosten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "800.200": {
+    "version_uid": "47338b840cfb3e4cafa3af18b5a41b8d",
+    "title": "Verordnung über den Gesundheits- und Ethikrat",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "800.300": {
+    "version_uid": "cfefae441325dac0808a880371665b07",
+    "title": "Verordnung über die Versorgungsqualität und Patientensicherheit (VVQPS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "800.400": {
+    "version_uid": "2d5258950fc76eac4e71fa18c572fd37",
+    "title": "Verordnung über die Regulierung der medizinisch-technischen Grossgeräte",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "800.500": {
+    "version_uid": "b6943a34f096814a3951618a9b0637c3",
+    "title": "Verordnung über Massnahmen zur Einschränkung der Bewegungsfreiheit in Gesundheitsinstitutionen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "801.20": {
+    "version_uid": "c7c2f27d3ec7c4d0270a9996df214851",
+    "title": "Verordnung über die Strukturen der psychischen Gesundheit im Kanton Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "801.100": {
+    "version_uid": "40c254c124a6b00fcdddb60a199ebc5c",
+    "title": "Verordnung über die Gesundheitsförderung und die Verhütung von nichtübertragbaren Krankheiten und Unfällen (VVGF)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "801.110": {
+    "version_uid": "76982532261ab68b27187ba55fafceb0",
+    "title": "Beschluss zur Festlegung des Spezialgebührentarifs für die Gesundheitsförderung und die Verhütung von Krankheiten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "801.120": {
+    "version_uid": "db9791dac1c4b9b52e42430f8a4f13cc",
+    "title": "Verordnung über den schulärztlichen Dienst",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "805.1": {
+    "version_uid": "485d3b259523d5cbbb6adcbf34a03264",
+    "title": "Gesetz über die Langzeitpflege (GLP)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:08"
+  },
+  "805.2": {
+    "version_uid": "477b64ddac37ce546483c582fb1d7fb4",
+    "title": "Gesetz über die Palliative Care und die Rahmenbedingungen für Beihilfe zum Suizid in Institutionen und Einrichtungen (GPCBSIE)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:09"
+  },
+  "805.10": {
+    "version_uid": "ab2f6e443d796a18e58ea01a5a33e550",
+    "title": "Verordnung über die Planung und die Finanzierung der Langzeitpflege",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:09"
+  },
+  "805.110": {
+    "version_uid": "5de992d5f8421c17a1325420b3c8ba4e",
+    "title": "Beschluss über die Festsetzung der fakturierbaren Kosten und der Restbeiträge der öffentlichen Hand für die Alters- und Pflegeheime, die Wartebetten in den Spitälern und die Hospize für Palliative Care",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:09"
+  },
+  "805.120": {
+    "version_uid": "7ed5246e4421439a0c1fceb44650d1fc",
+    "title": "Beschluss über die Festsetzung der fakturierbaren Kosten und der Restbeiträge der öffentlichen Hand für die Tages- oder Nachtpflegestrukturen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:09"
+  },
+  "805.130": {
+    "version_uid": "f8a8f58575614152c85353b66c325c87",
+    "title": "Beschluss über die Festsetzung der fakturierbaren Kosten und der Restbeiträge der öffentlichen Hand für die Organisationen der Pflege und Hilfe zu Hause und die selbstständigen Pflegefachpersonen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:10"
+  },
+  "810.8": {
+    "version_uid": "7ed78d6b17ab234b8cc308595d3d12fb",
+    "title": "Gesetz über die Organisation des sanitätsdienstlichen Rettungswesens (GOSR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:10"
+  },
+  "810.10": {
+    "version_uid": "f1bb1c47760b1b62f2562e90cd64fa5c",
+    "title": "Verordnung über die Gesundheitsplanung und die Subventionierung der Krankenanstalten und -institutionen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:10"
+  },
+  "810.12": {
+    "version_uid": "d92b78fc18f97ea3025b606d57d68efb",
+    "title": "Verordnung über die Betriebsbewilligungen für Gesundheitsinstitutionen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:10"
+  },
+  "810.13": {
+    "version_uid": "3b7cf016bdaffaa14aa72602e73e84d9",
+    "title": "Verordnung über die ausserkantonalen Hospitalisierungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:10"
+  },
+  "810.20": {
+    "version_uid": "0dc0e65b61b7cd8f34b6e48cb44d41ed",
+    "title": "Verordnung über die Spitalplanung und Spitalfinanzierung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:10"
+  },
+  "810.40": {
+    "version_uid": "59ff7135259657ff84bc359315302cde",
+    "title": "Verordnung über das Walliser Gesundheitsobservatorium",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:10"
+  },
+  "810.41": {
+    "version_uid": "dedb14e23080647eb4b16f2dc543c2ab",
+    "title": "Verordnung über die kantonale Gesundheitsstatistik",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:10"
+  },
+  "810.800": {
+    "version_uid": "eb846ad1f4cf142699adfa8d2135e926",
+    "title": "Verordnung über die Organisation des sanitätsdienstlichen Rettungswesens",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:11"
+  },
+  "811.3": {
+    "version_uid": "17cda58eeeefe57ba890e3c52554ecb3",
+    "title": "Gesetz über die Bereitstellung von Praktikums- und Ausbildungsplätzen für nichtuniversitäre Gesundheitsberufe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:11"
+  },
+  "811.5": {
+    "version_uid": "2127366c6b468cf0b290e42a84a37d88",
+    "title": "Interkantonale Vereinbarung über die kantonalen Beiträge an die Spitäler zur Finanzierung der ärztlichen Weiterbildung und deren Ausgleich unter den Kantonen (Weiterbildungsfinanzierungsvereinbarung, WFV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:11"
+  },
+  "811.100": {
+    "version_uid": "aaf9bcf438a25d9b8a727689cd72cdad",
+    "title": "Verordnung über die Ausübung der Gesundheitsberufe (VAG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:11"
+  },
+  "811.102": {
+    "version_uid": "22d7ab8f06e4f0b49370737cbd9eb257",
+    "title": "Verordnung über die Beaufsichtigung der Gesundheitsberufe (VBGB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:11"
+  },
+  "811.104": {
+    "version_uid": "d22ff3421c017b434c22f0588f59f89a",
+    "title": "Reglement zur obligatorischen Fortbildung für Gesundheitsfachleute",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:11"
+  },
+  "811.110": {
+    "version_uid": "cb652a05e64f4ee8cf6ef05e598e6bc4",
+    "title": "Beschluss über die Befugnisse von Bezirksärztinnen und Bezirksärzten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:11"
+  },
+  "811.200": {
+    "version_uid": "93794a2302c1316248887be48f7526e1",
+    "title": "Verordnung über die vom Staat delegierten Tätigkeiten im Gesundheitswesen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:11"
+  },
+  "811.300": {
+    "version_uid": "46cc0c71038914194701dd863a927ade",
+    "title": "Verordnung über die Bereitstellung von Praktikums- und Ausbildungsplätzen für nichtuniversitäre Gesundheitsberufe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:11"
+  },
+  "811.900": {
+    "version_uid": "1ae53dc77772869890686c1278ea270e",
+    "title": "Reglement der Schweizerischen Konferenz der kantonalen Gesundheitsdirektorinnen und -direktoren (GDK) über die Gebühren für die interkantonale Prüfung der Osteopathinnen und Osteopathen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:12"
+  },
+  "812.200": {
+    "version_uid": "3b34daa135af00a4cf9d90faa4c877b9",
+    "title": "Heilmittelverordnung (HMV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:12"
+  },
+  "813.2": {
+    "version_uid": "f2a87638d589b57c181b6c64b36e4e2b",
+    "title": "Interkantonale Vereinbarung über das Spital Riviera-Chablais Waadt-Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:12"
+  },
+  "813.5": {
+    "version_uid": "d96118cf4883e3c7aa7c7ae91670c221",
+    "title": "Veterinärgesetz",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:12"
+  },
+  "813.10": {
+    "version_uid": "d3ee7df4e9ccbc5f221d477a352e21af",
+    "title": "Ausführungsgesetz zum Bundesgesetz über den Schutz vor gefährlichen Stoffen und Zubereitungen (Chemikaliengesetz, AGChem)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:12"
+  },
+  "813.200": {
+    "version_uid": "ac9a700634a196c37a63a84807db77b8",
+    "title": "Anwendungsreglement zur interkantonalen Vereinbarung über das Spital Riviera-Chablais Waadt-Wallis betreffend den Betrieb des Spitals vom 17. Dezember 2008",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:12"
+  },
+  "813.300": {
+    "version_uid": "272bada8572741c184067bb1c98d3c69",
+    "title": "Anwendungsbeschluss zur interkantonalen Vereinbarung vom 17. Dezember 2008 über das Spital Riviera-Chablais Waadt-Wallis betreffend den Bau im Standort von Rennaz",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:12"
+  },
+  "814.1": {
+    "version_uid": "65435ce9fb3cee5f34068dce54ac96b4",
+    "title": "Gesetz über den Umweltschutz (kUSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:12"
+  },
+  "814.3": {
+    "version_uid": "ea8f57658c8b3448bb2b6636dccf507a",
+    "title": "Kantonales Gewässerschutzgesetz (kGSchG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:12"
+  },
+  "814.7": {
+    "version_uid": "a1117c497c5a272a21c1e0e4237c3d2d",
+    "title": "Ausführungsgesetz zum Bundesgesetz über den Schutz vor Gefährdungen durch nichtionisierende Strahlung und Schall (AGNISSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:13"
+  },
+  "814.100": {
+    "version_uid": "295fe815c0a0c2c35acc9274a0255e66",
+    "title": "Reglement über die Umweltverträglichkeitsprüfung (RUVP)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:13"
+  },
+  "814.101": {
+    "version_uid": "45805dd7ccde1a80f6a07b10d8370078",
+    "title": "Beschluss über die Anwendung der Bundesverordnung über den Schutz vor Störfällen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:13"
+  },
+  "814.102": {
+    "version_uid": "c228b669addd2cfe051df12b93b313f5",
+    "title": "Beschluss über das Abfallverbrennen im Freien",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:13"
+  },
+  "814.103": {
+    "version_uid": "45610bc3f21a734832b4067edbd7b207",
+    "title": "Beschluss über den Wintersmog",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:13"
+  },
+  "814.104": {
+    "version_uid": "21cdc263c7bb9dff84bbc1ed8089863c",
+    "title": "Beschluss über die Kostentarife für behördliche Leistungen im Umwelt- und Gewässerschutz",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:13"
+  },
+  "814.105": {
+    "version_uid": "31b85ae21c29d6a1da7f0d336e7e4694",
+    "title": "Reglement über die Bewirtschaftung des kantonalen Fonds für Voruntersuchungen von voraussichtlich belasteten Standorten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:13"
+  },
+  "814.106": {
+    "version_uid": "c372ce5415be5e9c22dacdee66fb115d",
+    "title": "Beschluss zum kantonalen Massnahmenplan zur Luftreinhaltung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:14"
+  },
+  "814.107": {
+    "version_uid": "ab3cd81aa4d4f9d24087c0ea9714bd5c",
+    "title": "Reglement über die Verwaltung des kantonalen Fonds für Ersatzvornahmen im Umweltschutzbereich",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:14"
+  },
+  "814.200": {
+    "version_uid": "4a171f90b0db0222ff4df7d330eb92a7",
+    "title": "Reglement betreffend das Verfahren über die Ausscheidung von Grundwasserschutzzonen und -arealen sowie von oberirdischen Gewässerschutzbereichen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:14"
+  },
+  "814.201": {
+    "version_uid": "e2e70eef003132b579c5a175cbdcd0a8",
+    "title": "Beschluss betreffend die Grundwasserschutzareale",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:14"
+  },
+  "814.206": {
+    "version_uid": "6a99583bcf8746f8e8650be2571badf0",
+    "title": "Beschluss betreffend die Kies- und Sandausbeutung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:14"
+  },
+  "814.700": {
+    "version_uid": "88b9817785eecc6431c48866c2f21646",
+    "title": "Verordnung zum Ausführungsgesetz zum Bundesgesetz über den Schutz vor Gefährdungen durch nichtionisierende Strahlung und Schall (VAGNISSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:14"
+  },
+  "817.1": {
+    "version_uid": "05f7b0db04bedb0b930a82cb5429c574",
+    "title": "Gesetz betreffend die Anwendung des Bundesgesetzes über Lebensmittel und Gebrauchsgegenstände",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:14"
+  },
+  "817.101": {
+    "version_uid": "c53ebbf9f8a7754375b7441ff31a969f",
+    "title": "Verordnung über die Trinkwasserversorgungsanlagen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:14"
+  },
+  "818.100": {
+    "version_uid": "b41aea534c2da1c304436018c49a1cbe",
+    "title": "Verordnung über die Bekämpfung von übertragbaren Krankheiten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:14"
+  },
+  "818.120": {
+    "version_uid": "39da3dcca22e746e04bcdb13cf1fea97",
+    "title": "Verordnung über den Schutz der Bevölkerung vor Passivrauchen und das Verbot von Werbung für Tabakprodukte, E-Zigaretten, Vaporizer, legalen Cannabis, Nikotinprodukte und andere Rauchwaren (Verordnung Passivrauchen, PRV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:15"
+  },
+  "818.400": {
+    "version_uid": "7f3f92c2041bb78f895f140ac9efefd9",
+    "title": "Verordnung über die Todesfeststellung und den Umgang mit Leichen (VTF)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:15"
+  },
+  "822.1": {
+    "version_uid": "ef7b651b76300a2b07468247b468568f",
+    "title": "Kantonales Arbeitsgesetz (kArG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:15"
+  },
+  "822.2": {
+    "version_uid": "c7d2f64966bc1944daae34b407320028",
+    "title": "Gesetz über die Ruhe an Sonn- und Feiertagen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:15"
+  },
+  "822.20": {
+    "version_uid": "60ead0d4be7fdd8ae85ecbb373f5109b",
+    "title": "Gesetz betreffend die Ladenöffnung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:15"
+  },
+  "822.100": {
+    "version_uid": "6c2b8277ba8c9e563dbcc41a3d8acf19",
+    "title": "Verordnung zum kantonalen Arbeitsgesetz (VEkArG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:15"
+  },
+  "822.103": {
+    "version_uid": "a8a55e4eede1c2dbf6e61104c29b3b98",
+    "title": "Beschluss betreffend die Entschädigungen an die Mitglieder des Arbeitsgerichtes und der Kantonalen Schlichtungskommission für Streitigkeiten nach dem Bundesgesetz über die Gleichstellung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:15"
+  },
+  "822.106": {
+    "version_uid": "a7ed0ee273e61ad041d8c20cee83d795",
+    "title": "Reglement über die Verleihung des Berufsausweises für Baumaschinenführer (RBB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:15"
+  },
+  "822.200": {
+    "version_uid": "10e594a9d77ba69d56a9753fa0bf3541",
+    "title": "Ausführungsreglement zum Gesetze über die Sonn- und Feiertagsruhe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:16"
+  },
+  "822.201": {
+    "version_uid": "b1266329a8c9ee54392d53dc9218fbb4",
+    "title": "Reglement über die Ladenöffnung (RLÖ)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:16"
+  },
+  "823.1": {
+    "version_uid": "681224ce20cc29356f749eb1a2c2b8a3",
+    "title": "Ausführungsgesetz zum Entsendegesetz und zum Bundesgesetz gegen die Schwarzarbeit (AGEntsGBGSA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:16"
+  },
+  "823.100": {
+    "version_uid": "272a20c6c2786739ad9289b533d5b4aa",
+    "title": "Verordnung zum Ausführungsgesetz zum Entsendegesetz und zum Bundesgesetz gegen die Schwarzarbeit",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:16"
+  },
+  "823.102": {
+    "version_uid": "bd39896b09468f67396a772709b8b35f",
+    "title": "Verordnung über das individuelle Kontrollinstrument (VIKI)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:16"
+  },
+  "831.1": {
+    "version_uid": "ec327a20a6190de3c8b9d594b10c096d",
+    "title": "Ausführungsgesetz zum Bundesgesetz über die Alters- und Hinterlassenenversicherung (AGAHVG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:16"
+  },
+  "831.2": {
+    "version_uid": "7dc0b74124bc658d884764cad13f3d2b",
+    "title": "Gesetz welches die Anwendung des Bundesgesetzes über die Invalidenversicherung regelt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:16"
+  },
+  "831.3": {
+    "version_uid": "4073535d60d9a2124769acbf84842cba",
+    "title": "Ausführungsgesetz zum Bundesgesetz über Ergänzungsleistungen zur AHV/IV (AGELG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:16"
+  },
+  "831.4": {
+    "version_uid": "43670e5e91b58dbfb135093e1c523fa9",
+    "title": "Konkordat über die Schaffung und den Betrieb der Westschweizer BVG- und Stiftungsaufsichtsbehörde",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:17"
+  },
+  "831.103": {
+    "version_uid": "91cadfe732584adac7e1cc8262a71a76",
+    "title": "Reglement betreffend die Ausgleichskasse des Kantons Wallis und die AHV-Zweigstellen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:17"
+  },
+  "831.300": {
+    "version_uid": "00c702e5fc8591df1f2f508d1c350204",
+    "title": "Reglement über die Ergänzungsleistungen zur AHV/IV (ELR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:17"
+  },
+  "831.305": {
+    "version_uid": "2dd144b7a3b1a9a88cd46730344a47ca",
+    "title": "Reglement über die Vergütung von Krankheits- und Behinderungskosten bei den Ergänzungsleistungen (RKEL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:17"
+  },
+  "832.001": {
+    "version_uid": "90300e85254e044c4cf206fb049bdd17",
+    "title": "Ausführungsverordnung über die Beschränkung der Zulassung von Ärzten zur Abrechnung zu Lasten der obligatorischen Krankenpflegeversicherung (AZBAV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:17"
+  },
+  "832.1": {
+    "version_uid": "ee18ec5729173236d91511c260aa51ed",
+    "title": "Gesetz über die Krankenversicherung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:17"
+  },
+  "832.100": {
+    "version_uid": "af1b1153b76436d2b72667b579d4f970",
+    "title": "Verordnung zur Bezeichnung der Behörden und Verfahren im Krankenversicherungswesen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:17"
+  },
+  "832.101": {
+    "version_uid": "fc1a4153400aa0cd44df1413d19f484e",
+    "title": "Verordnung über den kantonalen Krankenversicherungs-Hilfsfonds",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:17"
+  },
+  "832.102": {
+    "version_uid": "35043778fd33568e17ba810439812097",
+    "title": "Reglement betreffend Zusammensetzung, Organisation und Verfahren des Schiedsgerichtes gemäss Artikel 25 KUVG",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:17"
+  },
+  "832.105": {
+    "version_uid": "7ab0061ce22bad30df733e57bb16db58",
+    "title": "Verordnung über die obligatorische Krankenversicherung und die individuellen Prämienverbilligungen (VüIPV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:18"
+  },
+  "832.106": {
+    "version_uid": "04976cd37acdda864105dd0bbee320c2",
+    "title": "Beschluss betreffend die obligatorische Aufnahme in die Krankenversicherung gewisser Kategorien von Ausländern",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:18"
+  },
+  "832.110": {
+    "version_uid": "846c2969476f0002c624c0500b6ba3a6",
+    "title": "Beschluss zur Festlegung des kantonalen Anteils an Spitalleistungen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:18"
+  },
+  "832.310": {
+    "version_uid": "bfaed8ae409f993d611c0b36b2d82696",
+    "title": "Beschluss betreffend Durchführung der Bundesvorschriften über die Gewichtsbezeichnung an schweren, zur Verschiffung bestimmten Frachtstücken",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:18"
+  },
+  "836.1": {
+    "version_uid": "cd6dbd1043b7c136ddec255b1d652b52",
+    "title": "Ausführungsgesetz zum Bundesgesetz über die Familienzulagen (AGFamZG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:18"
+  },
+  "836.100": {
+    "version_uid": "2d97074acfa3a059a7abc93a416ae269",
+    "title": "Kantonale Verordnung über die Familienzulagen (kFamZV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:18"
+  },
+  "836.101": {
+    "version_uid": "f779f61ae910dc4634eb027641cf02a2",
+    "title": "Kantonale Verordnung über die Anpassung der Beträge der Familienzulagen an die Teuerung (kFamTZV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:18"
+  },
+  "837.1": {
+    "version_uid": "a957485ea00883e448888f65e3ce3759",
+    "title": "Gesetz über die Beschäftigung und die Massnahmen zugunsten von Arbeitslosen (BMAG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:18"
+  },
+  "837.100": {
+    "version_uid": "7861f5a4e054038153043ba30311b751",
+    "title": "Reglement, über die Beschäftigung und die Massnahmen zugunsten von Arbeitslosen (BMAR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "837.101": {
+    "version_uid": "482ea484ec45af2d42ec34d72a1d0602",
+    "title": "Reglement über die Organisation und die Führung der öffentlichen Arbeitslosenkasse",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "837.107": {
+    "version_uid": "27b9a050ef613ee771e94fee62aae343",
+    "title": "Reglement über die Gebühren betreffend das Bundesgesetz über die Arbeitsvermittlung und den Personalverleih",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "837.108": {
+    "version_uid": "08116576565dfdccc80d0e5e5c8ed8d6",
+    "title": "Beschluss über den Lohn der Teilnehmenden an einem qualifizierenden Programm (QP), das im Gesetz über die Beschäftigung und die Massnahmen zugunsten von Arbeitslosen (BMAG) vorgesehen ist",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "837.109": {
+    "version_uid": "fdd3e454c0e7234c69698744119aa15b",
+    "title": "Beschluss über die Beteiligung des kantonalen Beschäftigungsfonds und des Arbeitgebers an den kantonalen Berufspraktika, die vom Gesetz über die Beschäftigung und die Massnahmen zugunsten von Arbeitslosen (BMAG) vorgesehen sind",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "841.1": {
+    "version_uid": "64775d202754d848784ee166edc3ca22",
+    "title": "Gesetz über das Wohnungswesen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "841.100": {
+    "version_uid": "5f5872033980ddafcd32a7052f881522",
+    "title": "Ausführungsreglement zum Gesetz über das Wohnungswesen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "841.102": {
+    "version_uid": "4b045e2fdcab2ac7beb47d43b253d4bb",
+    "title": "Beschluss welcher die Einkommens- und Vermögensgrenzen in Sachen Wohnungsbeiträge festsetzt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "841.104": {
+    "version_uid": "adf14b116e47a7fc5010b39f4a8a84f3",
+    "title": "Beschluss zur Festsetzung der Gebühren in der Wohnbauförderung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "841.120": {
+    "version_uid": "56ba08ddaf3a5cb671686e336121607f",
+    "title": "Beschluss über die Wohnbauhilfe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:19"
+  },
+  "850.1": {
+    "version_uid": "62d4d9d0ee7a507bec906a821b9b2ec9",
+    "title": "Gesetz über die Eingliederung und die Sozialhilfe (GES)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:20"
+  },
+  "850.2": {
+    "version_uid": "9f424891b5de13e75d18442d88bfbd23",
+    "title": "Gesetz über die Harmonisierung der Finanzierung der Sozialsysteme sowie der Systeme für die soziale und berufliche Eingliederung (HarmG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:20"
+  },
+  "850.3": {
+    "version_uid": "90c0037c7cb478da3bbd71b9960475be",
+    "title": "Gesetz über das Inkasso und die Bevorschussung von Unterhaltsbeiträgen (GIBU)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:20"
+  },
+  "850.4": {
+    "version_uid": "2b702b331a515b3ff6b529eb1441ba36",
+    "title": "Jugendgesetz (JG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:20"
+  },
+  "850.6": {
+    "version_uid": "2741305b224c96a01747d16b1ff3b667",
+    "title": "Gesetz über die Rechte und die Inklusion von Menschen mit Behinderungen (GRIMB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:22"
+  },
+  "850.9": {
+    "version_uid": "b98e424c72dc8d2e2b962ab45915e95a",
+    "title": "Interkantonale Vereinbarung für soziale Einrichtungen (IVSE)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:22"
+  },
+  "850.60": {
+    "version_uid": "91c6bc15c9b214cdcbd43539d3c57224",
+    "title": "Verordnung über die Rechte und die Inklusion von Menschen mit Behinderungen (VRIMB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:22"
+  },
+  "850.100": {
+    "version_uid": "634b2a9cb9d844a8c387e9803d6f1da4",
+    "title": "Verordnung über die Eingliederung und die Sozialhilfe (VES)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:22"
+  },
+  "850.101": {
+    "version_uid": "d2c938ba21a415d5cd113769b787ab56",
+    "title": "Reglement über die Verwendung des Fonds für die soziale und berufliche Integration (RFSBI)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:23"
+  },
+  "850.110": {
+    "version_uid": "7d3b28f924d2ef08eec86a9b27d0fc18",
+    "title": "Beschluss über die Betreuung von Personen aus dem Asylbereich im Kanton Wallis",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:23"
+  },
+  "850.200": {
+    "version_uid": "e1465d00fffbfea42e6da90a51db2226",
+    "title": "Reglement über die Harmonisierung der Finanzierung der Sozialsysteme sowie der Systeme für die soziale und berufliche Eingliederung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:23"
+  },
+  "850.301": {
+    "version_uid": "46921dc4df62964d5477dda9b33e0f10",
+    "title": "Verordnung über das Inkasso und die Bevorschussung von Unterhaltsbeiträgen (VIBU)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:23"
+  },
+  "850.400": {
+    "version_uid": "856b5ce29724b2b7015be098e3e07156",
+    "title": "Verordnung betreffend verschiedene Einrichtungen für die Jugend (VJ)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:23"
+  },
+  "850.402": {
+    "version_uid": "28b0e7d22aebff660279b1df6a6818de",
+    "title": "Reglement über die verschiedenen Einrichtungen für die Jugend (RüvEJ)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:23"
+  },
+  "850.404": {
+    "version_uid": "d9a68f480f63951926aaa403b85f45a6",
+    "title": "Beschluss über die Festlegung der Gebühren der kantonalen Dienststelle für die Jugend",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "850.600": {
+    "version_uid": "e3e37e46696e18a4918e450a636dba47",
+    "title": "Reglement betreffend die Gewährung von Investitionsbeiträgen aufgrund des Gesetzes über die Eingliederung behinderter Menschen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "850.610": {
+    "version_uid": "caba7d37b67b485c053c646dd619cdd5",
+    "title": "Verordnung über die Organisation und den Betrieb von La Castalie",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "857.1": {
+    "version_uid": "d80d8dae61bca94611b72e0837e71600",
+    "title": "Gesetz über die Vollziehung des Bundesgesetzes über die Schwangerschaftsberatungsstellen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "857.100": {
+    "version_uid": "9368f8fedd310fbbb8ce1ec54c72356a",
+    "title": "Reglement über den Vollzug der eidgenössischen und kantonalen Gesetzgebung über die Schwangerschaftsberatungsstellen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "900.1": {
+    "version_uid": "d5426ef5f19e42f0c73de9c13461d56e",
+    "title": "Gesetz über die kantonale Wirtschaftspolitik (GkWPol)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "900.2": {
+    "version_uid": "83feb628dabc38f0524d42d794d20945",
+    "title": "Gesetz über die Verwaltungs- und Betriebsgesellschaft des Innovationsparks Campus Energypolis (GIP)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "900.101": {
+    "version_uid": "caeff722282e5e2eb4efda09f32c7d06",
+    "title": "Verordnung über die kantonale Wirtschaftspolitik (VkWPol)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "900.110": {
+    "version_uid": "8962a1de5d779f065d5c13e6f21b4285",
+    "title": "Dekret über die Gewährung von ausserordentlichen Massnahmen für Wirtschaftsakteure, die von unvorhersehbaren exogenen Grossereignissen betroffen sind",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "900.120": {
+    "version_uid": "477a4ed71a5e8cc8b9c78952ec82964a",
+    "title": "Reglement über die Gewährung von ausserordentlichen Massnahmen für Wirtschaftsakteure, die von unvorhersehbaren exogenen Grossereignissen betroffen sind (RGaM)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:24"
+  },
+  "900.150": {
+    "version_uid": "7cc1bac87d7f621d1f48dfcf2257077f",
+    "title": "Verordnung über die Schaffung der Walliser Gesellschaft zur Standortpromotion",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:25"
+  },
+  "901.1": {
+    "version_uid": "06ce208d50fa36d75d8479f3c53811f3",
+    "title": "Gesetz über die Regionalpolitik",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:25"
+  },
+  "901.100": {
+    "version_uid": "d036bb0372714f2abdbb56dc9a56eeec",
+    "title": "Verordnung zum Gesetz über die Regionalpolitik",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:25"
+  },
+  "902.1": {
+    "version_uid": "d37556c8b7b4b514ec12d67568919b68",
+    "title": "Gesetz zur Förderung der Bergbahnen (GFBB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:25"
+  },
+  "902.100": {
+    "version_uid": "ec5638beb8efefb7998de0a600cdc074",
+    "title": "Verordnung zum Gesetz zur Förderung der Bergbahnen (VGFBB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:25"
+  },
+  "902.110": {
+    "version_uid": "0d517c1e4c99242262f450145501bd20",
+    "title": "Reglement über den Kantonalen Bergbahnfonds",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:25"
+  },
+  "910.1": {
+    "version_uid": "cf63a97a8c0171edad3ca59670153de4",
+    "title": "Gesetz über die Landwirtschaft und die Entwicklung des ländlichen Raumes (Landwirtschaftsgesetz, kLwG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:25"
+  },
+  "910.100": {
+    "version_uid": "14a9a62acc4368e38010f1d7b5f8a157",
+    "title": "Verordnung über die Landwirtschaft und die Entwicklung des ländlichen Raumes (kVLw)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:26"
+  },
+  "910.102": {
+    "version_uid": "4256022d8330ce64b1bcd6a3e65f6fee",
+    "title": "Verordnung über die Modernisierung, Anpassung und Aufwertung des Walliser Weinbaugebiets (VMAAW)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:26"
+  },
+  "910.103": {
+    "version_uid": "a37a375bde292e9ad6a3dc7fe22342f2",
+    "title": "Reglement zur Festlegung des Tarifs der kantonalen Leistungen in Sachen Landwirtschaft (RTLSL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:26"
+  },
+  "910.105": {
+    "version_uid": "25581805ac1f8b0ba7cdc8f3e894b379",
+    "title": "Beschluss betreffend die Entschädigungen an die Mitglieder der kantonalen Rekurskommission für den Bereich Landwirtschaft und Landumlegung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:26"
+  },
+  "910.110": {
+    "version_uid": "86615af4201b6dee15bba8a644079cff",
+    "title": "Reglement über die Spezialfinanzierung für meteorologische oder phytosanitäre Risiken im Bereich der Landwirtschaft (RSFRL)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:26"
+  },
+  "916.4": {
+    "version_uid": "c897cefd3ae7a50159d95dca20940ee7",
+    "title": "Ausführungsgesetz zum eidgenössischen Tierseuchengesetz",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:26"
+  },
+  "916.120": {
+    "version_uid": "b788eec93eb3e6f2de610c064c76788f",
+    "title": "Dekret über die Blockierung-Finanzierung im Walliser Weinbau",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:26"
+  },
+  "916.142": {
+    "version_uid": "49c79f27cafc6f1b7ba7bbd421f7274e",
+    "title": "Verordnung über den Rebbau und den Wein (VRW)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:27"
+  },
+  "916.148": {
+    "version_uid": "5bfd2c154c78920cd0d1b8733fb2bab7",
+    "title": "Verordnung über die Echtheit der Walliser Rebpflanzen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:27"
+  },
+  "916.340": {
+    "version_uid": "2b5522677c71b2f7b6a380ed38278ac3",
+    "title": "Verordnung über den Vollzug der Bundesgesetzgebung über das Schlachten und die Fleischkontrolle",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:27"
+  },
+  "916.400": {
+    "version_uid": "6d9f32b6fe44cea326f1d688cb5212ac",
+    "title": "Verordnung über die Entsorgung tierischer Nebenprodukte",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:27"
+  },
+  "916.403": {
+    "version_uid": "4010abf4a3232dd0805edf15b9393921",
+    "title": "Beschluss über die Interventionsmannschaft in Fällen hochansteckender Seuchen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:27"
+  },
+  "916.472": {
+    "version_uid": "a3f21035e50c12ba2b977bae0c3ebce7",
+    "title": "Reglement über die Kosten und Entschädigungen im Bereich Veterinärwesen (Reglement über die Kosten im Veterinärwesen, RKv)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:27"
+  },
+  "916.500": {
+    "version_uid": "a111d867a6aadfbdceb552ba7f99db22",
+    "title": "Beschluss über die Sömmerung 2025",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:27"
+  },
+  "921.1": {
+    "version_uid": "2e50f40232e772a8e8d3adbc51478c61",
+    "title": "Gesetz über den Wald (kWaG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:28"
+  },
+  "921.100": {
+    "version_uid": "0c9010177a7273475dbef28a30b1606b",
+    "title": "Verordnung über den Wald (kWaV)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:28"
+  },
+  "921.150": {
+    "version_uid": "db0a03f3fe378ca47f2049a0a275025d",
+    "title": "Reglement betreffend die Funktion und die Aufgaben des Revierförsters",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:28"
+  },
+  "921.151": {
+    "version_uid": "59000a710bbc55e107ca5849596c7401",
+    "title": "Beschluss über den Tarif für Leistungen der Dienststelle für Wald und Landschaft bei der Oberbauleitung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:28"
+  },
+  "922.1": {
+    "version_uid": "ae18d79104f5464a7d02190c78284a28",
+    "title": "Gesetz über die Jagd und den Schutz wildlebender Säugetiere und Vögel (Jagdgesetz, kJSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:28"
+  },
+  "922.100": {
+    "version_uid": "7714a3908dc798d57898451a952491d4",
+    "title": "Ausführungsreglement zum Jagdgesetz (ReKJSG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:28"
+  },
+  "922.110": {
+    "version_uid": "c4040ad09b3ce05994593ad66f442027",
+    "title": "Beschluss über die Ausübung der Jagd im Wallis 2025-2026",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:28"
+  },
+  "922.150": {
+    "version_uid": "ef76595d715da0f2a31fb2c157bf73b1",
+    "title": "Reglement über die Verwaltung und Verwendung des kantonalen Wildschadenfonds",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:29"
+  },
+  "923.1": {
+    "version_uid": "9d621385a8ab80a919b6b9a452372a57",
+    "title": "Kantonales Fischereigesetz (kFG)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:29"
+  },
+  "923.9": {
+    "version_uid": "c84baa4f9e4d931a98b2f17553dcd4cd",
+    "title": "Concordat sur la pêche dans le lac Léman (nur auf französisch)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:29"
+  },
+  "923.100": {
+    "version_uid": "8e5bd9c91f752416b2da0537643533a1",
+    "title": "Verordnung über die Fischerei (kVGF)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:29"
+  },
+  "923.150": {
+    "version_uid": "06fad6bc198c8008aa645fd7f826d56c",
+    "title": "Reglement über die Verwaltung und Verwendung des Fischereifonds",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:29"
+  },
+  "923.170": {
+    "version_uid": "ad447fe823f861d66c4aafcdf8afcc30",
+    "title": "5-Jahres-Beschluss über die Ausübung der Fischerei im Wallis für die Jahre 2024-2028",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:29"
+  },
+  "923.900": {
+    "version_uid": "7a2bac7d92cf2bcec67e7a948d16583a",
+    "title": "Règlement d'exécution du concordat intercantonal sur la pêche dans le lac Léman (nur auf französisch)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:29"
+  },
+  "930.1": {
+    "version_uid": "7445f41efcee2e315a00b9f3e94d51ef",
+    "title": "Gesetz über die Gewerbepolizei",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:29"
+  },
+  "930.100": {
+    "version_uid": "5a4213b325b1d7ac666b8419ce706d1b",
+    "title": "Verordnung betreffend das Gesetz über die Gewerbepolizei",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:30"
+  },
+  "931.1": {
+    "version_uid": "b771d0717ec0a5aca350b0aacb9006ac",
+    "title": "Gesetz über die Bergwerke und Steinbrüche",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:30"
+  },
+  "932.1": {
+    "version_uid": "bbdef9c88d244c676bdd199b6a5b3997",
+    "title": "Gesetz über die Prostitution (GPr)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:30"
+  },
+  "932.100": {
+    "version_uid": "83608ba8630be8de252f346214d04f42",
+    "title": "Verordnung über die Prostitution (VPr)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:30"
+  },
+  "935.51-1": {
+    "version_uid": "adf379ff7c8f6f7fb8299b0a527eb887",
+    "title": "Zusatzvereinbarung zur Interkantonalen Vereinbarung über die Aufsicht sowie die Bewilligung und Ertragsverwendung von interkantonal oder gesamtschweizerisch durchgeführten Lotterien und Wetten vom 07.01.2005",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:30"
+  },
+  "935.1": {
+    "version_uid": "8c5acc889529dc4f4651ce4975cbc51d",
+    "title": "Gesetz über den Tourismus",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:30"
+  },
+  "935.2": {
+    "version_uid": "e86af984206fcace9540c51a3e271f39",
+    "title": "Gesetz über das Bergführerwesen und Anbieten weiterer Risikoaktivitäten (GBR)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:30"
+  },
+  "935.3": {
+    "version_uid": "1ed75531c867e40e642dd3763bcc267a",
+    "title": "Gesetz über die Beherbergung, die Bewirtung und den Kleinhandel mit alkoholischen Getränken (GBB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:30"
+  },
+  "935.53": {
+    "version_uid": "1d4b34904347448a90aef84f3898a366",
+    "title": "Gesamtschweizerisches Geldspielkonkordat (GSK)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:31"
+  },
+  "935.54": {
+    "version_uid": "458de7b82c12fa4c97cebb5d222d157a",
+    "title": "Westschweizer Vereinbarung über Geldspiele (Convention romande sur les jeux d’argent, CORJA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:31"
+  },
+  "935.55": {
+    "version_uid": "f49003494787b83ab12f8c221dcdb4e6",
+    "title": "Ausführungsgesetz zum Bundesgesetz über Geldspiele (AGBGS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:31"
+  },
+  "935.100": {
+    "version_uid": "6b169ad00eb00dc62c556719efc7c38b",
+    "title": "Verordnung zum Gesetz über den Tourismus",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:31"
+  },
+  "935.101": {
+    "version_uid": "ba257fb72cc7237505f9e27b01ae2316",
+    "title": "Verordnung betreffend eine Befreiung von der Kurtaxe",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:31"
+  },
+  "935.102": {
+    "version_uid": "c1e349287f39798ffd62d48ee6c28aa0",
+    "title": "Reglement über den kantonalen Tourismusfonds",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:31"
+  },
+  "935.200": {
+    "version_uid": "4ece82dfc199a156f0d1c90ab5098c29",
+    "title": "Verordnung über das Bergführerwesen und das Anbieten weiterer Risikoaktivitäten (VBRA)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:31"
+  },
+  "935.300": {
+    "version_uid": "2e3420c55884ed2c37c2c93cfcf84db3",
+    "title": "Verordnung betreffend das Gesetz über die Beherbergung, die Bewirtung und den Kleinhandel mit alkoholischen Getränken (VBB)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:31"
+  },
+  "935.304": {
+    "version_uid": "62ea185b0d83c9044c6b62d2f46046a9",
+    "title": "Beschluss betreffend die Kosten der freiwilligen Vorbereitungskurse und der obligatorischen Prüfung im Bereich der Beherbergung und der Bewirtung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:31"
+  },
+  "935.505": {
+    "version_uid": "4a843a53bc175bffcda68f3162513581",
+    "title": "Verordnung betreffend der Verteilung der Gewinne aus Lotterien",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:32"
+  },
+  "935.506": {
+    "version_uid": "7c27e714b22cdca6562ea012bf192f68",
+    "title": "Reglement betreffend die jährliche Verteilung der dem Hilfsfonds des Staatsrates zugeteilten Gewinne der Loterie Romande",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:32"
+  },
+  "935.508": {
+    "version_uid": "2da6d3c6b891feef444a110c1c4cba5e",
+    "title": "Dekret über den Solidaritätsbeitrag für die Bevölkerung, die Unternehmen und die lokalen Vereine von Blatten im Zusammenhang mit dem Bergsturz vom 28. Mai 2025 (Dekret über die Soforthilfe für Blatten)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:32"
+  },
+  "935.509": {
+    "version_uid": "67fbcb402bbc2662c0683fdf5e0c5aed",
+    "title": "Reglement über den Solidaritätsbeitrag für die Bevölkerung, die Unternehmen und die lokalen Vereine von Blatten im Zusammenhang mit dem Bergsturz vom 28. Mai 2025 sowie die Bewilligung eines Nachtragskredits im Budget 2025 für die Auszahlung von 10 Millionen Franken Hilfsgeldern im Rahmen der Soforthilfe für Blatten (Reglement über die Soforthilfe von Blatten)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:32"
+  },
+  "935.510": {
+    "version_uid": "fbbeb2dde589d52c3c67e4c8520ed868",
+    "title": "Beitrittsdekret zur Zusatzvereinbarung zur Interkantonalen Vereinbarung über die Aufsicht sowie die Bewilligung und Ertragsverwendung von interkantonal oder gesamtschweizerisch durchgeführten Lotterien und Wetten",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:32"
+  },
+  "935.520": {
+    "version_uid": "1935fb86c67322570be3acc59f7709cc",
+    "title": "Verordnung betreffend die Verteilung des Anteils der Spielerträge aus dem Betrieb von Spielbanken",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:32"
+  },
+  "935.550": {
+    "version_uid": "bf008b775f9d8cd572222312ff359dd1",
+    "title": "Verordnung betreffend das Ausführungsgesetz zum Bundesgesetz über Geldspiele (VAGBGS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:32"
+  },
+  "935.700": {
+    "version_uid": "745cbda0ca978e9b344a5a1c4176d5df",
+    "title": "Reglement über den Sport-Fonds (RSF)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:32"
+  },
+  "935.701": {
+    "version_uid": "982fe8db7b2545c52e9419ac90bb0992",
+    "title": "Reglement betreffend die Verwendung des von der Loterie de la Suisse romande zur Verfügung gestellten Fonds, um den Betroffenen von nicht versicherbaren Schäden, hervorgerufen durch die Naturgewalten, eine Hilfe zu gewähren (RFnvS)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:32"
+  },
+  "935.703": {
+    "version_uid": "e10991901180ceea31ad0eb2e18a6118",
+    "title": "Reglement das die Unterstützungsmodalitäten von Subventionen des Sportfonds zugunsten Sportzentren mit nationalem Charakter regelt",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:33"
+  },
+  "941.2": {
+    "version_uid": "ca86b8004c6363cc8fbf9bde6d8a9522",
+    "title": "Ausführungsgesetz zum Bundesgesetz über das Messwesen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:33"
+  },
+  "941.4": {
+    "version_uid": "d7d7f295c268d5571c249a8a83c2dce8",
+    "title": "Vollziehungsverordnung zum Bundesgesetz über explosionsgefährliche Stoffe und zur Sprengstoffverordnung",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:33"
+  },
+  "941.200": {
+    "version_uid": "8671642102522d98365e05f211e86a57",
+    "title": "Verordnung betreffend das Ausführungsgesetz zum Bundesgesetz über das Messwesen",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:33"
+  },
+  "946.1": {
+    "version_uid": "9bb14926692cea77c92a1422b9021fad",
+    "title": "Interkantonale Vereinbarung zum Abbau technischer Handelshemmnisse (IVTH)",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:33"
+  },
+  "946.2": {
+    "version_uid": "38093fd5b179bc6db1ad33aa36c61a1c",
+    "title": "Gesetz betreffend die Anerkennung von Berufsausbildungen von Staatsangehörigen der Mitgliedsstaaten der Europäischen Union",
+    "lang": "de",
+    "synced_at": "2026-02-12T18:34:33"
+  }
+}

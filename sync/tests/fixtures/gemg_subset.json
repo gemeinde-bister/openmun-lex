@@ -1,0 +1,376 @@
+{
+  "text_of_law": {
+    "systematic_number": "175.1",
+    "title": "Gemeindegesetz",
+    "abbreviation": "GemG",
+    "date_of_decision": "2004-02-05",
+    "enactment": "2004-07-01",
+    "publication_enactment": "2023-01-01",
+    "version_uid": "3755d9213407ec27e6beb366118da90a",
+    "canonical_link": "https://lex.vs.ch/api/de/texts_of_law/175.1",
+    "text_of_law_dates_str": "vom 05.02.2004, in Kraft seit: 01.07.2004",
+    "text_of_law_type_id": 4,
+    "abrogated": false,
+    "abrogated_scheduled": false,
+    "abrogated_dates_str": null,
+    "pdf_link": "https://lex.vs.ch/api/de/versions/3103/pdf_file_with_annexes",
+    "old_versions": [
+      {
+        "id": 2863,
+        "structured_document_id": 9679,
+        "version_dates_str": "Version in Kraft von: 01.05.2021 bis: 31.12.2022 (Beschlussdatum: 15.09.2011)"
+      },
+      {
+        "id": 1664,
+        "structured_document_id": 1113,
+        "version_dates_str": "Version in Kraft von: 01.01.2012 bis: 30.04.2021 (Beschlussdatum: 15.09.2011)"
+      }
+    ],
+    "change_documents": [
+      {
+        "id": 551,
+        "number": "2021-026",
+        "document_title": "Gemeindegesetz (GemG)",
+        "date_of_decision_string": "????",
+        "date_of_publication_string": "19.03.2021",
+        "pdf_link": "https://lex.vs.ch/api/de/change_documents/file_dictionaries/1099/pdf_file",
+        "for_selected_version": false
+      }
+    ],
+    "selected_version": {
+      "id": 3103,
+      "version_dates_str": "Aktuelle Version in Kraft seit: 01.01.2023 (Beschlussdatum: 17.12.2020)",
+      "pdf_link_tol": "https://lex.vs.ch/api/de/versions/3103/pdf_file",
+      "pdf_link_tol_size": 783811,
+      "available_languages": [
+        {"language": {"id": 2, "iso639_1_code": "de", "name_native": "Deutsch"}},
+        {"language": {"id": 3, "iso639_1_code": "fr", "name_native": "Français"}}
+      ],
+      "materials": [
+        {
+          "id": 299,
+          "title": "Einführungsgesetz zum Schweizerischen Zivilgesetzbuch (EGZGB)",
+          "url": "https://lex.vs.ch/api/de/materials/599"
+        }
+      ],
+      "json_content": {
+        "document": {
+          "header": {
+            "de": "<h1 class='systematic_number'>\n  175.1\n</h1>\n<h1 class='title'>\n  Gemeindegesetz\n</h1>\n<h2 class='abbreviation'>\n  (GemG)\n</h2>\n<div class='enactment'>\n  vom 05.02.2004 (Stand 01.01.2023)\n</div>\n<div class='ingress_author'>\n  Der Grosse Rat des Kantons Wallis\n</div>\n<div class='ingress_foundation'>\n  <p>\n    eingesehen die Artikel 31 Absatz 1 Buchstabe a, 42 Absatz 1 und 75 Abs&auml;tze 3 und 4 der Kantonsverfassung;\n  </p>\n  <p>\n    auf Antrag des Staatsrates,\n  </p>\n</div>\n<div class='ingress_action'>\n  verordnet:\n</div>",
+            "fr": "<h1 class='systematic_number'>\n  175.1\n</h1>\n<h1 class='title'>\n  Loi<br />\n  sur les communes\n</h1>\n<h2 class='abbreviation'>\n  (LCo)\n</h2>\n<div class='enactment'>\n  du 05.02.2004 (&eacute;tat 01.01.2023)\n</div>\n<div class='ingress_author'>\n  Le Grand Conseil du canton du Valais\n</div>\n<div class='ingress_foundation'>\n  <p>\n    vu les articles 31 alin&eacute;a 1 lettre a, 42 alin&eacute;a 1 et 75 alin&eacute;as 3 et 4 de la Constitution cantonale;\n  </p>\n  <p>\n    sur la proposition du Conseil d'Etat,\n  </p>\n</div>\n<div class='ingress_action'>\n  ordonne:\n</div>"
+          },
+          "content": {
+            "uid": "t-0",
+            "type": "title",
+            "number": {},
+            "html_content": {
+              "de": "",
+              "fr": ""
+            },
+            "text": {},
+            "children": [
+              {
+                "uid": "t-0--a-1",
+                "type": "article",
+                "number": {
+                  "de": "Art.&nbsp;1",
+                  "fr": "Art.&nbsp;1"
+                },
+                "html_content": {
+                  "de": "<div class='article'>\n  <div class='article_number'>\n    <span class='article_symbol'>Art.</span> <span class='number'>1</span>\n  </div>\n  <div class='article_title'>\n    <span class='title_text'>Geltungsbereich</span>\n  </div>\n</div>",
+                  "fr": "<div class='article'>\n  <div class='article_number'>\n    <span class='article_symbol'>Art.</span> <span class='number'>1</span>\n  </div>\n  <div class='article_title'>\n    <span class='title_text'>Champ d'application</span>\n  </div>\n</div>"
+                },
+                "text": {
+                  "de": "Geltungsbereich",
+                  "fr": "Champ d&#39;application"
+                },
+                "children": [
+                  {
+                    "uid": "t-0--a-1--p-1",
+                    "type": "paragraph",
+                    "html_content": {
+                      "de": "<div class='paragraph'>\n  <span class='number'>1</span>\n  <p>\n    <span class='text_content'>Das vorliegende Gesetz findet, unter Vorbehalt gegenteiliger Bestimmungen der Spezialgesetzgebung, Anwendung auf folgende &ouml;ffentlichrechtliche K&ouml;rperschaften, nachstehend als \"&ouml;ffentlichrechtliche K&ouml;rperschaften\" bezeichnet:</span>\n  </p>\n</div>",
+                      "fr": "<div class='paragraph'>\n  <span class='number'>1</span>\n  <p>\n    <span class='text_content'>La pr&eacute;sente loi r&eacute;git, sous r&eacute;serve des dispositions contraires de la l&eacute;gislation sp&eacute;ciale, les collectivit&eacute;s de droit public suivantes d&eacute;sign&eacute;es ci-apr&egrave;s par le terme \"collectivit&eacute;s de droit public\":</span>\n  </p>\n</div>"
+                    },
+                    "children": [
+                      {
+                        "uid": "t-0--a-1--p-1--l-a‐",
+                        "type": "enumeration",
+                        "html_content": {
+                          "de": "<table class='enumeration_item'>\n  <tr>\n    <td class='number'>\n      a)\n    </td>\n    <td class='left_col last' colspan='3'>\n      die Einwohnergemeinden;\n    </td>\n  </tr>\n</table>",
+                          "fr": "<table class='enumeration_item'>\n  <tr>\n    <td class='number'>\n      a)\n    </td>\n    <td class='left_col last' colspan='3'>\n      les communes municipales;\n    </td>\n  </tr>\n</table>"
+                        },
+                        "children": []
+                      },
+                      {
+                        "uid": "t-0--a-1--p-1--l-b‐",
+                        "type": "enumeration",
+                        "html_content": {
+                          "de": "<table class='enumeration_item'>\n  <tr>\n    <td class='number'>\n      b)\n    </td>\n    <td class='left_col last' colspan='3'>\n      die Burgergemeinden.\n    </td>\n  </tr>\n</table>",
+                          "fr": "<table class='enumeration_item'>\n  <tr>\n    <td class='number'>\n      b)\n    </td>\n    <td class='left_col last' colspan='3'>\n      les communes bourgeoisiales.\n    </td>\n  </tr>\n</table>"
+                        },
+                        "children": []
+                      }
+                    ],
+                    "html_content_post": {
+                      "de": "<div class='paragraph_post'></div>",
+                      "fr": "<div class='paragraph_post'></div>"
+                    }
+                  },
+                  {
+                    "uid": "t-0--a-1--p-2",
+                    "type": "paragraph",
+                    "html_content": {
+                      "de": "<div class='paragraph'>\n  <span class='number'>2</span>\n  <p>\n    <span class='text_content'>Im vorliegenden Gesetz gilt jede Bezeichnung der Person, des Statuts oder der Funktion in gleicher Weise f&uuml;r Mann oder Frau.</span>\n  </p>\n</div>",
+                      "fr": "<div class='paragraph'>\n  <span class='number'>2</span>\n  <p>\n    <span class='text_content'>Dans la pr&eacute;sente loi, toute d&eacute;signation de personne, de statut ou de fonction vise indiff&eacute;remment l'homme ou la femme.</span>\n  </p>\n</div>"
+                    },
+                    "children": [],
+                    "html_content_post": {
+                      "de": "<div class='paragraph_post'></div>",
+                      "fr": "<div class='paragraph_post'></div>"
+                    }
+                  }
+                ]
+              },
+              {
+                "uid": "t-0--a-2",
+                "type": "article",
+                "number": {
+                  "de": "Art.&nbsp;2",
+                  "fr": "Art.&nbsp;2"
+                },
+                "html_content": {
+                  "de": "<div class='article'>\n  <div class='article_number'>\n    <span class='article_symbol'>Art.</span> <span class='number'>2</span>\n  </div>\n  <div class='article_title'>\n    <span class='title_text'>Autonomie</span>\n  </div>\n</div>",
+                  "fr": "<div class='article'>\n  <div class='article_number'>\n    <span class='article_symbol'>Art.</span> <span class='number'>2</span>\n  </div>\n  <div class='article_title'>\n    <span class='title_text'>Autonomie</span>\n  </div>\n</div>"
+                },
+                "text": {
+                  "de": "Autonomie",
+                  "fr": "Autonomie"
+                },
+                "children": [
+                  {
+                    "uid": "t-0--a-2--p-1",
+                    "type": "paragraph",
+                    "html_content": {
+                      "de": "<div class='paragraph'>\n  <span class='number'>1</span>\n  <p>\n    <span class='text_content'>Die &ouml;ffentlichrechtlichen K&ouml;rperschaften sind in allen ihren Aufgaben, die sie von sich aus im &ouml;ffentlichen Interesse unternehmen, selbst&auml;ndig. Sie sind &uuml;berdies innerhalb der gesetzlichen Schranken f&uuml;r alle &uuml;bertragenen Aufgaben selbst&auml;ndig.</span>\n  </p>\n</div>",
+                      "fr": "<div class='paragraph'>\n  <span class='number'>1</span>\n  <p>\n    <span class='text_content'>Les collectivit&eacute;s de droit public sont autonomes pour toutes les t&acirc;ches qu'elles entreprennent de leur propre initiative, dans l'int&eacute;r&ecirc;t public. Elles sont en outre autonomes, dans les limites des dispositions l&eacute;gales, pour l'ex&eacute;cution des t&acirc;ches d&eacute;l&eacute;gu&eacute;es.</span>\n  </p>\n</div>"
+                    },
+                    "children": [],
+                    "html_content_post": {
+                      "de": "<div class='paragraph_post'></div>",
+                      "fr": "<div class='paragraph_post'></div>"
+                    }
+                  },
+                  {
+                    "uid": "t-0--a-2--p-2",
+                    "type": "paragraph",
+                    "html_content": {
+                      "de": "<div class='paragraph'>\n  <span class='number'>2</span>\n  <p>\n    <span class='text_content'>Sie k&ouml;nnen ein kommunales Organisationsreglement sowie andere Reglementsbestimmungen erlassen, sofern die Gesetzgebung die Materie nicht oder nicht abschliessend regelt oder sie zur Rechtsetzung ausdr&uuml;cklich erm&auml;chtigt. Sie k&ouml;nnen im Falle von Zuwiderhandlungen Busse oder Verweis vorsehen.</span>\n  </p>\n</div>",
+                      "fr": "<div class='paragraph'>\n  <span class='number'>2</span>\n  <p>\n    <span class='text_content'>Elles peuvent &eacute;dicter un r&egrave;glement communal d'organisation ainsi que des r&egrave;gles de droit pour autant qu'une loi ne r&eacute;gisse pas la mati&egrave;re de fa&ccedil;on exhaustive ou qu'elle l'y autorise express&eacute;ment. Elles peuvent, en cas de contravention, pr&eacute;voir l'amende ou la r&eacute;primande.</span>\n  </p>\n</div>"
+                    },
+                    "children": [],
+                    "html_content_post": {
+                      "de": "<div class='paragraph_post'></div>",
+                      "fr": "<div class='paragraph_post'></div>"
+                    }
+                  },
+                  {
+                    "uid": "t-0--a-2--p-3",
+                    "type": "paragraph",
+                    "html_content": {
+                      "de": "<div class='paragraph'>\n  <span class='number'>3</span>\n  <p>\n    <span class='text_content'>Sie w&auml;hlen ihre Beh&ouml;rden, ernennen ihre Angestellten und verwalten sich selbst&auml;ndig.</span>\n  </p>\n</div>",
+                      "fr": "<div class='paragraph'>\n  <span class='number'>3</span>\n  <p>\n    <span class='text_content'>Elles &eacute;lisent leurs autorit&eacute;s, nomment leurs employ&eacute;s et s'administrent librement.</span>\n  </p>\n</div>"
+                    },
+                    "children": [],
+                    "html_content_post": {
+                      "de": "<div class='paragraph_post'></div>",
+                      "fr": "<div class='paragraph_post'></div>"
+                    }
+                  }
+                ]
+              },
+              {
+                "uid": "t-0--t-1",
+                "type": "title",
+                "number": {
+                  "de": "1",
+                  "fr": "1"
+                },
+                "html_content": {
+                  "de": "<div class='level_1 title'>\n  <span class='number'>1</span> <span class='title_text'>Organisation</span>\n</div>",
+                  "fr": "<div class='level_1 title'>\n  <span class='number'>1</span> <span class='title_text'>Organisation</span>\n</div>"
+                },
+                "text": {
+                  "de": "Organisation",
+                  "fr": "Organisation"
+                },
+                "children": [
+                  {
+                    "uid": "t-0--t-1--t-1‐1",
+                    "type": "title",
+                    "number": {
+                      "de": "1.1",
+                      "fr": "1.1"
+                    },
+                    "html_content": {
+                      "de": "<div class='level_2 title'>\n  <span class='number'>1.1</span> <span class='title_text'>Einwohnergemeinden</span>\n</div>",
+                      "fr": "<div class='level_2 title'>\n  <span class='number'>1.1</span> <span class='title_text'>Communes municipales</span>\n</div>"
+                    },
+                    "text": {
+                      "de": "Einwohnergemeinden",
+                      "fr": "Communes municipales"
+                    },
+                    "children": [
+                      {
+                        "uid": "t-0--t-1--t-1‐1--t-1‐1‐1",
+                        "type": "title",
+                        "number": {
+                          "de": "1.1.1",
+                          "fr": "1.1.1"
+                        },
+                        "html_content": {
+                          "de": "<div class='level_3 title'>\n  <span class='number'>1.1.1</span> <span class='title_text'>Allgemeine Bestimmungen</span>\n</div>",
+                          "fr": "<div class='level_3 title'>\n  <span class='number'>1.1.1</span> <span class='title_text'>Dispositions g&eacute;n&eacute;rales</span>\n</div>"
+                        },
+                        "text": {
+                          "de": "Allgemeine Bestimmungen",
+                          "fr": "Dispositions générales"
+                        },
+                        "children": [
+                          {
+                            "uid": "t-0--t-1--t-1‐1--t-1‐1‐1--a-3",
+                            "type": "article",
+                            "number": {
+                              "de": "Art.&nbsp;3",
+                              "fr": "Art.&nbsp;3"
+                            },
+                            "html_content": {
+                              "de": "<div class='article'>\n  <div class='article_number'>\n    <span class='article_symbol'>Art.</span> <span class='number'>3</span>\n  </div>\n  <div class='article_title'>\n    <span class='title_text'>Grenzen</span>\n  </div>\n</div>",
+                              "fr": "<div class='article'>\n  <div class='article_number'>\n    <span class='article_symbol'>Art.</span> <span class='number'>3</span>\n  </div>\n  <div class='article_title'>\n    <span class='title_text'>Limites</span>\n  </div>\n</div>"
+                            },
+                            "text": {
+                              "de": "Grenzen",
+                              "fr": "Limites"
+                            },
+                            "children": [
+                              {
+                                "uid": "t-0--t-1--t-1‐1--t-1‐1‐1--a-3--p-1",
+                                "type": "paragraph",
+                                "html_content": {
+                                  "de": "<div class='paragraph'>\n  <span class='number'>1</span>\n  <p>\n    <span class='text_content'>Die Einwohnergemeinde &uuml;bt ihre Hoheit &uuml;ber jenes Gebiet aus, das ihr durch die Tradition oder durch den Grossen Rat zugeteilt wird sowie &uuml;ber die entsprechende Bev&ouml;lkerung.</span>\n  </p>\n</div>",
+                                  "fr": "<div class='paragraph'>\n  <span class='number'>1</span>\n  <p>\n    <span class='text_content'>La commune municipale exerce sa juridiction sur le territoire que lui attribue la tradition ou le Grand Conseil, et sur la population qui s'y rattache.</span>\n  </p>\n</div>"
+                                },
+                                "children": [],
+                                "html_content_post": {
+                                  "de": "<div class='paragraph_post'></div>",
+                                  "fr": "<div class='paragraph_post'></div>"
+                                }
+                              },
+                              {
+                                "uid": "t-0--t-1--t-1‐1--t-1‐1‐1--a-3--p-2",
+                                "type": "paragraph",
+                                "html_content": {
+                                  "de": "<div class='paragraph'>\n  <span class='number'>2</span>\n  <p>\n    <span class='text_content'>Das Gebiet der Einwohnergemeinde ist unter Vorbehalt des Artikels 26 der Verfassung gew&auml;hrleistet.</span>\n  </p>\n</div>",
+                                  "fr": "<div class='paragraph'>\n  <span class='number'>2</span>\n  <p>\n    <span class='text_content'>Le territoire de la commune municipale est garanti sous r&eacute;serve de l'article 26 de la Constitution.</span>\n  </p>\n</div>"
+                                },
+                                "children": [],
+                                "html_content_post": {
+                                  "de": "<div class='paragraph_post'></div>",
+                                  "fr": "<div class='paragraph_post'></div>"
+                                }
+                              },
+                              {
+                                "uid": "t-0--t-1--t-1‐1--t-1‐1‐1--a-3--p-3",
+                                "type": "paragraph",
+                                "html_content": {
+                                  "de": "<div class='paragraph'>\n  <span class='number'>3</span>\n  <p>\n    <span class='text_content'>Geringf&uuml;gige &Auml;nderungen von interkommunalen Grenzen unterliegen der Genehmigung der Urversammlung und des Staatsrats.</span>\n  </p>\n</div>",
+                                  "fr": "<div class='paragraph'>\n  <span class='number'>3</span>\n  <p>\n    <span class='text_content'>Les modifications mineures des limites intercommunales sont soumises &agrave; l'approbation de l'assembl&eacute;e primaire et du Conseil d'Etat.</span>\n  </p>\n</div>"
+                                },
+                                "children": [],
+                                "html_content_post": {
+                                  "de": "<div class='paragraph_post'></div>",
+                                  "fr": "<div class='paragraph_post'></div>"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "uid": "t-0--t-1--t-1‐1--t-1‐1‐1--a-4",
+                            "type": "article",
+                            "number": {
+                              "de": "Art.&nbsp;4",
+                              "fr": "Art.&nbsp;4"
+                            },
+                            "html_content": {
+                              "de": "<div class='article'>\n  <div class='article_number'>\n    <span class='article_symbol'>Art.</span> <span class='number'>4</span>\n  </div>\n  <div class='article_title'>\n    <span class='title_text'>Organe</span>\n  </div>\n</div>",
+                              "fr": "<div class='article'>\n  <div class='article_number'>\n    <span class='article_symbol'>Art.</span> <span class='number'>4</span>\n  </div>\n  <div class='article_title'>\n    <span class='title_text'>Organes</span>\n  </div>\n</div>"
+                            },
+                            "text": {
+                              "de": "Organe",
+                              "fr": "Organes"
+                            },
+                            "children": [
+                              {
+                                "uid": "t-0--t-1--t-1‐1--t-1‐1‐1--a-4--p-1",
+                                "type": "paragraph",
+                                "html_content": {
+                                  "de": "<div class='paragraph'>\n  <span class='number'>1</span>\n  <p>\n    <span class='text_content'>In jeder Einwohnergemeinde hat es folgende Organe:</span>\n  </p>\n</div>",
+                                  "fr": "<div class='paragraph'>\n  <span class='number'>1</span>\n  <p>\n    <span class='text_content'>Il y a dans chaque commune municipale les organes suivants:</span>\n  </p>\n</div>"
+                                },
+                                "children": [
+                                  {
+                                    "uid": "t-0--t-1--t-1‐1--t-1‐1‐1--a-4--p-1--l-a‐",
+                                    "type": "enumeration",
+                                    "html_content": {
+                                      "de": "<table class='enumeration_item'>\n  <tr>\n    <td class='number'>\n      a)\n    </td>\n    <td class='left_col last' colspan='3'>\n      eine Urversammlung, als Beschlussfassungsorgan;\n    </td>\n  </tr>\n</table>",
+                                      "fr": "<table class='enumeration_item'>\n  <tr>\n    <td class='number'>\n      a)\n    </td>\n    <td class='left_col last' colspan='3'>\n      une assembl&eacute;e primaire, organe d&eacute;lib&eacute;rant;\n    </td>\n  </tr>\n</table>"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "uid": "t-0--t-1--t-1‐1--t-1‐1‐1--a-4--p-1--l-b‐",
+                                    "type": "enumeration",
+                                    "html_content": {
+                                      "de": "<table class='enumeration_item'>\n  <tr>\n    <td class='number'>\n      b)\n    </td>\n    <td class='left_col last' colspan='3'>\n      einen Gemeinderat, als Vollzugsorgan.\n    </td>\n  </tr>\n</table>",
+                                      "fr": "<table class='enumeration_item'>\n  <tr>\n    <td class='number'>\n      b)\n    </td>\n    <td class='left_col last' colspan='3'>\n      un conseil municipal, organe ex&eacute;cutif.\n    </td>\n  </tr>\n</table>"
+                                    },
+                                    "children": []
+                                  }
+                                ],
+                                "html_content_post": {
+                                  "de": "<div class='paragraph_post'></div>",
+                                  "fr": "<div class='paragraph_post'></div>"
+                                }
+                              },
+                              {
+                                "uid": "t-0--t-1--t-1‐1--t-1‐1‐1--a-4--p-2",
+                                "type": "paragraph",
+                                "html_content": {
+                                  "de": "<div class='paragraph'>\n  <span class='number'>2</span>\n  <p>\n    <span class='text_content'>Die Urversammlung kann ausser in Wahlangelegenheiten durch den Generalrat ersetzt werden. Vorbehalten bleibt das in den Artikeln 68 und 69 des vorliegenden Gesetzes vorgesehene Referendum.</span>\n  </p>\n</div>",
+                                  "fr": "<div class='paragraph'>\n  <span class='number'>2</span>\n  <p>\n    <span class='text_content'>L'assembl&eacute;e primaire peut &ecirc;tre remplac&eacute;e par le conseil g&eacute;n&eacute;ral sauf en mati&egrave;re &eacute;lectorale et sous r&eacute;serve du r&eacute;f&eacute;rendum pr&eacute;vu aux articles 68 et 69 de la pr&eacute;sente loi.</span>\n  </p>\n</div>"
+                                },
+                                "children": [],
+                                "html_content_post": {
+                                  "de": "<div class='paragraph_post'></div>",
+                                  "fr": "<div class='paragraph_post'></div>"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "footer": {
+            "de": "<div class='egress_ags_source'>\n  CSW BO/Abl. 10/2004, 26/2004\n</div>",
+            "fr": "<div class='egress_ags_source'>\n  RCV BO/Abl. 10/2004, 26/2004\n</div>"
+          }
+        }
+      }
+    }
+  }
+}

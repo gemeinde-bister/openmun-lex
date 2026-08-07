@@ -1,0 +1,282 @@
+{
+  "12": [
+    {
+      "id": 100,
+      "systematic_number": "175.1",
+      "systematic_category_id": 12,
+      "title": "Gemeindegesetz",
+      "abrogated": false,
+      "structured_document_id": 10983
+    }
+  ],
+  "27": [
+    {
+      "id": 514,
+      "systematic_number": "414.1",
+      "systematic_category_id": 27,
+      "title": "Interkantonale Vereinbarung über Beiträge an die Bildungsgänge der höheren Fachschulen (HFSV)",
+      "abrogated": false,
+      "structured_document_id": 1341
+    },
+    {
+      "id": 513,
+      "systematic_number": "414.2",
+      "systematic_category_id": 27,
+      "title": "Interkantonale Vereinbarung über den schweizerischen Hochschulbereich (Hochschulkonkordat)",
+      "abrogated": false,
+      "structured_document_id": 1343
+    },
+    {
+      "id": 510,
+      "systematic_number": "414.300",
+      "systematic_category_id": 27,
+      "title": "Studienreglement über die Studiengänge Höhere Fachschule (HF) Kindheitspädagogik und Arbeitsagogische Leitung der Fachhochschule Westschweiz Valais-Wallis (Reglement HF Soziales)",
+      "abrogated": false,
+      "structured_document_id": 20934
+    },
+    {
+      "id": 790,
+      "systematic_number": "414.305",
+      "systematic_category_id": 27,
+      "title": "Studienreglement betreffend den Bildungsgang Pflege HF (höhere Fachschule)",
+      "abrogated": false,
+      "structured_document_id": 15021
+    },
+    {
+      "id": 899,
+      "systematic_number": "414.31",
+      "systematic_category_id": 27,
+      "title": "Interkantonale Vereinbarung über die Beiträge an die Ausbildungskosten von universitären Hochschulen (Interkantonale Universitätsvereinbarung, IUV)",
+      "abrogated": false,
+      "structured_document_id": 11065
+    },
+    {
+      "id": 508,
+      "systematic_number": "414.7",
+      "systematic_category_id": 27,
+      "title": "Interkantonale Vereinbarung der Fachhochschule der Westschweiz (HES-SO)",
+      "abrogated": false,
+      "structured_document_id": 1315
+    },
+    {
+      "id": 507,
+      "systematic_number": "414.70",
+      "systematic_category_id": 27,
+      "title": "Gesetz über die Fachhochschule Westschweiz Valais/Wallis",
+      "abrogated": false,
+      "structured_document_id": 18839
+    },
+    {
+      "id": 506,
+      "systematic_number": "414.701",
+      "systematic_category_id": 27,
+      "title": "Verordnung betreffend das Statut des Personals der Fachhochschule Westschweiz Valais/Wallis",
+      "abrogated": false,
+      "structured_document_id": 12367
+    },
+    {
+      "id": 505,
+      "systematic_number": "414.702",
+      "systematic_category_id": 27,
+      "title": "Verordnung betreffend die Besoldung des Personals der Fachhochschule Westschweiz Valais/Wallis",
+      "abrogated": false,
+      "structured_document_id": 12368
+    },
+    {
+      "id": 504,
+      "systematic_number": "414.703",
+      "systematic_category_id": 27,
+      "title": "Verordnung über die Geschäftsführung und die Finanzkontrolle sowie die Leistungen der HES-SO Valais/Wallis",
+      "abrogated": false,
+      "structured_document_id": 1936
+    },
+    {
+      "id": 810,
+      "systematic_number": "414.705",
+      "systematic_category_id": 27,
+      "title": "Verordnung über die Verwendung von Französisch und/oder Deutsch im Unterricht an der Fachhochschule Westschweiz Valais/Wallis (HES-SO Valais/Wallis) und in ihren Beziehungen zu den Studierenden (Sprachen-Verordnung der HES-SO Valais/Wallis)",
+      "abrogated": false,
+      "structured_document_id": 5176
+    },
+    {
+      "id": 503,
+      "systematic_number": "414.71",
+      "systematic_category_id": 27,
+      "title": "Interkantonale Fachhochschulvereinbarung ab 2005 (FHV)",
+      "abrogated": false,
+      "structured_document_id": 1289
+    },
+    {
+      "id": 502,
+      "systematic_number": "414.720",
+      "systematic_category_id": 27,
+      "title": "Reglement über die Zusatzmodule im Berufsfeld Gesundheit",
+      "abrogated": false,
+      "structured_document_id": 8085
+    },
+    {
+      "id": 501,
+      "systematic_number": "414.733",
+      "systematic_category_id": 27,
+      "title": "Reglement über das geistige Eigentum, die Verwertung und Nutzung der Forschungsergebnisse der HES-SO Valais/Wallis (RGEVHES)",
+      "abrogated": false,
+      "structured_document_id": 18867
+    },
+    {
+      "id": 499,
+      "systematic_number": "414.75",
+      "systematic_category_id": 27,
+      "title": "Interkantonales Abkommen betreffend die parlamentarische Kontrolle über die Fachhochschule der Westschweiz (HES-SO)",
+      "abrogated": false,
+      "structured_document_id": 1285
+    }
+  ],
+  "85": [
+    {
+      "id": 272,
+      "systematic_number": "748.100",
+      "systematic_category_id": 85,
+      "title": "Ausführungsreglement zum Bundesgesetz über die Luftfahrt",
+      "abrogated": false,
+      "structured_document_id": 377
+    },
+    {
+      "id": 271,
+      "systematic_number": "748.101",
+      "systematic_category_id": 85,
+      "title": "Verordnung über die Aufhebung der Sicherungsbeschlagnahme von Luftfahrzeugen",
+      "abrogated": false,
+      "structured_document_id": 375
+    }
+  ],
+  "69": [
+    {
+      "id": 530,
+      "systematic_number": "413.10",
+      "systematic_category_id": 69,
+      "title": "Gesetz betreffend die Festsetzung des Beitrages der Gemeinden, die Sitz von Kollegien und kantonalen Bildungsanstalten sind",
+      "abrogated": false,
+      "structured_document_id": 893
+    },
+    {
+      "id": 529,
+      "systematic_number": "413.100",
+      "systematic_category_id": 69,
+      "title": "Allgemeines Reglement über die Mittelschulen",
+      "abrogated": false,
+      "structured_document_id": 21203
+    },
+    {
+      "id": 528,
+      "systematic_number": "413.101",
+      "systematic_category_id": 69,
+      "title": "Verordnung über die Direktionen der allgemeinen Mittelschulen",
+      "abrogated": false,
+      "structured_document_id": 889
+    },
+    {
+      "id": 527,
+      "systematic_number": "413.105",
+      "systematic_category_id": 69,
+      "title": "Reglement des Kantons Wallis über die Fachmaturität im Berufsfeld Pädagogik (RFMP)",
+      "abrogated": false,
+      "structured_document_id": 19119
+    },
+    {
+      "id": 526,
+      "systematic_number": "413.106",
+      "systematic_category_id": 69,
+      "title": "Reglement der Handelsmittelschulen (RHMS)",
+      "abrogated": false,
+      "structured_document_id": 15331
+    },
+    {
+      "id": 525,
+      "systematic_number": "413.108",
+      "systematic_category_id": 69,
+      "title": "Reglement über die Fachmittelschulen",
+      "abrogated": false,
+      "structured_document_id": 10683
+    },
+    {
+      "id": 524,
+      "systematic_number": "413.109",
+      "systematic_category_id": 69,
+      "title": "Reglement der Schule für Berufsvorbereitung des Kantons Wallis",
+      "abrogated": false,
+      "structured_document_id": 881
+    },
+    {
+      "id": 523,
+      "systematic_number": "413.110",
+      "systematic_category_id": 69,
+      "title": "Reglement über die Schulzeit am Gymnasium und die Maturitätsprüfungen",
+      "abrogated": false,
+      "structured_document_id": 1560
+    },
+    {
+      "id": 522,
+      "systematic_number": "413.111",
+      "systematic_category_id": 69,
+      "title": "Reglement über die Fachmaturität im Berufsfeld \"Soziale Arbeit\" des Kantons Wallis (RFMSA)",
+      "abrogated": false,
+      "structured_document_id": 18125
+    },
+    {
+      "id": 521,
+      "systematic_number": "413.112",
+      "systematic_category_id": 69,
+      "title": "Reglement betreffend die Studienreisen der Gymnasien, Handels- und Fachmittelschulen sowie der Schulen für Berufsvorbereitung (RStR)",
+      "abrogated": false,
+      "structured_document_id": 875
+    },
+    {
+      "id": 520,
+      "systematic_number": "413.113",
+      "systematic_category_id": 69,
+      "title": "Reglement über die Ergänzungsprüfung für die Zulassung von Inhaberinnen und Inhabern eines eidgenössischen Berufsmaturitätszeugnisses oder eines gesamtschweizerisch anerkannten Fachmaturitätszeugnisses zu den universitären Hochschulen",
+      "abrogated": false,
+      "structured_document_id": 1616
+    },
+    {
+      "id": 519,
+      "systematic_number": "413.114",
+      "systematic_category_id": 69,
+      "title": "Beschluss über die Festsetzung der Einschreibegebühren ür die Diplom- und Maturitätsprüfungen",
+      "abrogated": false,
+      "structured_document_id": 871
+    },
+    {
+      "id": 518,
+      "systematic_number": "413.115",
+      "systematic_category_id": 69,
+      "title": "Reglement über die Fachmaturität im Berufsfeld \"Gesundheit/Naturwissenschaften\" des Kantons Wallis (RFMGes)",
+      "abrogated": false,
+      "structured_document_id": 18126
+    },
+    {
+      "id": 517,
+      "systematic_number": "413.116",
+      "systematic_category_id": 69,
+      "title": "Reglement über die Fachmaturität im Berufsfeld \"Musik und Theater\" des Kantons Wallis (RFMMT)",
+      "abrogated": false,
+      "structured_document_id": 18127
+    },
+    {
+      "id": 516,
+      "systematic_number": "413.21",
+      "systematic_category_id": 69,
+      "title": "Interkantonale Vereinbarung über die Anerkennung von Ausbildungsabschlüssen",
+      "abrogated": false,
+      "structured_document_id": 1331
+    },
+    {
+      "id": 515,
+      "systematic_number": "413.210",
+      "systematic_category_id": 69,
+      "title": "Verordnung über die Titel und Diplome für den Unterricht in den Schulen der Sekundarstufe I und der allgemeinen Sekundarstufe II (VTUS)",
+      "abrogated": false,
+      "structured_document_id": 10029
+    }
+  ]
+}

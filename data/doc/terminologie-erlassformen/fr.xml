@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="reference">
+    <meta>
+      <identification source="#openmun-lex">
+        <FRBRWork>
+          <FRBRthis value="/doc/terminologie-erlassformen"/>
+          <FRBRuri value="/doc/terminologie-erlassformen"/>
+          <FRBRdate date="2026-02-14" name="publication"/>
+          <FRBRalias value="Types d'actes législatifs et désignations des autorités dans le droit suisse" name="title"/>
+          <FRBRcountry value="CH-VS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/doc/terminologie-erlassformen/fr"/>
+          <FRBRuri value="/doc/terminologie-erlassformen/fr"/>
+          <FRBRdate date="2026-02-14" name="publication"/>
+          <FRBRlanguage language="fr"/>
+        </FRBRExpression>
+      </identification>
+    </meta>
+    <preface>
+      <longTitle>
+        <p><docTitle>Types d'actes législatifs et désignations des autorités dans le droit suisse</docTitle></p>
+      </longTitle>
+      <p>Référence terminologique avec un accent sur le canton du Valais et ses communes</p>
+      <p><docDate date="2026-02-14">Février 2026</docDate></p>
+    </preface>
+    <body>
+
+      <section eId="sec_einleitung">
+        <heading>Introduction</heading>
+        <paragraph eId="sec_einleitung/para_1">
+          <content>
+            <p>Le droit suisse est édicté à trois niveaux : Confédération, canton et commune. Chaque niveau utilise ses propres désignations pour ses actes législatifs et ses organes. Ces désignations sont définies dans la constitution ou la loi d'organisation respective.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_einleitung/para_2">
+          <content>
+            <p>Le présent document rassemble les définitions déterminantes, avec renvois aux sources légales. Il se concentre sur les termes pertinents pour les communes valaisannes, tout en les situant dans le contexte général de l'ordre juridique suisse.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_einleitung/para_3">
+          <content>
+            <p>La particularité principale au niveau communal : dans le canton du Valais, la seule forme normative est le « règlement » — indépendamment du fait qu'il contienne des dispositions organisationnelles, de police ou financières. Ce terme a une signification différente aux autres niveaux. La section 7 explique ces différences.</p>
+          </content>
+        </paragraph>
+      </section>
+
+      <section eId="sec_bund">
+        <heading>Types d'actes législatifs de la Confédération</heading>
+
+        <section eId="sec_bund/sec_bv">
+          <heading>Assemblée fédérale (Bundesversammlung)</heading>
+          <paragraph eId="sec_bund/sec_bv/para_1">
+            <content>
+              <p><ref href="/eli/ch/101">Cst.</ref> art. 163 définit les types d'actes de l'Assemblée fédérale :</p>
+              <p><i>« ¹ L'Assemblée fédérale édicte les dispositions fixant des règles de droit sous la forme d'une loi fédérale ou d'une ordonnance. ² Les autres actes sont édictés sous la forme d'un arrêté fédéral, qui, s'il n'est pas sujet au référendum, est qualifié d'arrêté fédéral simple. »</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_bund/sec_bv/para_2">
+            <content>
+              <p>Il en résulte quatre types d'actes :</p>
+              <blockList>
+                <item eId="sec_bund/sec_bv/para_2/item_a">
+                  <num>a)</num>
+                  <p><b>Loi fédérale</b> (Bundesgesetz) — dispositions fixant des règles de droit, soumise au référendum facultatif (<ref href="/eli/ch/101">Cst.</ref> art. 141, al. 1, let. a). En principe de durée illimitée.</p>
+                </item>
+                <item eId="sec_bund/sec_bv/para_2/item_b">
+                  <num>b)</num>
+                  <p><b>Ordonnance de l'Assemblée fédérale</b> (Verordnung der Bundesversammlung) — dispositions fixant des règles de droit sous une forme subordonnée. Rare ; pour des dispositions d'exécution au niveau parlementaire.</p>
+                </item>
+                <item eId="sec_bund/sec_bv/para_2/item_c">
+                  <num>c)</num>
+                  <p><b>Arrêté fédéral</b> (Bundesbeschluss) — acte ne fixant pas de règles de droit. Soumis au référendum facultatif, dans la mesure où la Constitution ou la loi le prévoit.</p>
+                </item>
+                <item eId="sec_bund/sec_bv/para_2/item_d">
+                  <num>d)</num>
+                  <p><b>Arrêté fédéral simple</b> (einfacher Bundesbeschluss) — arrêté fédéral qui n'est pas sujet au référendum. Pour les affaires administratives et d'organisation.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_bund/sec_bv/para_3">
+            <content>
+              <p>Les lois fédérales déclarées urgentes (<ref href="/eli/ch/101">Cst.</ref> art. 165) entrent en vigueur immédiatement, mais doivent être soumises au référendum dans un délai d'un an.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_bund/sec_br">
+          <heading>Conseil fédéral (Bundesrat)</heading>
+          <paragraph eId="sec_bund/sec_br/para_1">
+            <content>
+              <p><ref href="/eli/ch/101">Cst.</ref> art. 182, al. 1 :</p>
+              <p><i>« Le Conseil fédéral édicte des règles de droit sous la forme d'une ordonnance, dans la mesure où la Constitution ou la loi l'y autorisent. »</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_bund/sec_br/para_2">
+            <content>
+              <p>L'<b>ordonnance du Conseil fédéral</b> (Verordnung des Bundesrates) est le type d'acte le plus fréquent au niveau fédéral. Elle requiert toujours une habilitation légale et n'est pas soumise au référendum.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_bund/sec_pub">
+          <heading>Organes fédéraux et publication</heading>
+          <paragraph eId="sec_bund/sec_pub/para_1">
+            <content>
+              <blockList>
+                <item eId="sec_bund/sec_pub/para_1/item_a">
+                  <num>—</num>
+                  <p><b>Assemblée fédérale</b> (Bundesversammlung) : Conseil national (Nationalrat) et Conseil des États (Ständerat). <ref href="/eli/ch/101">Cst.</ref> art. 148.</p>
+                </item>
+                <item eId="sec_bund/sec_pub/para_1/item_b">
+                  <num>—</num>
+                  <p><b>Conseil fédéral</b> (Bundesrat) : Gouvernement de la Confédération. <ref href="/eli/ch/101">Cst.</ref> art. 174.</p>
+                </item>
+                <item eId="sec_bund/sec_pub/para_1/item_c">
+                  <num>—</num>
+                  <p><b>Tribunal fédéral</b> (Bundesgericht) : Autorité judiciaire suprême. <ref href="/eli/ch/101">Cst.</ref> art. 188.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_bund/sec_pub/para_2">
+            <content>
+              <p>Les organes de publication de la Confédération sont régis par la loi sur les recueils du droit fédéral et la Feuille fédérale (RS 170.512) :</p>
+              <blockList>
+                <item eId="sec_bund/sec_pub/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Recueil officiel</b> (RO ; Amtliche Sammlung, AS) : Collection chronologique de tous les actes contraignants. Déterminant pour l'entrée en vigueur.</p>
+                </item>
+                <item eId="sec_bund/sec_pub/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Recueil systématique</b> (RS ; Systematische Rechtssammlung, SR) : Collection consolidée du droit fédéral en vigueur, classée par matières.</p>
+                </item>
+                <item eId="sec_bund/sec_pub/para_2/item_c">
+                  <num>—</num>
+                  <p><b>Feuille fédérale</b> (FF ; Bundesblatt, BBl) : Organe officiel de publication pour les messages, rapports et avis.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_kanton">
+        <heading>Types d'actes législatifs du canton du Valais</heading>
+
+        <section eId="sec_kanton/sec_gr">
+          <heading>Grand Conseil (Grosser Rat)</heading>
+          <paragraph eId="sec_kanton/sec_gr/para_1">
+            <content>
+              <p><ref href="/eli/vs/101.1">Cst. cant.</ref> art. 42 définit les types d'actes du Grand Conseil :</p>
+              <p><i>« ¹ Le Grand Conseil édicte les règles de droit sous la forme de loi, qui est, en principe, mise en vigueur pour une durée illimitée. ² Il édicte, sous forme de loi d'application, les dispositions absolument nécessaires pour assurer l'exécution du droit de rang supérieur. ³ Il peut toutefois prendre des dispositions urgentes par la voie du décret, pour un temps limité, lorsque les circonstances l'exigent (art. 32, al. 2). ⁴ Le Grand Conseil traite toutes les autres affaires sous forme de décision. »</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_gr/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_kanton/sec_gr/para_2/item_a">
+                  <num>a)</num>
+                  <p><b>Loi</b> (Gesetz) — règles de droit du Grand Conseil, en principe de durée illimitée. Soumise au référendum facultatif (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 31, al. 1, let. a).</p>
+                </item>
+                <item eId="sec_kanton/sec_gr/para_2/item_b">
+                  <num>b)</num>
+                  <p><b>Loi d'application</b> (Ausführungsgesetz) — dispositions absolument nécessaires pour assurer l'exécution du droit de rang supérieur. <b>Non</b> soumise au référendum (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 31, al. 3, let. a).</p>
+                </item>
+                <item eId="sec_kanton/sec_gr/para_2/item_c">
+                  <num>c)</num>
+                  <p><b>Décret</b> (Dekret) — dispositions urgentes de durée limitée. Mis en vigueur immédiatement ; si 3000 citoyens actifs le demandent, vote populaire dans l'année qui suit (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 32, al. 2).</p>
+                </item>
+                <item eId="sec_kanton/sec_gr/para_2/item_d">
+                  <num>d)</num>
+                  <p><b>Décision</b> (Beschluss) — toutes les autres affaires du Grand Conseil. Soumise au référendum lorsqu'il s'agit de dépenses extraordinaires dépassant un certain seuil (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 31, al. 1, let. c).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_gr/para_3">
+            <content>
+              <p>Les <b>concordats, traités et conventions</b> intercantonaux (interkantonale Konkordate, Verträge und Vereinbarungen) sont approuvés par le Grand Conseil et soumis au référendum pour autant qu'ils contiennent des règles de droit (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 31, al. 1, let. b, art. 38, al. 2).</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_kanton/sec_sr">
+          <heading>Conseil d'État (Staatsrat)</heading>
+          <paragraph eId="sec_kanton/sec_sr/para_1">
+            <content>
+              <p><ref href="/eli/vs/101.1">Cst. cant.</ref> art. 57 distingue trois types d'actes du Conseil d'État :</p>
+              <p><i>« ¹ Le Conseil d'État édicte sous forme de règlement les dispositions nécessaires à l'application des lois et décrets cantonaux. ² La loi peut déléguer au Conseil d'État la compétence d'édicter des ordonnances en fixant leur but et les principes qui régissent leur contenu. ³ Le Conseil d'État traite les autres affaires sous forme d'arrêté ou de décision. »</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_sr/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_kanton/sec_sr/para_2/item_a">
+                  <num>a)</num>
+                  <p><b>Règlement</b> (Reglement) — dispositions d'exécution des lois et décrets cantonaux. Compétence réglementaire originaire : le Conseil d'État les édicte en vertu de sa compétence constitutionnelle (al. 1).</p>
+                </item>
+                <item eId="sec_kanton/sec_sr/para_2/item_b">
+                  <num>b)</num>
+                  <p><b>Ordonnance</b> (Verordnung) — législation déléguée : uniquement lorsqu'une loi délègue expressément cette compétence au Conseil d'État, en fixant le but et les principes (al. 2). Peut être soumise à l'approbation du Grand Conseil.</p>
+                </item>
+                <item eId="sec_kanton/sec_sr/para_2/item_c">
+                  <num>c)</num>
+                  <p><b>Arrêté / Décision</b> (Beschluss / Entscheid) — toutes les autres affaires du Conseil d'État (al. 3).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_sr/para_3">
+            <content>
+              <p>La distinction entre règlement (compétence originaire) et ordonnance (compétence déléguée) est une particularité de la Constitution valaisanne. Dans l'ordre juridique fédéral, les deux formes portent le nom d'« ordonnance ».</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_kanton/sec_pub">
+          <heading>Organes cantonaux et publication</heading>
+          <paragraph eId="sec_kanton/sec_pub/para_1">
+            <content>
+              <blockList>
+                <item eId="sec_kanton/sec_pub/para_1/item_a">
+                  <num>—</num>
+                  <p><b>Grand Conseil</b> (Grosser Rat) : Parlement cantonal. <ref href="/eli/vs/101.1">Cst. cant.</ref> art. 38.</p>
+                </item>
+                <item eId="sec_kanton/sec_pub/para_1/item_b">
+                  <num>—</num>
+                  <p><b>Conseil d'État</b> (Staatsrat) : Gouvernement cantonal. <ref href="/eli/vs/101.1">Cst. cant.</ref> art. 52.</p>
+                </item>
+                <item eId="sec_kanton/sec_pub/para_1/item_c">
+                  <num>—</num>
+                  <p><b>Tribunal cantonal</b> (Kantonsgericht) : Instance judiciaire cantonale suprême. <ref href="/eli/vs/101.1">Cst. cant.</ref> art. 36.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_pub/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_kanton/sec_pub/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Bulletin officiel du canton du Valais</b> (Amtsblatt des Kantons Wallis) : Organe officiel de publication. Les délais référendaires courent dès la publication (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 31). Régi par le <ref href="/eli/vs/170.5">Règlement sur le Bulletin officiel</ref> (RS/VS 170.5).</p>
+                </item>
+                <item eId="sec_kanton/sec_pub/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Recueil systématique</b> (RS/VS ; Gesetzessammlung, SGS) : Collection systématique du droit cantonal, publiée sur lex.vs.ch.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_gemeinde">
+        <heading>Types d'actes législatifs des communes valaisannes</heading>
+        <paragraph eId="sec_gemeinde/para_1">
+          <content>
+            <p><ref href="/eli/vs/175.1">LCo</ref> art. 2, al. 2 décrit la compétence normative des communes :</p>
+            <p><i>« Elles peuvent édicter un règlement communal d'organisation ainsi que des règles de droit pour autant qu'une loi ne régisse pas la matière de façon exhaustive ou qu'elle l'y autorise expressément. »</i></p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_gemeinde/para_2">
+          <content>
+            <p>La seule forme normative au niveau communal est le <b>règlement</b> (Reglement). Contrairement au niveau cantonal, où la Constitution distingue entre loi, loi d'application, décret, règlement et ordonnance, le droit communal ne connaît que cette seule forme. Qu'un règlement contienne des dispositions organisationnelles, de police, financières ou de droit des constructions — la désignation est toujours « règlement ».</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_gemeinde/para_3">
+          <content>
+            <p><ref href="/eli/vs/175.1">LCo</ref> art. 17, al. 1 énumère les attributions inaliénables de l'assemblée primaire :</p>
+            <p><i>« L'assemblée primaire délibère et décide : a) de l'adoption et de la modification de tous les règlements municipaux, à l'exception de ceux qui ont une portée purement interne ; [...] »</i></p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_gemeinde/para_4">
+          <content>
+            <p>Cela signifie que tous les règlements ayant un effet externe doivent être délibérés et adoptés par l'assemblée primaire (resp. le conseil général). Les règlements de <b>portée purement interne</b> (Reglemente von rein interner Tragweite) — par exemple les règlements internes de l'administration — peuvent être édictés par le conseil municipal de manière autonome.</p>
+          </content>
+        </paragraph>
+
+        <section eId="sec_gemeinde/sec_homo">
+          <heading>Homologation</heading>
+          <paragraph eId="sec_gemeinde/sec_homo/para_1">
+            <content>
+              <p>Certaines décisions de l'assemblée primaire nécessitent l'approbation du Conseil d'État. Cette procédure s'appelle <b>homologation</b> (Homologation).</p>
+              <p><ref href="/eli/vs/175.1">LCo</ref> art. 18 :</p>
+              <p><i>« Les décisions de l'assemblée primaire soumises à l'homologation du Conseil d'État n'entrent en force qu'à partir du jour où elles sont approuvées par cette autorité qui se prononce, en principe, dans les six mois dès réception de la demande d'homologation. »</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_homo/para_2">
+            <content>
+              <p>Un règlement soumis à l'homologation n'acquiert force obligatoire qu'après son approbation par le Conseil d'État. Le délai est en principe de six mois dès le dépôt de la demande.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_gemeinde/sec_beschluss">
+          <heading>Décisions (Beschlüsse)</heading>
+          <paragraph eId="sec_gemeinde/sec_beschluss/para_1">
+            <content>
+              <p>Outre le règlement comme seule forme normative, le droit communal connaît la <b>décision</b> (Beschluss). Les décisions sont des actes individuels — elles règlent un cas concret et non une multitude de cas abstraits.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_beschluss/para_2">
+            <content>
+              <p>Les décisions sont prises par différents organes :</p>
+              <blockList>
+                <item eId="sec_gemeinde/sec_beschluss/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Assemblée primaire</b> : décisions concernant les dépenses, emprunts, aliénations, adhésions à des associations de communes et autres affaires selon <ref href="/eli/vs/175.1">LCo</ref> art. 17, al. 1, let. b–k.</p>
+                </item>
+                <item eId="sec_gemeinde/sec_beschluss/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Conseil municipal</b> : décisions dans le cadre de ses attributions légales — administration des services publics et des biens communaux, nomination du personnel, gestion financière, affaires courantes (<ref href="/eli/vs/175.1">LCo</ref> art. 35). Y compris les fixations dans les limites prévues par un règlement (p. ex. un tarif d'eau concret dans la fourchette définie par le règlement).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_beschluss/para_3">
+            <content>
+              <p>Les décisions du conseil municipal sont prises à la majorité des membres présents. Les délibérations ne sont pas publiques (<ref href="/eli/vs/175.1">LCo</ref> art. 41, al. 4 : <i>« Les délibérations du conseil municipal ne sont pas publiques. »</i>).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_beschluss/para_4">
+            <content>
+              <p>Les décisions ne sont pas normatives et n'ont pas leur place dans le recueil systématique. Elles sont cependant soumises à une obligation de publication lorsqu'elles sont d'une portée générale (voir section suivante).</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_gemeinde/sec_oeffentlichkeit">
+          <heading>Publicité et publication</heading>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_1">
+            <content>
+              <p><ref href="/eli/vs/175.1">LCo</ref> art. 101 règle la publicité des procès-verbaux et des décisions :</p>
+              <p><i>« ¹ Les procès-verbaux de l'organe législatif d'une collectivité de droit public peuvent être consultés auprès du bureau communal, et dans la mesure du possible sur le site internet de la commune. ² Les procès-verbaux des organes exécutifs ne sont pas publics. ³ Les décisions doivent être publiées dans la mesure où elles sont d'une portée générale et ne violent pas des intérêts publics ou privés dignes de protection. ⁴ Dans les mêmes conditions, celui qui possède un intérêt digne de protection peut demander un extrait des procès-verbaux. »</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_2">
+            <content>
+              <p>Il en résulte le schéma suivant :</p>
+              <blockList>
+                <item eId="sec_gemeinde/sec_oeffentlichkeit/para_2/item_a">
+                  <num>a)</num>
+                  <p><b>Procès-verbaux de l'assemblée primaire / du conseil général</b> (Protokolle der Urversammlung / des Generalrats) : publics, consultables sur le site internet et auprès du bureau communal (al. 1).</p>
+                </item>
+                <item eId="sec_gemeinde/sec_oeffentlichkeit/para_2/item_b">
+                  <num>b)</num>
+                  <p><b>Procès-verbaux du conseil municipal</b> (Protokolle des Gemeinderats) : non publics (al. 2). Ceci est confirmé par la <ref href="/eli/vs/170.2">LIPDA</ref> art. 15, al. 5 : <i>« Ne sont pas accessibles les procès-verbaux des séances du Conseil d'État et des exécutifs municipaux et bourgeoisiaux. »</i></p>
+                </item>
+                <item eId="sec_gemeinde/sec_oeffentlichkeit/para_2/item_c">
+                  <num>c)</num>
+                  <p><b>Décisions d'une portée générale</b> (Beschlüsse von allgemeiner Tragweite) : doivent être publiées, pour autant qu'elles ne violent pas des intérêts dignes de protection (al. 3). Cela s'applique également aux décisions issues de séances non publiques du conseil municipal.</p>
+                </item>
+                <item eId="sec_gemeinde/sec_oeffentlichkeit/para_2/item_d">
+                  <num>d)</num>
+                  <p><b>Extraits des procès-verbaux</b> (Protokollauszüge) : toute personne possédant un intérêt digne de protection peut demander un extrait (al. 4).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_3">
+            <content>
+              <p>Un <b>procès-verbal</b> (Protokoll) est tenu de toutes les délibérations des organes ; il est signé par le président et le secrétaire (<ref href="/eli/vs/175.1">LCo</ref> art. 98). Il doit contenir au minimum : le nombre de personnes présentes, l'ordre du jour, les propositions présentées et les décisions prises (art. 99).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_4">
+            <content>
+              <p>Les communications officielles (amtliche Mitteilungen) sont rendues publiques par affichage au pilier public et, pour autant que la loi le prescrive, par insertion dans l'organe officiel de publication. Le règlement communal d'organisation peut prévoir d'autres genres de publication (<ref href="/eli/vs/175.1">LCo</ref> art. 102).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_5">
+            <content>
+              <p>En complément, la <ref href="/eli/vs/170.2">Loi sur l'information du public, la protection des données et l'archivage</ref> (LIPDA ; RS/VS 170.2) régit le droit d'accès général aux documents officiels. Toute personne a en principe le droit d'accéder aux documents officiels (<ref href="/eli/vs/170.2">LIPDA</ref> art. 12). Les autorités informent spontanément de leurs activités d'intérêt public (art. 9). Des exceptions sont prévues lorsque des intérêts publics ou privés prépondérants s'y opposent (art. 15).</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_gemeindetypen">
+        <heading>Types de communes dans le canton du Valais</heading>
+        <paragraph eId="sec_gemeindetypen/para_1">
+          <content>
+            <p><ref href="/eli/vs/175.1">LCo</ref> art. 1, al. 1 mentionne deux types de collectivités de droit public :</p>
+            <p><i>« La présente loi régit [...] les collectivités de droit public suivantes : a) les communes municipales ; b) les communes bourgeoisiales. »</i></p>
+          </content>
+        </paragraph>
+
+        <section eId="sec_gemeindetypen/sec_eg">
+          <heading>Commune municipale (Einwohnergemeinde)</heading>
+          <paragraph eId="sec_gemeindetypen/sec_eg/para_1">
+            <content>
+              <p>La commune municipale est la commune politique de tous les habitants et le principal responsable des tâches publiques au niveau communal. C'est la commune au sens courant du terme.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_gemeindetypen/sec_bg">
+          <heading>Commune bourgeoisiale (Burgergemeinde)</heading>
+          <paragraph eId="sec_gemeindetypen/sec_bg/para_1">
+            <content>
+              <p>La commune bourgeoisiale est une collectivité de droit public des anciens bourgeois (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 80 : <i>« La commune bourgeoisiale est une collectivité de droit public »</i>). Elle possède ses propres organes et administre son propre patrimoine. La <ref href="/eli/vs/175.2">Loi sur les bourgeoisies</ref> (RS/VS 175.2) règle son organisation en détail.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_gemeindetypen/sec_gt">
+          <heading>Consortage (Geteilschaft)</heading>
+          <paragraph eId="sec_gemeindetypen/sec_gt/para_1">
+            <content>
+              <p>Les consortages sont des collectivités du droit privé cantonal qui administrent en commun des alpages, des forêts, des eaux et d'autres biens. Ils acquièrent la personnalité juridique par l'approbation des statuts par le Conseil d'État.</p>
+              <p><ref href="/eli/vs/211.1">LACCS</ref> art. 126 mentionne comme sous-formes : <i>« les sociétés d'allmends ; les consortages d'alpages, de forêts, de fontaines, de bisses ou de réunions parcellaires, et autres corporations semblables »</i>.</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_organe">
+        <heading>Organes des communes</heading>
+
+        <section eId="sec_organe/sec_eg">
+          <heading>Organes de la commune municipale</heading>
+          <paragraph eId="sec_organe/sec_eg/para_1">
+            <content>
+              <p><ref href="/eli/vs/175.1">LCo</ref> art. 4 :</p>
+              <p><i>« ¹ Il y a dans chaque commune municipale les organes suivants : a) une assemblée primaire, organe délibérant ; b) un conseil municipal, organe exécutif. ² L'assemblée primaire peut être remplacée par le conseil général sauf en matière électorale. »</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_organe/sec_eg/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_organe/sec_eg/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Assemblée primaire</b> (Urversammlung) : organe délibérant (beschlussfassendes Organ). Assemblée de tous les habitants jouissant du droit de vote. Correspond à la « Gemeindeversammlung » d'autres cantons. Délibère et décide de tous les règlements ayant un effet externe (<ref href="/eli/vs/175.1">LCo</ref> art. 17).</p>
+                </item>
+                <item eId="sec_organe/sec_eg/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Conseil général</b> (Generalrat) : parlement communal élu, pouvant remplacer l'assemblée primaire (sauf en matière électorale). Possible dans les communes de plus de 700 habitants (<ref href="/eli/vs/175.1">LCo</ref> art. 20).</p>
+                </item>
+                <item eId="sec_organe/sec_eg/para_2/item_c">
+                  <num>—</num>
+                  <p><b>Conseil municipal</b> (Gemeinderat) : organe exécutif, 3 à 15 membres. Élu par l'assemblée primaire (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 78, al. 2).</p>
+                </item>
+                <item eId="sec_organe/sec_eg/para_2/item_d">
+                  <num>—</num>
+                  <p><b>Président de la commune</b> (Gemeindepräsident) : président du conseil municipal, élu par l'assemblée primaire (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 78, al. 2).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_organe/sec_eg/para_3">
+            <content>
+              <p><b>Note sur la désignation du conseil municipal</b> : la Constitution cantonale de 1907 utilise à l'art. 72 le terme « conseil communal », tandis que la loi sur les communes de 2004 emploie « conseil municipal » (<ref href="/eli/vs/175.1">LCo</ref> art. 4). Les deux désignent le même organe. La LCo étant la loi la plus récente fait foi : la désignation actuelle est <b>conseil municipal</b>.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_organe/sec_bg">
+          <heading>Organes de la commune bourgeoisiale</heading>
+          <paragraph eId="sec_organe/sec_bg/para_1">
+            <content>
+              <p><ref href="/eli/vs/175.1">LCo</ref> art. 50 :</p>
+              <p><i>« Les organes de la commune bourgeoisiale sont : a) l'assemblée bourgeoisiale, organe délibérant ; b) le conseil bourgeoisial, organe exécutif de trois à neuf membres au plus. »</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_organe/sec_bg/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_organe/sec_bg/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Assemblée bourgeoisiale</b> (Burgerversammlung) : organe délibérant de la commune bourgeoisiale (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 81).</p>
+                </item>
+                <item eId="sec_organe/sec_bg/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Conseil bourgeoisial</b> (Burgerrat) : organe exécutif, 3 à 9 membres (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 82). Si aucun conseil bourgeoisial n'est élu, le conseil municipal assume cette fonction (<ref href="/eli/vs/175.1">LCo</ref> art. 51).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_abgrenzung">
+        <heading>Distinction terminologique : « règlement » et « ordonnance »</heading>
+        <paragraph eId="sec_abgrenzung/para_1">
+          <content>
+            <p>Les termes « règlement » et « ordonnance » sont utilisés dans le droit suisse à différents niveaux avec des significations différentes. L'aperçu suivant montre l'attribution par niveau et auteur.</p>
+          </content>
+        </paragraph>
+
+        <section eId="sec_abgrenzung/sec_bund">
+          <heading>Confédération</heading>
+          <paragraph eId="sec_abgrenzung/sec_bund/para_1">
+            <content>
+              <p>Au niveau fédéral, la forme normative de l'exécutif (Conseil fédéral) et du parlement (Assemblée fédérale) porte uniformément le nom d'<b>ordonnance</b>. Le terme « règlement » n'est pas utilisé comme type d'acte.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_abgrenzung/sec_kanton">
+          <heading>Canton du Valais</heading>
+          <paragraph eId="sec_abgrenzung/sec_kanton/para_1">
+            <content>
+              <p>La Constitution cantonale distingue au niveau du Conseil d'État entre :</p>
+              <blockList>
+                <item eId="sec_abgrenzung/sec_kanton/para_1/item_a">
+                  <num>—</num>
+                  <p><b>Règlement</b> : dispositions d'exécution relevant de la compétence originaire (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 57, al. 1).</p>
+                </item>
+                <item eId="sec_abgrenzung/sec_kanton/para_1/item_b">
+                  <num>—</num>
+                  <p><b>Ordonnance</b> : législation déléguée — uniquement lorsqu'une loi le prévoit expressément (<ref href="/eli/vs/101.1">Cst. cant.</ref> art. 57, al. 2).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_abgrenzung/sec_gemeinde">
+          <heading>Commune (Canton du Valais)</heading>
+          <paragraph eId="sec_abgrenzung/sec_gemeinde/para_1">
+            <content>
+              <p>Au niveau communal, seule la forme <b>règlement</b> existe. L'assemblée primaire (resp. le conseil général) adopte tous les règlements ayant un effet externe. Une distinction entre actes législatifs et exécutifs à partir du titre n'est pas possible — elle ne ressort que du contenu et de l'ordre des compétences (<ref href="/eli/vs/175.1">LCo</ref> art. 17).</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_abgrenzung/sec_zh">
+          <heading>Canton de Zurich (à titre de comparaison)</heading>
+          <paragraph eId="sec_abgrenzung/sec_zh/para_1">
+            <content>
+              <p>Dans le canton de Zurich, la terminologie au niveau communal est inversée par rapport au Valais :</p>
+              <blockList>
+                <item eId="sec_abgrenzung/sec_zh/para_1/item_a">
+                  <num>—</num>
+                  <p><b>Verordnung</b> (ordonnance) : acte de l'assemblée communale (législatif). Correspond au « règlement » valaisan de l'assemblée primaire.</p>
+                </item>
+                <item eId="sec_abgrenzung/sec_zh/para_1/item_b">
+                  <num>—</num>
+                  <p><b>Reglement</b> (règlement) : acte du conseil communal (exécutif). Dispositions d'exécution d'une ordonnance.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_abgrenzung/sec_zh/para_2">
+            <content>
+              <p>Quiconque lit des actes de différents cantons ou niveaux doit donc toujours se référer à l'auteur et non à la désignation.</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_quellen">
+        <heading>Sources</heading>
+        <paragraph eId="sec_quellen/para_1">
+          <content>
+            <blockList>
+              <item eId="sec_quellen/para_1/item_a">
+                <num>—</num>
+                <p><ref href="/eli/ch/101">Constitution fédérale de la Confédération suisse du 18 avril 1999</ref> (Cst. ; Bundesverfassung, BV) — RS 101. Articles cités : 141, 148, 163, 165, 174, 182, 188.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_b">
+                <num>—</num>
+                <p>Loi sur les recueils du droit fédéral et la Feuille fédérale du 18 juin 2004 (Loi sur les publications officielles, LPubl ; Publikationsgesetz, PublG) — RS 170.512.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_c">
+                <num>—</num>
+                <p><ref href="/eli/vs/101.1">Constitution du canton du Valais du 8 mars 1907</ref> (Cst. cant. ; Kantonsverfassung, KV) — RS/VS 101.1. Articles cités : 31, 32, 36, 38, 42, 52, 57, 72, 78, 80, 81, 82.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_d">
+                <num>—</num>
+                <p><ref href="/eli/vs/170.2">Loi sur l'information du public, la protection des données et l'archivage du 9 octobre 2008</ref> (LIPDA ; Gesetz über die Information der Öffentlichkeit, den Datenschutz und die Archivierung, GIDA) — RS/VS 170.2. Articles cités : 9, 12, 15.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_e">
+                <num>—</num>
+                <p><ref href="/eli/vs/170.5">Règlement sur le Bulletin officiel</ref> (Reglement über das Amtsblatt) — RS/VS 170.5.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_f">
+                <num>—</num>
+                <p><ref href="/eli/vs/175.1">Loi sur les communes du 5 février 2004</ref> (LCo ; Gemeindegesetz, GemG) — RS/VS 175.1. Articles cités : 1, 2, 4, 17, 18, 20, 35, 41, 50, 51, 98, 99, 101, 102.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_g">
+                <num>—</num>
+                <p><ref href="/eli/vs/175.2">Loi sur les bourgeoisies du 28 juin 1989</ref> (Gesetz über die Burgerschaften) — RS/VS 175.2.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_h">
+                <num>—</num>
+                <p><ref href="/eli/vs/211.1">Loi d'application du Code civil suisse</ref> (LACCS ; Einführungsgesetz zum Schweizerischen Zivilgesetzbuch, EGZGB) — RS/VS 211.1. Article cité : 126.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+
+    </body>
+  </doc>
+</akomaNtoso>

@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="reference">
+    <meta>
+      <identification source="#openmun-lex">
+        <FRBRWork>
+          <FRBRthis value="/doc/terminologie-erlassformen"/>
+          <FRBRuri value="/doc/terminologie-erlassformen"/>
+          <FRBRdate date="2026-02-14" name="publication"/>
+          <FRBRalias value="Erlassformen und Behördenbezeichnungen im schweizerischen Recht" name="title"/>
+          <FRBRcountry value="CH-VS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/doc/terminologie-erlassformen/de"/>
+          <FRBRuri value="/doc/terminologie-erlassformen/de"/>
+          <FRBRdate date="2026-02-14" name="publication"/>
+          <FRBRlanguage language="de"/>
+        </FRBRExpression>
+      </identification>
+    </meta>
+    <preface>
+      <longTitle>
+        <p><docTitle>Erlassformen und Behördenbezeichnungen im schweizerischen Recht</docTitle></p>
+      </longTitle>
+      <p>Terminologie-Referenz mit Fokus auf den Kanton Wallis und seine Gemeinden</p>
+      <p><docDate date="2026-02-14">Februar 2026</docDate></p>
+    </preface>
+    <body>
+
+      <section eId="sec_einleitung">
+        <heading>Einleitung</heading>
+        <paragraph eId="sec_einleitung/para_1">
+          <content>
+            <p>Das schweizerische Recht wird auf drei Stufen gesetzt: Bund, Kanton und Gemeinde. Jede Stufe verwendet eigene Bezeichnungen für ihre Erlasse und Organe. Diese Bezeichnungen sind in der jeweiligen Verfassung oder im Organisationsgesetz definiert.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_einleitung/para_2">
+          <content>
+            <p>Das vorliegende Dokument stellt die massgeblichen Definitionen zusammen, mit Verweisen auf die Gesetzesquellen. Es konzentriert sich auf die für Walliser Gemeinden relevanten Begriffe, ordnet diese aber in den Gesamtzusammenhang der schweizerischen Rechtsordnung ein.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_einleitung/para_3">
+          <content>
+            <p>Die wichtigste Eigenheit auf Gemeindestufe: Im Kanton Wallis heisst die einzige normative Erlassform «Reglement» — unabhängig davon, ob es sich inhaltlich um organisatorische, polizeiliche oder finanzielle Bestimmungen handelt. Dieser Begriff bedeutet auf anderen Stufen etwas anderes. Abschnitt 7 erläutert die Unterschiede.</p>
+          </content>
+        </paragraph>
+      </section>
+
+      <section eId="sec_bund">
+        <heading>Erlassformen des Bundes</heading>
+
+        <section eId="sec_bund/sec_bv">
+          <heading>Bundesversammlung (Assemblée fédérale)</heading>
+          <paragraph eId="sec_bund/sec_bv/para_1">
+            <content>
+              <p><ref href="/eli/ch/101">BV</ref> Art. 163 definiert die Erlassformen der Bundesversammlung:</p>
+              <p><i>«¹ Die Bundesversammlung erlässt rechtsetzende Bestimmungen in der Form des Bundesgesetzes oder der Verordnung. ² Die übrigen Erlasse ergehen in der Form des Bundesbeschlusses; ein Bundesbeschluss, der dem Referendum nicht untersteht, wird als einfacher Bundesbeschluss bezeichnet.»</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_bund/sec_bv/para_2">
+            <content>
+              <p>Daraus ergeben sich vier Erlassformen:</p>
+              <blockList>
+                <item eId="sec_bund/sec_bv/para_2/item_a">
+                  <num>a)</num>
+                  <p><b>Bundesgesetz</b> (loi fédérale) — rechtsetzende Bestimmungen, dem fakultativen Referendum unterstellt (<ref href="/eli/ch/101">BV</ref> Art. 141 Abs. 1 lit. a). Grundsätzlich unbefristet.</p>
+                </item>
+                <item eId="sec_bund/sec_bv/para_2/item_b">
+                  <num>b)</num>
+                  <p><b>Verordnung der Bundesversammlung</b> (ordonnance de l'Assemblée fédérale) — rechtsetzende Bestimmungen in nachgeordneter Form. Selten; für Ausführungsbestimmungen auf Stufe Parlament.</p>
+                </item>
+                <item eId="sec_bund/sec_bv/para_2/item_c">
+                  <num>c)</num>
+                  <p><b>Bundesbeschluss</b> (arrêté fédéral) — nicht rechtsetzender Erlass. Dem fakultativen Referendum unterstellt, soweit Verfassung oder Gesetz es vorsehen.</p>
+                </item>
+                <item eId="sec_bund/sec_bv/para_2/item_d">
+                  <num>d)</num>
+                  <p><b>Einfacher Bundesbeschluss</b> (arrêté fédéral simple) — Bundesbeschluss, der dem Referendum nicht untersteht. Für Verwaltungs- und Organisationsgeschäfte.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_bund/sec_bv/para_3">
+            <content>
+              <p>Dringlich erklärte Bundesgesetze (<ref href="/eli/ch/101">BV</ref> Art. 165) treten sofort in Kraft, müssen aber innert eines Jahres dem Referendum unterstellt werden.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_bund/sec_br">
+          <heading>Bundesrat (Conseil fédéral)</heading>
+          <paragraph eId="sec_bund/sec_br/para_1">
+            <content>
+              <p><ref href="/eli/ch/101">BV</ref> Art. 182 Abs. 1:</p>
+              <p><i>«Der Bundesrat erlässt rechtsetzende Bestimmungen in der Form der Verordnung, soweit er durch Verfassung oder Gesetz dazu ermächtigt ist.»</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_bund/sec_br/para_2">
+            <content>
+              <p>Die <b>Verordnung des Bundesrates</b> (ordonnance du Conseil fédéral) ist die häufigste Erlassform auf Bundesstufe. Sie bedarf stets einer gesetzlichen Ermächtigung und untersteht keinem Referendum.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_bund/sec_pub">
+          <heading>Bundesorgane und Publikation</heading>
+          <paragraph eId="sec_bund/sec_pub/para_1">
+            <content>
+              <blockList>
+                <item eId="sec_bund/sec_pub/para_1/item_a">
+                  <num>—</num>
+                  <p><b>Bundesversammlung</b> (Assemblée fédérale): Nationalrat (Conseil national) und Ständerat (Conseil des États). <ref href="/eli/ch/101">BV</ref> Art. 148.</p>
+                </item>
+                <item eId="sec_bund/sec_pub/para_1/item_b">
+                  <num>—</num>
+                  <p><b>Bundesrat</b> (Conseil fédéral): Regierung der Eidgenossenschaft. <ref href="/eli/ch/101">BV</ref> Art. 174.</p>
+                </item>
+                <item eId="sec_bund/sec_pub/para_1/item_c">
+                  <num>—</num>
+                  <p><b>Bundesgericht</b> (Tribunal fédéral): Oberste rechtsprechende Behörde. <ref href="/eli/ch/101">BV</ref> Art. 188.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_bund/sec_pub/para_2">
+            <content>
+              <p>Die Publikationsorgane des Bundes sind im Publikationsgesetz (SR 170.512) geregelt:</p>
+              <blockList>
+                <item eId="sec_bund/sec_pub/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Amtliche Sammlung</b> (AS; Recueil officiel, RO): Chronologische Sammlung aller rechtsverbindlichen Erlasse. Massgebend für das Inkrafttreten.</p>
+                </item>
+                <item eId="sec_bund/sec_pub/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Systematische Rechtssammlung</b> (SR; Recueil systématique, RS): Konsolidierte, nach Sachgebieten geordnete Sammlung des geltenden Bundesrechts.</p>
+                </item>
+                <item eId="sec_bund/sec_pub/para_2/item_c">
+                  <num>—</num>
+                  <p><b>Bundesblatt</b> (BBl; Feuille fédérale, FF): Amtliches Publikationsorgan für Botschaften, Berichte und Bekanntmachungen.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_kanton">
+        <heading>Erlassformen des Kantons Wallis</heading>
+
+        <section eId="sec_kanton/sec_gr">
+          <heading>Grosser Rat (Grand Conseil)</heading>
+          <paragraph eId="sec_kanton/sec_gr/para_1">
+            <content>
+              <p><ref href="/eli/vs/101.1">KV</ref> Art. 42 definiert die Erlassformen des Grossen Rates:</p>
+              <p><i>«¹ Der Grosse Rat erlässt die Rechtsnormen in Form des Gesetzes, das grundsätzlich für eine unbegrenzte Dauer in Kraft gesetzt wird. ² Er erlässt in Form von Ausführungsgesetzen die zum Vollzug des übergeordneten Rechtes absolut notwendigen Bestimmungen. ³ Erfordern es die Umstände, so kann er jedoch auf dem Dekretsweg dringliche Bestimmungen von begrenzter Dauer erlassen (Art. 32 Abs. 2). ⁴ Der Grosse Rat behandelt alle übrigen Geschäfte in Form von Beschlüssen.»</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_gr/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_kanton/sec_gr/para_2/item_a">
+                  <num>a)</num>
+                  <p><b>Gesetz</b> (loi) — Rechtsnormen des Grossen Rates, grundsätzlich unbefristet. Dem fakultativen Referendum unterstellt (<ref href="/eli/vs/101.1">KV</ref> Art. 31 Abs. 1 lit. a).</p>
+                </item>
+                <item eId="sec_kanton/sec_gr/para_2/item_b">
+                  <num>b)</num>
+                  <p><b>Ausführungsgesetz</b> (loi d'application) — zum Vollzug übergeordneten Rechts absolut notwendige Bestimmungen. Dem Referendum <b>nicht</b> unterstellt (<ref href="/eli/vs/101.1">KV</ref> Art. 31 Abs. 3 lit. a).</p>
+                </item>
+                <item eId="sec_kanton/sec_gr/para_2/item_c">
+                  <num>c)</num>
+                  <p><b>Dekret</b> (décret) — dringliche Bestimmungen von begrenzter Dauer. Wird sofort in Kraft gesetzt; falls 3000 Stimmberechtigte es verlangen, Volksabstimmung im Folgejahr (<ref href="/eli/vs/101.1">KV</ref> Art. 32 Abs. 2).</p>
+                </item>
+                <item eId="sec_kanton/sec_gr/para_2/item_d">
+                  <num>d)</num>
+                  <p><b>Beschluss</b> (décision) — alle übrigen Geschäfte des Grossen Rates. Dem Referendum unterstellt bei ausserordentlichen Ausgaben über bestimmtem Schwellenwert (<ref href="/eli/vs/101.1">KV</ref> Art. 31 Abs. 1 lit. c).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_gr/para_3">
+            <content>
+              <p>Interkantonale <b>Konkordate, Verträge und Vereinbarungen</b> (concordats, traités, conventions) werden vom Grossen Rat genehmigt und sind dem Referendum unterstellt, sofern sie Rechtsnormen enthalten (<ref href="/eli/vs/101.1">KV</ref> Art. 31 Abs. 1 lit. b, Art. 38 Abs. 2).</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_kanton/sec_sr">
+          <heading>Staatsrat (Conseil d'État)</heading>
+          <paragraph eId="sec_kanton/sec_sr/para_1">
+            <content>
+              <p><ref href="/eli/vs/101.1">KV</ref> Art. 57 unterscheidet drei Erlassformen des Staatsrates:</p>
+              <p><i>«¹ Der Staatsrat erlässt in Reglementsform die zur Anwendung kantonaler Gesetze und Dekrete notwendigen Bestimmungen. ² Das Gesetz kann dem Staatsrat die Befugnis zum Erlass von Verordnungen übertragen, indem es deren Zweck und die ihren Inhalt bestimmenden Grundsätze festlegt. ³ Der Staatsrat behandelt die anderen Geschäfte in Form von Beschlüssen und Entscheiden.»</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_sr/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_kanton/sec_sr/para_2/item_a">
+                  <num>a)</num>
+                  <p><b>Reglement</b> (règlement) — Ausführungsbestimmungen zu kantonalen Gesetzen und Dekreten. Originäre Verordnungskompetenz: der Staatsrat erlässt sie gestützt auf seine verfassungsmässige Zuständigkeit (Abs. 1).</p>
+                </item>
+                <item eId="sec_kanton/sec_sr/para_2/item_b">
+                  <num>b)</num>
+                  <p><b>Verordnung</b> (ordonnance) — delegierte Rechtsetzung: nur wenn ein Gesetz dem Staatsrat diese Befugnis ausdrücklich überträgt, mit Angabe von Zweck und Grundsätzen (Abs. 2). Kann der Genehmigung des Grossen Rates unterstellt werden.</p>
+                </item>
+                <item eId="sec_kanton/sec_sr/para_2/item_c">
+                  <num>c)</num>
+                  <p><b>Beschluss / Entscheid</b> (arrêté / décision) — alle übrigen Geschäfte des Staatsrates (Abs. 3).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_sr/para_3">
+            <content>
+              <p>Die Unterscheidung zwischen Reglement (originäre Kompetenz) und Verordnung (delegierte Kompetenz) ist eine Besonderheit der Walliser Kantonsverfassung. In der Bundesrechtsordnung heissen beide Formen «Verordnung».</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_kanton/sec_pub">
+          <heading>Kantonale Organe und Publikation</heading>
+          <paragraph eId="sec_kanton/sec_pub/para_1">
+            <content>
+              <blockList>
+                <item eId="sec_kanton/sec_pub/para_1/item_a">
+                  <num>—</num>
+                  <p><b>Grosser Rat</b> (Grand Conseil): Kantonsparlament. <ref href="/eli/vs/101.1">KV</ref> Art. 38.</p>
+                </item>
+                <item eId="sec_kanton/sec_pub/para_1/item_b">
+                  <num>—</num>
+                  <p><b>Staatsrat</b> (Conseil d'État): Kantonsregierung. <ref href="/eli/vs/101.1">KV</ref> Art. 52.</p>
+                </item>
+                <item eId="sec_kanton/sec_pub/para_1/item_c">
+                  <num>—</num>
+                  <p><b>Kantonsgericht</b> (Tribunal cantonal): Oberste kantonale Gerichtsinstanz. <ref href="/eli/vs/101.1">KV</ref> Art. 36.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_kanton/sec_pub/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_kanton/sec_pub/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Amtsblatt des Kantons Wallis</b> (Bulletin officiel du canton du Valais): Offizielles Publikationsorgan. Referendumsfristen laufen ab Veröffentlichung (<ref href="/eli/vs/101.1">KV</ref> Art. 31). Geregelt im <ref href="/eli/vs/170.5">Reglement über das Amtsblatt</ref> (SGS 170.5).</p>
+                </item>
+                <item eId="sec_kanton/sec_pub/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Gesetzessammlung</b> (SGS; Recueil systématique, RS/VS): Systematische Sammlung des kantonalen Rechts, veröffentlicht unter lex.vs.ch.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_gemeinde">
+        <heading>Erlassformen der Walliser Gemeinden</heading>
+        <paragraph eId="sec_gemeinde/para_1">
+          <content>
+            <p><ref href="/eli/vs/175.1">GemG</ref> Art. 2 Abs. 2 umschreibt die Rechtsetzungskompetenz der Gemeinden:</p>
+            <p><i>«Sie können ein kommunales Organisationsreglement sowie andere Reglementsbestimmungen erlassen, sofern die Gesetzgebung die Materie nicht oder nicht abschliessend regelt oder sie zur Rechtsetzung ausdrücklich ermächtigt.»</i></p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_gemeinde/para_2">
+          <content>
+            <p>Die einzige normative Erlassform auf Gemeindestufe ist das <b>Reglement</b> (règlement). Anders als auf Kantonsstufe, wo die Verfassung zwischen Gesetz, Ausführungsgesetz, Dekret, Reglement und Verordnung unterscheidet, kennt das Gemeinderecht nur diese eine Form. Ob ein Reglement organisatorische, polizeiliche, finanzielle oder baurechtliche Bestimmungen enthält — die Bezeichnung ist stets «Reglement».</p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_gemeinde/para_3">
+          <content>
+            <p><ref href="/eli/vs/175.1">GemG</ref> Art. 17 Abs. 1 zählt die unveräusserlichen Befugnisse der Urversammlung auf:</p>
+            <p><i>«Die Urversammlung berät und beschliesst: a) die Annahme und Abänderung sämtlicher Gemeindereglemente, ausgenommen solche von rein interner Tragweite; [...]»</i></p>
+          </content>
+        </paragraph>
+        <paragraph eId="sec_gemeinde/para_4">
+          <content>
+            <p>Das bedeutet: Sämtliche Reglemente mit Aussenwirkung müssen von der Urversammlung (bzw. dem Generalrat) beraten und beschlossen werden. Reglemente von <b>rein interner Tragweite</b> (règlements de portée purement interne) — etwa Geschäftsordnungen der Verwaltung — kann der Gemeinderat selbständig erlassen.</p>
+          </content>
+        </paragraph>
+
+        <section eId="sec_gemeinde/sec_homo">
+          <heading>Homologation</heading>
+          <paragraph eId="sec_gemeinde/sec_homo/para_1">
+            <content>
+              <p>Bestimmte Beschlüsse der Urversammlung bedürfen der Genehmigung durch den Staatsrat. Dieses Verfahren heisst <b>Homologation</b> (homologation).</p>
+              <p><ref href="/eli/vs/175.1">GemG</ref> Art. 18:</p>
+              <p><i>«Die dem Staatsrat zur Homologation unterbreiteten Urversammlungsbeschlüsse treten erst am Tag ihrer Genehmigung durch diese Behörde in Kraft, die sich in der Regel in den sechs Monaten nach Erhalt des Homologationsgesuches ausspricht.»</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_homo/para_2">
+            <content>
+              <p>Ein Reglement, das der Homologation unterliegt, ist erst nach der Genehmigung durch den Staatsrat rechtsverbindlich. Die Frist beträgt in der Regel sechs Monate ab Einreichung.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_gemeinde/sec_beschluss">
+          <heading>Beschlüsse (décisions)</heading>
+          <paragraph eId="sec_gemeinde/sec_beschluss/para_1">
+            <content>
+              <p>Neben dem Reglement als einziger normativer Erlassform kennt das Gemeinderecht den <b>Beschluss</b> (décision). Beschlüsse sind Einzelakte — sie regeln einen konkreten Sachverhalt, nicht eine abstrakte Vielzahl von Fällen.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_beschluss/para_2">
+            <content>
+              <p>Beschlüsse werden von verschiedenen Organen gefasst:</p>
+              <blockList>
+                <item eId="sec_gemeinde/sec_beschluss/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Urversammlung</b>: Beschlüsse über Ausgaben, Darlehen, Veräusserungen, Beitritte zu Gemeindeverbänden und weitere Geschäfte nach <ref href="/eli/vs/175.1">GemG</ref> Art. 17 Abs. 1 lit. b–k.</p>
+                </item>
+                <item eId="sec_gemeinde/sec_beschluss/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Gemeinderat</b>: Beschlüsse im Rahmen seiner gesetzlichen Zuständigkeit — Verwaltung der öffentlichen Dienste und des Gemeindevermögens, Ernennung von Personal, Finanzhaushaltführung, laufende Geschäfte (<ref href="/eli/vs/175.1">GemG</ref> Art. 35). Dazu gehören auch Festsetzungen innerhalb von Rahmen, die ein Reglement vorgibt (z.B. ein konkreter Wassertarif innerhalb der im Reglement definierten Bandbreite).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_beschluss/para_3">
+            <content>
+              <p>Beschlüsse des Gemeinderates werden mit der Mehrheit der anwesenden Mitglieder gefasst. Die Beratungen sind nicht öffentlich (<ref href="/eli/vs/175.1">GemG</ref> Art. 41 Abs. 4: <i>«Die Beratungen des Gemeinderats finden unter Ausschluss der Öffentlichkeit statt.»</i>).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_beschluss/para_4">
+            <content>
+              <p>Beschlüsse sind nicht rechtsetzend und gehören nicht in die systematische Rechtssammlung. Sie unterliegen aber einer Publikationspflicht, soweit sie von allgemeiner Tragweite sind (siehe nächster Abschnitt).</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_gemeinde/sec_oeffentlichkeit">
+          <heading>Öffentlichkeit und Publikation</heading>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_1">
+            <content>
+              <p><ref href="/eli/vs/175.1">GemG</ref> Art. 101 regelt die Öffentlichkeit der Protokolle und Beschlüsse:</p>
+              <p><i>«¹ Die Protokolle des gesetzgebenden Organs einer öffentlichrechtlichen Körperschaft können auf der Website der betroffenen Körperschaft beziehungsweise beim Gemeindebüro und nach Möglichkeit auf der Website der Gemeinde eingesehen werden. ² Die Protokolle der Vollziehungsorgane sind nicht öffentlich. ³ Die Beschlüsse müssen in dem Masse veröffentlicht werden, als sie von allgemeiner Tragweite sind und schutzwürdige öffentliche oder private Interessen nicht verletzen. ⁴ Unter den gleichen Bedingungen kann jeder, der ein schutzwürdiges Interesse besitzt, einen Protokollauszug verlangen.»</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_2">
+            <content>
+              <p>Daraus ergibt sich folgendes Schema:</p>
+              <blockList>
+                <item eId="sec_gemeinde/sec_oeffentlichkeit/para_2/item_a">
+                  <num>a)</num>
+                  <p><b>Protokolle der Urversammlung / des Generalrats</b> (procès-verbaux de l'organe législatif): öffentlich, einsehbar auf der Website und beim Gemeindebüro (Abs. 1).</p>
+                </item>
+                <item eId="sec_gemeinde/sec_oeffentlichkeit/para_2/item_b">
+                  <num>b)</num>
+                  <p><b>Protokolle des Gemeinderats</b> (procès-verbaux de l'organe exécutif): nicht öffentlich (Abs. 2). Dies wird durch das <ref href="/eli/vs/170.2">GIDA</ref> Art. 15 Abs. 5 bestätigt: <i>«Nicht zugänglich sind die Protokolle der Sitzungen des Staatsrates sowie der Gemeinde- und Burgerexekutiven.»</i></p>
+                </item>
+                <item eId="sec_gemeinde/sec_oeffentlichkeit/para_2/item_c">
+                  <num>c)</num>
+                  <p><b>Beschlüsse von allgemeiner Tragweite</b> (décisions d'une portée générale): müssen veröffentlicht werden, sofern keine schutzwürdigen Interessen verletzt werden (Abs. 3). Dies gilt auch für Beschlüsse aus nicht öffentlichen Gemeinderatssitzungen.</p>
+                </item>
+                <item eId="sec_gemeinde/sec_oeffentlichkeit/para_2/item_d">
+                  <num>d)</num>
+                  <p><b>Protokollauszüge</b> (extraits du procès-verbal): Wer ein schutzwürdiges Interesse besitzt, kann einen Auszug verlangen (Abs. 4).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_3">
+            <content>
+              <p>Über die Beratungen aller Organe wird ein <b>Protokoll</b> (procès-verbal) geführt, das vom Präsidenten und vom Sekretär unterzeichnet wird (<ref href="/eli/vs/175.1">GemG</ref> Art. 98). Es muss mindestens enthalten: die Zahl der Anwesenden, die Tagesordnung, die gestellten Anträge und die gefassten Beschlüsse (Art. 99).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_4">
+            <content>
+              <p>Amtliche Mitteilungen (communications officielles) werden durch öffentlichen Anschlag und, soweit gesetzlich vorgeschrieben, durch Veröffentlichung im Amtsblatt publiziert. Das Organisationsreglement kann weitere Publikationsarten vorsehen (<ref href="/eli/vs/175.1">GemG</ref> Art. 102).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_gemeinde/sec_oeffentlichkeit/para_5">
+            <content>
+              <p>Ergänzend regelt das <ref href="/eli/vs/170.2">Gesetz über die Information der Öffentlichkeit, den Datenschutz und die Archivierung</ref> (GIDA; SGS 170.2) das allgemeine Zugangsrecht zu amtlichen Dokumenten. Jede Person hat grundsätzlich Zugang (<ref href="/eli/vs/170.2">GIDA</ref> Art. 12). Die Behörden informieren von sich aus über Tätigkeiten von öffentlichem Interesse (Art. 9). Ausnahmen gelten bei überwiegenden öffentlichen oder privaten Interessen (Art. 15).</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_gemeindetypen">
+        <heading>Gemeindetypen im Kanton Wallis</heading>
+        <paragraph eId="sec_gemeindetypen/para_1">
+          <content>
+            <p><ref href="/eli/vs/175.1">GemG</ref> Art. 1 Abs. 1 nennt zwei Typen öffentlich-rechtlicher Körperschaften:</p>
+            <p><i>«Das vorliegende Gesetz gilt [...] für folgende Körperschaften des öffentlichen Rechts: a) die Einwohnergemeinden; b) die Burgergemeinden.»</i></p>
+          </content>
+        </paragraph>
+
+        <section eId="sec_gemeindetypen/sec_eg">
+          <heading>Einwohnergemeinde (commune municipale)</heading>
+          <paragraph eId="sec_gemeindetypen/sec_eg/para_1">
+            <content>
+              <p>Die Einwohnergemeinde ist die politische Gemeinde aller Einwohner und Hauptträgerin der öffentlichen Aufgaben auf Gemeindestufe. Sie ist die Gemeinde im landläufigen Sinn.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_gemeindetypen/sec_bg">
+          <heading>Burgergemeinde (commune bourgeoisiale)</heading>
+          <paragraph eId="sec_gemeindetypen/sec_bg/para_1">
+            <content>
+              <p>Die Burgergemeinde ist eine Körperschaft des öffentlichen Rechts der alteingesessenen Burger (<ref href="/eli/vs/101.1">KV</ref> Art. 80: <i>«Die Burgergemeinde ist eine Körperschaft des öffentlichen Rechts»</i>). Sie hat eigene Organe und verwaltet ihr eigenes Vermögen. Das <ref href="/eli/vs/175.2">Burgerschaftengesetz</ref> (SGS 175.2) regelt ihre Organisation im Detail.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_gemeindetypen/sec_gt">
+          <heading>Geteilschaft (consortage)</heading>
+          <paragraph eId="sec_gemeindetypen/sec_gt/para_1">
+            <content>
+              <p>Geteilschaften sind Körperschaften des kantonalen Privatrechts, die Alpen, Wälder, Wasser und andere Güter gemeinschaftlich verwalten. Sie erhalten ihre juristische Persönlichkeit durch Genehmigung der Statuten durch den Staatsrat.</p>
+              <p><ref href="/eli/vs/211.1">EGZGB</ref> Art. 126 nennt als Unterformen: <i>«die Allmendgenossenschaften; die Alp-, Wald-, Brunnen-, Suonen- oder Güterzusammenlegungsgeteilschaften und andere ähnliche Körperschaften»</i>.</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_organe">
+        <heading>Organe der Gemeinden</heading>
+
+        <section eId="sec_organe/sec_eg">
+          <heading>Organe der Einwohnergemeinde</heading>
+          <paragraph eId="sec_organe/sec_eg/para_1">
+            <content>
+              <p><ref href="/eli/vs/175.1">GemG</ref> Art. 4:</p>
+              <p><i>«¹ Jede Einwohnergemeinde hat folgende Organe: a) eine Urversammlung als beschlussfassendes Organ; b) einen Gemeinderat als Vollzugsorgan. ² Die Urversammlung kann, ausser in Wahlsachen, durch den Generalrat ersetzt werden.»</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_organe/sec_eg/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_organe/sec_eg/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Urversammlung</b> (assemblée primaire): Beschlussfassungsorgan (organe délibérant). Versammlung aller stimmberechtigten Einwohner. Entspricht der «Gemeindeversammlung» anderer Kantone. Berät und beschliesst alle Reglemente mit Aussenwirkung (<ref href="/eli/vs/175.1">GemG</ref> Art. 17).</p>
+                </item>
+                <item eId="sec_organe/sec_eg/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Generalrat</b> (conseil général): Gewähltes Gemeindeparlament, das die Urversammlung ersetzen kann (ausser in Wahlsachen). Möglich in Gemeinden mit über 700 Einwohnern (<ref href="/eli/vs/175.1">GemG</ref> Art. 20).</p>
+                </item>
+                <item eId="sec_organe/sec_eg/para_2/item_c">
+                  <num>—</num>
+                  <p><b>Gemeinderat</b> (conseil municipal): Vollzugsorgan (organe exécutif), 3–15 Mitglieder. Wird von der Urversammlung gewählt (<ref href="/eli/vs/101.1">KV</ref> Art. 78 Abs. 2).</p>
+                </item>
+                <item eId="sec_organe/sec_eg/para_2/item_d">
+                  <num>—</num>
+                  <p><b>Gemeindepräsident</b> (président de la commune): Vorsitzender des Gemeinderates, von der Urversammlung gewählt (<ref href="/eli/vs/101.1">KV</ref> Art. 78 Abs. 2).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_organe/sec_eg/para_3">
+            <content>
+              <p><b>Hinweis zur Bezeichnung des Gemeinderates</b>: Die Kantonsverfassung von 1907 verwendet in Art. 72 den Begriff «conseil communal», das Gemeindegesetz von 2004 hingegen «conseil municipal» (<ref href="/eli/vs/175.1">GemG</ref> Art. 4). Beide bezeichnen dasselbe Organ. Das GemG als jüngeres Gesetz ist massgebend: die aktuelle Bezeichnung ist <b>conseil municipal</b>.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_organe/sec_bg">
+          <heading>Organe der Burgergemeinde</heading>
+          <paragraph eId="sec_organe/sec_bg/para_1">
+            <content>
+              <p><ref href="/eli/vs/175.1">GemG</ref> Art. 50:</p>
+              <p><i>«Die Organe der Burgergemeinde sind: a) die Burgerversammlung als beschlussfassendes Organ; b) der Burgerrat als Vollzugsorgan mit drei bis höchstens neun Mitgliedern.»</i></p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_organe/sec_bg/para_2">
+            <content>
+              <blockList>
+                <item eId="sec_organe/sec_bg/para_2/item_a">
+                  <num>—</num>
+                  <p><b>Burgerversammlung</b> (assemblée bourgeoisiale): Beschlussfassungsorgan der Burgergemeinde (<ref href="/eli/vs/101.1">KV</ref> Art. 81).</p>
+                </item>
+                <item eId="sec_organe/sec_bg/para_2/item_b">
+                  <num>—</num>
+                  <p><b>Burgerrat</b> (conseil bourgeoisial): Vollzugsorgan, 3–9 Mitglieder (<ref href="/eli/vs/101.1">KV</ref> Art. 82). Wird kein separater Burgerrat gewählt, übernimmt der Gemeinderat diese Funktion (<ref href="/eli/vs/175.1">GemG</ref> Art. 51).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_abgrenzung">
+        <heading>Begriffliche Abgrenzung: «Reglement» und «Verordnung»</heading>
+        <paragraph eId="sec_abgrenzung/para_1">
+          <content>
+            <p>Die Begriffe «Reglement» und «Verordnung» werden im schweizerischen Recht auf verschiedenen Stufen mit unterschiedlicher Bedeutung verwendet. Die folgende Übersicht zeigt die Zuordnung nach Stufe und Urheber.</p>
+          </content>
+        </paragraph>
+
+        <section eId="sec_abgrenzung/sec_bund">
+          <heading>Bund</heading>
+          <paragraph eId="sec_abgrenzung/sec_bund/para_1">
+            <content>
+              <p>Auf Bundesebene heisst die rechtsetzende Erlassform der Exekutive (Bundesrat) und des Parlaments (Bundesversammlung) einheitlich <b>Verordnung</b>. Der Begriff «Reglement» wird als Erlassform nicht verwendet.</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_abgrenzung/sec_kanton">
+          <heading>Kanton Wallis</heading>
+          <paragraph eId="sec_abgrenzung/sec_kanton/para_1">
+            <content>
+              <p>Die Kantonsverfassung unterscheidet auf Stufe Staatsrat zwischen:</p>
+              <blockList>
+                <item eId="sec_abgrenzung/sec_kanton/para_1/item_a">
+                  <num>—</num>
+                  <p><b>Reglement</b>: Ausführungsbestimmungen aus originärer Kompetenz (<ref href="/eli/vs/101.1">KV</ref> Art. 57 Abs. 1).</p>
+                </item>
+                <item eId="sec_abgrenzung/sec_kanton/para_1/item_b">
+                  <num>—</num>
+                  <p><b>Verordnung</b>: Rechtsetzung aus delegierter Kompetenz — nur wenn ein Gesetz dies ausdrücklich vorsieht (<ref href="/eli/vs/101.1">KV</ref> Art. 57 Abs. 2).</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_abgrenzung/sec_gemeinde">
+          <heading>Gemeinde (Kanton Wallis)</heading>
+          <paragraph eId="sec_abgrenzung/sec_gemeinde/para_1">
+            <content>
+              <p>Auf Gemeindestufe existiert nur die Erlassform <b>Reglement</b>. Die Urversammlung (bzw. der Generalrat) beschliesst sämtliche Reglemente mit Aussenwirkung. Eine Unterscheidung zwischen legislativen und exekutiven Erlassen anhand des Titels ist nicht möglich — sie ergibt sich nur aus dem Inhalt und der Zuständigkeitsordnung (<ref href="/eli/vs/175.1">GemG</ref> Art. 17).</p>
+            </content>
+          </paragraph>
+        </section>
+
+        <section eId="sec_abgrenzung/sec_zh">
+          <heading>Kanton Zürich (zum Vergleich)</heading>
+          <paragraph eId="sec_abgrenzung/sec_zh/para_1">
+            <content>
+              <p>Im Kanton Zürich ist die Terminologie auf Gemeindestufe gegenüber dem Wallis umgekehrt:</p>
+              <blockList>
+                <item eId="sec_abgrenzung/sec_zh/para_1/item_a">
+                  <num>—</num>
+                  <p><b>Verordnung</b>: Erlass der Gemeindeversammlung (Legislative). Entspricht dem Walliser «Reglement» der Urversammlung.</p>
+                </item>
+                <item eId="sec_abgrenzung/sec_zh/para_1/item_b">
+                  <num>—</num>
+                  <p><b>Reglement</b>: Erlass des Gemeinderats (Exekutive). Ausführungsbestimmungen zu einer Verordnung.</p>
+                </item>
+              </blockList>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_abgrenzung/sec_zh/para_2">
+            <content>
+              <p>Wer Erlasse aus verschiedenen Kantonen oder Stufen liest, muss deshalb stets auf den Urheber achten, nicht auf die Bezeichnung.</p>
+            </content>
+          </paragraph>
+        </section>
+      </section>
+
+      <section eId="sec_quellen">
+        <heading>Quellenverzeichnis</heading>
+        <paragraph eId="sec_quellen/para_1">
+          <content>
+            <blockList>
+              <item eId="sec_quellen/para_1/item_a">
+                <num>—</num>
+                <p><ref href="/eli/ch/101">Bundesverfassung der Schweizerischen Eidgenossenschaft vom 18. April 1999</ref> (BV; Constitution fédérale, Cst.) — SR 101. Zitierte Artikel: 141, 148, 163, 165, 174, 182, 188.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_b">
+                <num>—</num>
+                <p>Bundesgesetz über die Sammlungen des Bundesrechts und das Bundesblatt vom 18. Juni 2004 (Publikationsgesetz, PublG; Loi sur les recueils du droit fédéral et la Feuille fédérale) — SR 170.512.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_c">
+                <num>—</num>
+                <p><ref href="/eli/vs/101.1">Verfassung des Kantons Wallis vom 8. März 1907</ref> (KV; Constitution du canton du Valais, Cst. cant.) — SGS 101.1. Zitierte Artikel: 31, 32, 36, 38, 42, 52, 57, 72, 78, 80, 81, 82.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_d">
+                <num>—</num>
+                <p><ref href="/eli/vs/170.2">Gesetz über die Information der Öffentlichkeit, den Datenschutz und die Archivierung vom 9. Oktober 2008</ref> (GIDA; Loi sur l'information du public, la protection des données et l'archivage, LIPDA) — SGS 170.2. Zitierte Artikel: 9, 12, 15.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_e">
+                <num>—</num>
+                <p><ref href="/eli/vs/170.5">Reglement über das Amtsblatt</ref> (Règlement sur le Bulletin officiel) — SGS 170.5.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_f">
+                <num>—</num>
+                <p><ref href="/eli/vs/175.1">Gesetz über die Gemeinden vom 5. Februar 2004</ref> (GemG; Loi sur les communes, LCo) — SGS 175.1. Zitierte Artikel: 1, 2, 4, 17, 18, 20, 35, 41, 50, 51, 98, 99, 101, 102.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_g">
+                <num>—</num>
+                <p><ref href="/eli/vs/175.2">Gesetz über die Burgerschaften vom 28. Juni 1989</ref> (Loi sur les bourgeoisies) — SGS 175.2.</p>
+              </item>
+              <item eId="sec_quellen/para_1/item_h">
+                <num>—</num>
+                <p><ref href="/eli/vs/211.1">Einführungsgesetz zum Schweizerischen Zivilgesetzbuch</ref> (EGZGB; Loi d'application du Code civil suisse) — SGS 211.1. Zitierter Artikel: 126.</p>
+              </item>
+            </blockList>
+          </content>
+        </paragraph>
+      </section>
+
+    </body>
+  </doc>
+</akomaNtoso>
