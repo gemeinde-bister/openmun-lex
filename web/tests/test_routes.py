@@ -561,3 +561,98 @@ def test_lang_toggle_shown_multi_lang(client: TestClient, tmp_path: Path) -> Non
     finally:
         routes.DATA_DIR = old_data_dir
         routes._doc_cache.clear()
+
+
+# --- Municipal index: drafts and annex metas stay out of the listing ---
+
+
+_MIN_ACT = """<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="publicLaw">
+    <meta>
+      <identification source="#test">
+        <FRBRWork>
+          <FRBRthis value="/eli/mun/9999/eg/{num}"/>
+          <FRBRuri value="/eli/mun/9999/eg/{num}"/>
+          <FRBRdate date="2025-01-01" name="enactment"/>
+          <FRBRalias value="{title}" name="title"/>
+          <FRBRcountry value="CH-VS-9999"/>
+          <FRBRnumber value="{num}"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/eli/mun/9999/eg/{num}/de"/>
+          <FRBRuri value="/eli/mun/9999/eg/{num}/de"/>
+          <FRBRlanguage language="de"/>
+        </FRBRExpression>
+      </identification>
+    </meta>
+    <body>
+      <article eId="art_1"><num>Art. 1</num><paragraph eId="art_1/para">
+      <content><p>Text.</p></content></paragraph></article>
+    </body>
+  </act>
+</akomaNtoso>
+"""
+
+
+def _mun_meta(num: str, **extra: object) -> str:
+    import json
+
+    meta = {
+        "systematic_number": num,
+        "law_type": "Reglement",
+        "entity": "eg",
+        "municipality_bfs": "9999",
+        "municipality_name": "Testhausen",
+        "abrogated": False,
+    }
+    meta.update(extra)
+    return json.dumps(meta)
+
+
+@pytest.fixture
+def mun_fixture_dir(tmp_path: Path, monkeypatch) -> Path:
+    """A data dir with one enacted law, one draft-only law and one annex meta."""
+    eg = tmp_path / "mun" / "9999" / "eg"
+
+    enacted = eg / "100.100"
+    enacted.mkdir(parents=True)
+    (enacted / "meta.json").write_text(_mun_meta("100.100"), encoding="utf-8")
+    (enacted / "de.xml").write_text(
+        _MIN_ACT.format(num="100.100", title="Organisationsreglement Testhausen"),
+        encoding="utf-8",
+    )
+
+    draft = eg / "724.100"
+    (draft / "draft" / "anhang" / "1").mkdir(parents=True)
+    (draft / "meta.json").write_text(_mun_meta("724.100", status="draft"), encoding="utf-8")
+    (draft / "draft" / "de.xml").write_text(
+        _MIN_ACT.format(num="724.100", title="Trinkwasserreglement Testhausen"),
+        encoding="utf-8",
+    )
+    # Annex component meta: no systematic number, must never become a listing row
+    (draft / "draft" / "anhang" / "1" / "meta.json").write_text(
+        '{"number": 1, "title": "Plan", "mime_type": "image/png"}', encoding="utf-8"
+    )
+
+    monkeypatch.setattr("lex_web.routes.DATA_DIR", tmp_path)
+    monkeypatch.setattr("lex_web.routes._mun_index_cache", None)
+    monkeypatch.setattr("lex_web.routes._bfs_name_cache", {"9999": "Testhausen"})
+    return tmp_path
+
+
+def test_mun_index_lists_enacted_law_only(mun_fixture_dir: Path) -> None:
+    from lex_web.routes import _load_mun_index
+
+    entries = _load_mun_index()
+    assert [e["reg_id"] for e in entries] == ["100.100"]
+    assert entries[0]["title"] == "Organisationsreglement Testhausen"
+
+
+def test_index_page_hides_drafts_and_annex_metas(mun_fixture_dir: Path) -> None:
+    client = TestClient(create_app())
+    resp = client.get("/")
+    assert resp.status_code == 200
+    assert "/eli/mun/9999/eg/100.100" in resp.text
+    assert "724.100" not in resp.text
+    assert 'href="/eli/mun///"' not in resp.text

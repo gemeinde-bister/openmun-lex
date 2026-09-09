@@ -508,9 +508,19 @@ def _load_mun_index() -> list[dict]:
         except (json.JSONDecodeError, OSError):
             continue
 
+        # Only a law's meta.json carries a systematic number; annex metas
+        # (…/anhang/N/meta.json) describe a component, not a work.
+        reg_id = meta.get("systematic_number", "")
+        if not reg_id:
+            continue
+
+        # Drafts are reachable via their /draft URI only and never appear in
+        # the listing (docs/URI-MODEL.md § Drafts).
+        if meta.get("status") == "draft":
+            continue
+
         bfs = meta.get("municipality_bfs", "")
         entity = meta.get("entity", "")
-        reg_id = meta.get("systematic_number", "")
 
         # Resolve BFS to name (cached)
         if bfs not in _bfs_name_cache:
