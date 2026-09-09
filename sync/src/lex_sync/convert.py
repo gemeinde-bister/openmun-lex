@@ -164,6 +164,11 @@ def convert_document(
 
     tol = api_response["text_of_law"]
     sv = tol["selected_version"]
+    if sv.get("json_content") is None:
+        raise ValueError(
+            f"{tol.get('systematic_number', '?')}: no structured content "
+            "(json_content is null — PDF-only version?)"
+        )
     doc = sv["json_content"]["document"]
     content = doc["content"]
     header_html = doc.get("header", {}).get(lang, "")
@@ -217,6 +222,8 @@ def convert_document(
 
     # Convert content tree (skip the root "title" container at depth 0)
     _convert_children(body, content, lang, depth=0, warnings=warnings)
+    if len(body) == 0:
+        warnings.append(f"Empty body in {lang}: no articles or sections converted")
 
     # Sidecar metadata
     doc_meta = _extract_document_meta(tol, sv)

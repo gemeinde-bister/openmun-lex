@@ -2,12 +2,51 @@
 
 from __future__ import annotations
 
+import time
 from dataclasses import dataclass
 
 import httpx
 
+from lex_sync.runlog import log
+
 BASE_URL = "https://lex.vs.ch/api"
 TIMEOUT = 30.0
+
+# Retry policy for GET requests: transient transport errors and 429/5xx are
+# retried with a short backoff; a 404 is a valid answer and never retried.
+ATTEMPTS = 3
+BACKOFF_SECONDS = 1.0
+_RETRY_STATUS = frozenset({429, 500, 502, 503, 504})
+
+
+def _get(client: httpx.Client, url: str) -> httpx.Response:
+    """GET with retries for transient failures.
+
+    Returns the response for any 2xx or 404; raises ``httpx.HTTPStatusError``
+    for other status codes and ``httpx.TransportError`` once the retries are
+    exhausted.
+    """
+    last_exc: httpx.HTTPError | None = None
+    for attempt in range(1, ATTEMPTS + 1):
+        try:
+            resp = client.get(url)
+        except httpx.TransportError as exc:
+            last_exc = exc
+            reason = f"{type(exc).__name__}: {exc}"
+        else:
+            if resp.status_code == 404 or resp.is_success:
+                return resp
+            if resp.status_code not in _RETRY_STATUS:
+                resp.raise_for_status()
+            reason = f"HTTP {resp.status_code}"
+            last_exc = httpx.HTTPStatusError(
+                reason, request=resp.request, response=resp,
+            )
+        if attempt < ATTEMPTS:
+            log.warning("  retry %d/%d for %s (%s)", attempt, ATTEMPTS, url, reason)
+            time.sleep(BACKOFF_SECONDS * attempt)
+    assert last_exc is not None
+    raise last_exc
 
 
 @dataclass(frozen=True)
@@ -37,9 +76,11 @@ def fetch_index(client: httpx.Client, lang: str = "de") -> list[LawEntry]:
 
     Returns a flat list of LawEntry sorted by systematic_number.
     """
-    resp = client.get(f"{BASE_URL}/{lang}/texts_of_law/lightweight_index")
+    resp = _get(client, f"{BASE_URL}/{lang}/texts_of_law/lightweight_index")
     resp.raise_for_status()
     data = resp.json()
+    if not isinstance(data, dict) or not data:
+        raise ValueError("lightweight_index returned no categories")
 
     entries: list[LawEntry] = []
     for _cat_id, laws in data.items():
@@ -59,7 +100,7 @@ def fetch_index(client: httpx.Client, lang: str = "de") -> list[LawEntry]:
 
 def fetch_categories(client: httpx.Client, lang: str = "de") -> list[Category]:
     """Fetch the systematic category tree."""
-    resp = client.get(f"{BASE_URL}/{lang}/systematic_categories")
+    resp = _get(client, f"{BASE_URL}/{lang}/systematic_categories")
     resp.raise_for_status()
     return [_parse_category(cat) for cat in resp.json()]
 
@@ -71,13 +112,14 @@ def fetch_document_json(
 
     Returns the full API response dict, or None if not found.
     """
-    resp = client.get(
+    resp = _get(
+        client,
         f"{BASE_URL}/{lang}/texts_of_law/{systematic_number}/show_as_json",
     )
     if resp.status_code == 404:
         return None
     resp.raise_for_status()
-    return resp.json()
+    return _document_payload(resp)
 
 
 def fetch_version_json(
@@ -96,13 +138,30 @@ def fetch_version_json(
 
     Returns the full API response dict, or None if not found.
     """
-    resp = client.get(
+    resp = _get(
+        client,
         f"{BASE_URL}/{lang}/texts_of_law/{sysno}/versions/{version_id}/show_as_json",
     )
     if resp.status_code == 404:
         return None
     resp.raise_for_status()
-    return resp.json()
+    return _document_payload(resp)
+
+
+def _document_payload(resp: httpx.Response) -> dict:
+    """Decode a show_as_json response and check its shape.
+
+    Raises ``ValueError`` when the body is not the expected document
+    envelope, so a changed or broken upstream API fails loudly instead of
+    producing empty AKN files.
+    """
+    try:
+        data = resp.json()
+    except ValueError as exc:
+        raise ValueError(f"{resp.url}: response is not JSON") from exc
+    if not isinstance(data, dict) or "text_of_law" not in data:
+        raise ValueError(f"{resp.url}: unexpected payload (no text_of_law)")
+    return data
 
 
 def _parse_category(raw: dict) -> Category:

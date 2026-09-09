@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 import argparse
+import shlex
 import sys
 from pathlib import Path
 
 from lex_sync.api import fetch_categories, fetch_index, make_client
+from lex_sync.runlog import configure_console, end_run_log, log, start_run_log
 
 
 def cmd_index(args: argparse.Namespace) -> None:
@@ -48,27 +50,29 @@ def cmd_categories(args: argparse.Namespace) -> None:
 
 
 def cmd_sync(args: argparse.Namespace) -> None:
-    """Sync laws from lex.vs.ch to local AKN store."""
+    """Sync laws from lex.vs.ch to local AKN store, writing one run log per sync."""
     from lex_sync.sync import sync_all
 
-    store_root = Path(args.store)
-    stats = sync_all(
-        store_root,
-        active_only=not args.all,
-        filter_pattern=args.filter,
-        force=args.force,
-    )
-
-    # Summary
-    print(file=sys.stderr)
-    print(f"Sync complete: {stats.synced} synced, "
-          f"{stats.skipped} skipped, {stats.failed} failed, "
-          f"{stats.warnings} warnings", file=sys.stderr)
+    store_root = Path(args.store).resolve()
+    configure_console(quiet=args.quiet)
+    log_path, handler = start_run_log(store_root, command=shlex.join(sys.argv))
+    try:
+        try:
+            stats = sync_all(
+                store_root,
+                active_only=not args.all,
+                filter_pattern=args.filter,
+                force=args.force,
+            )
+        except Exception as exc:  # noqa: BLE001 — record the abort in the run log
+            log.error("Sync aborted: %r", exc)
+            log.info("Run log: %s", log_path)
+            raise
+        log.info("Run log: %s", log_path)
+    finally:
+        end_run_log(handler)
 
     if stats.failures:
-        print(f"\nFailed documents:", file=sys.stderr)
-        for sysno, err in stats.failures:
-            print(f"  {sysno}: {err}", file=sys.stderr)
         sys.exit(1)
 
 
@@ -115,6 +119,10 @@ def main() -> None:
     p.add_argument(
         "--force", action="store_true",
         help="Re-sync even if version hasn't changed",
+    )
+    p.add_argument(
+        "--quiet", action="store_true",
+        help="Hide per-law progress on the console (the run log keeps it)",
     )
 
     args = parser.parse_args()

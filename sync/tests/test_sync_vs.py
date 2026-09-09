@@ -273,3 +273,30 @@ def test_cross_check_ignores_date_subdirs(tmp_path: Path) -> None:
 
     warnings = _cross_check(vs_dir)
     assert warnings == []
+
+
+def test_write_report_records_abort_and_log_pointer(tmp_path: Path) -> None:
+    report_path = tmp_path / "sync_report.log"
+    log_path = tmp_path / "sync_logs" / "20260909-101010_vs.log"
+
+    write_report(
+        report_path, None, [], [], False,
+        abort_reason="ConnectError: upstream down", log_path=log_path,
+    )
+
+    content = report_path.read_text(encoding="utf-8")
+    assert "VS sync: FAILED" in content
+    assert "ABORTED: ConnectError: upstream down" in content
+    assert f"log: {log_path}" in content
+
+
+def test_write_report_records_language_gaps(tmp_path: Path) -> None:
+    report_path = tmp_path / "sync_report.log"
+    stats = SyncStats(total=10, synced=10, lang_gaps=1)
+    stats.gaps = [("175.1", "2021-05-01", "fr")]
+
+    write_report(report_path, stats, [], [], True)
+
+    content = report_path.read_text(encoding="utf-8")
+    assert "1 language gaps" in content
+    assert "GAP 175.1 2021-05-01: no fr upstream" in content

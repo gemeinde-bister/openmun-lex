@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 import argparse
+import shlex
 import sys
 from pathlib import Path
 
-from lex_fedlex_sync.sparql import SYNC_LANGS, fetch_index, make_client, sr_sort_key
+from lex_fedlex_sync.runlog import configure_console, end_run_log, log, start_run_log
+from lex_fedlex_sync.sparql import SYNC_LANGS, fetch_index, make_client
 
 
 def _parse_langs(raw: str) -> tuple[str, ...]:
@@ -37,43 +39,43 @@ def cmd_index(args: argparse.Namespace) -> None:
 
     for entry in entries:
         abbr = f" ({entry.abbreviation})" if entry.abbreviation else ""
-        print(f"{entry.sr:>10}  {entry.title}{abbr}")
+        # Fedlex titles occasionally contain line breaks; keep one law per line.
+        title = " ".join(entry.title.split())
+        print(f"{entry.sr:>10}  {title}{abbr}")
 
     print(f"\n{len(entries)} laws", file=sys.stderr)
 
 
 def cmd_sync(args: argparse.Namespace) -> None:
-    """Sync federal laws to local AKN store."""
+    """Sync federal laws to local AKN store, writing one run log per sync."""
     from lex_fedlex_sync.sync import sync_all
 
     langs = _parse_langs(args.langs)
-    store_root = Path(args.store)
-    stats = sync_all(
-        store_root,
-        langs=langs,
-        mode=args.mode,
-        limit=args.limit,
-        workers=args.workers,
-        filter_pattern=args.filter,
-        force=args.force,
+    store_root = Path(args.store).resolve()
+    configure_console(quiet=args.quiet)
+    log_path, handler = start_run_log(
+        store_root, command=shlex.join(sys.argv),
     )
-
-    # Summary
-    print(file=sys.stderr)
-    parts = [
-        f"{stats.synced} synced",
-        f"{stats.skipped} skipped",
-        f"{stats.no_xml} no-xml",
-        f"{stats.repealed} repealed",
-        f"{stats.failed} failed",
-        f"{stats.downloads} files downloaded",
-    ]
-    print(f"Sync complete: {', '.join(parts)}", file=sys.stderr)
+    try:
+        try:
+            stats = sync_all(
+                store_root,
+                langs=langs,
+                mode=args.mode,
+                limit=args.limit,
+                workers=args.workers,
+                filter_pattern=args.filter,
+                force=args.force,
+            )
+        except Exception as exc:  # noqa: BLE001 — record the abort in the run log
+            log.error("Sync aborted: %r", exc)
+            log.info("Run log: %s", log_path)
+            raise
+        log.info("Run log: %s", log_path)
+    finally:
+        end_run_log(handler)
 
     if stats.failures:
-        print("\nFailed laws:", file=sys.stderr)
-        for sr, err in stats.failures:
-            print(f"  {sr}: {err}", file=sys.stderr)
         sys.exit(1)
 
 
@@ -149,6 +151,10 @@ def main() -> None:
     p.add_argument(
         "--force", action="store_true",
         help="Re-sync even if unchanged",
+    )
+    p.add_argument(
+        "--quiet", action="store_true",
+        help="Hide per-law progress on the console (the run log keeps it)",
     )
 
     # status

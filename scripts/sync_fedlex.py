@@ -9,6 +9,11 @@ Default mode is ``include-history`` — the public deployment (lex.bister.li)
 serves historical versions, so every in-force version of each act is fetched,
 not just the latest.
 
+Every run writes its own log to ``{store}/sync_logs/{timestamp}_ch.log``
+(header, every act line, warnings, failures, validation, summary).
+``{store}/sync_report.log`` keeps the one-entry-per-run summary and points
+to the run log.
+
 Usage:
     cd sync/fedlex && uv run python ../../scripts/sync_fedlex.py
     cd sync/fedlex && uv run python ../../scripts/sync_fedlex.py --force
@@ -22,11 +27,13 @@ so that lex_fedlex_sync is importable.
 from __future__ import annotations
 
 import argparse
+import shlex
 import sys
 import time
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from lex_fedlex_sync.runlog import configure_console, end_run_log, log, start_run_log
 from lex_fedlex_sync.sparql import SYNC_LANGS
 from lex_fedlex_sync.sync import SyncStats, sync_all
 
@@ -105,6 +112,8 @@ def _format_stats(stats: SyncStats) -> str:
         f"{stats.repealed} repealed",
         f"{stats.downloads} files",
     ]
+    if stats.lang_gaps:
+        parts.append(f"{stats.lang_gaps} language gaps")
     if stats.failed:
         parts.append(f"{stats.failed} FAILED")
     return ", ".join(parts)
@@ -133,12 +142,17 @@ def write_report(
     xml_errors: list[str],
     cross_warnings: list[str],
     success: bool,
+    *,
+    abort_reason: str | None = None,
+    log_path: Path | None = None,
 ) -> None:
     """Append a federal sync report entry to the log file."""
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
     status = "OK" if success else "FAILED"
 
     lines = [f"[{timestamp}] CH sync: {status}"]
+    if abort_reason:
+        lines.append(f"  ABORTED: {abort_reason}")
     if stats is not None:
         lines.append(f"  {_format_stats(stats)}")
         if stats.failures:
@@ -146,6 +160,10 @@ def write_report(
                 lines.append(f"    FAIL {sr}: {err}")
             if len(stats.failures) > 10:
                 lines.append(f"    ... and {len(stats.failures) - 10} more")
+        for sr, date, lang in stats.gaps[:10]:
+            lines.append(f"    GAP {sr} {date}: no {lang} upstream")
+        if len(stats.gaps) > 10:
+            lines.append(f"    ... and {len(stats.gaps) - 10} more gaps")
 
     if xml_errors:
         lines.append(f"  XML validation: {len(xml_errors)} errors")
@@ -159,6 +177,8 @@ def write_report(
     if cross_warnings:
         for w in cross_warnings:
             lines.append(f"  WARN: {w}")
+    if log_path is not None:
+        lines.append(f"  log: {log_path}")
 
     lines.append("")  # blank line separator
 
@@ -190,7 +210,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--quiet", action="store_true",
-        help="Suppress per-document output",
+        help="Hide per-act progress on the console (the run log keeps it)",
     )
     parser.add_argument(
         "--validate-only", action="store_true",
@@ -209,40 +229,62 @@ def main() -> None:
     store_root = Path(args.store).resolve()
     report_path = Path(args.report) if args.report else store_root / "sync_report.log"
 
-    if args.validate_only:
-        print("Validating existing files...", file=sys.stderr)
+    configure_console(quiet=args.quiet)
+    log_path, handler = start_run_log(store_root, command=shlex.join(sys.argv))
+    stats: SyncStats | None = None
+    abort_reason: str | None = None
+    try:
+        if args.validate_only:
+            log.info("Validating existing files...")
+        else:
+            try:
+                stats = sync_all(
+                    store_root,
+                    langs=LANGS,
+                    mode=args.mode,
+                    workers=args.workers,
+                    force=args.force,
+                    filter_pattern=args.filter,
+                )
+            except Exception as exc:  # noqa: BLE001 — the report must record the abort
+                abort_reason = f"{type(exc).__name__}: {exc}"
+                log.error("Sync aborted: %s", abort_reason)
+
         xml_errors, cross_warnings = run_validate(store_root)
-        stats = None
-        success = len(xml_errors) == 0
-    else:
-        stats = sync_all(
-            store_root,
-            langs=LANGS,
-            mode=args.mode,
-            workers=args.workers,
-            force=args.force,
-            quiet=args.quiet,
-            filter_pattern=args.filter,
+        success = (
+            abort_reason is None
+            and (stats is None or stats.failed == 0)
+            and len(xml_errors) == 0
         )
-        xml_errors, cross_warnings = run_validate(store_root)
-        success = stats.failed == 0 and len(xml_errors) == 0
 
-    write_report(report_path, stats, xml_errors, cross_warnings, success)
-
-    # Summary to stderr
-    print(file=sys.stderr)
-    print("=" * 60, file=sys.stderr)
-    if stats is not None:
-        print(f"  {_format_stats(stats)}", file=sys.stderr)
-    if xml_errors:
-        print(f"  XML errors: {len(xml_errors)}", file=sys.stderr)
-    if cross_warnings:
+        # Validation → run log
+        if xml_errors:
+            log.error("XML validation: %d errors", len(xml_errors))
+            for err in xml_errors:
+                log.error("  %s", err)
+        else:
+            log.info("XML validation: OK")
         for w in cross_warnings:
-            print(f"  WARN: {w}", file=sys.stderr)
-    status = "OK" if success else "FAILED"
-    print(f"  Status: {status}", file=sys.stderr)
-    print(f"  Report: {report_path}", file=sys.stderr)
-    print("=" * 60, file=sys.stderr)
+            log.warning("cross-check: %s", w)
+
+        write_report(
+            report_path, stats, xml_errors, cross_warnings, success,
+            abort_reason=abort_reason, log_path=log_path,
+        )
+
+        # Summary → run log + stderr
+        status = "OK" if success else "FAILED"
+        log.info("=" * 60)
+        if stats is not None:
+            log.info("  %s", _format_stats(stats))
+        if xml_errors:
+            log.info("  XML errors: %d", len(xml_errors))
+        log.info("  Status: %s", status)
+        log.info("  Report: %s", report_path)
+        log.info("  Run log: %s", log_path)
+        log.info("=" * 60)
+    finally:
+        end_run_log(handler)
 
     sys.exit(0 if success else 1)
 

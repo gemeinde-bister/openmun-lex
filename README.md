@@ -67,21 +67,35 @@ uv run pytest tests/ -v
 
 ### Sync tools
 
-Re-sync cantonal laws from lex.vs.ch:
+The wrapper scripts are the intended entry points: they sync, validate every
+XML file, cross-check language coverage, append a summary to
+`data/sync_report.log` and write one detailed log per run to
+`data/sync_logs/{timestamp}_{vs|ch}.log`. Exit code 1 on any failure.
+
+Re-sync cantonal laws from lex.vs.ch (de + fr, all versions):
 
 ```bash
 cd sync
 uv sync
-uv run lex-sync sync --data-dir ../data/vs
+uv run python ../scripts/sync_vs.py            # incremental
+uv run python ../scripts/sync_vs.py --force    # re-convert everything
 ```
 
-Sync federal laws from Fedlex (trilingual):
+Sync federal laws from Fedlex (de + fr + it, all in-force versions):
 
 ```bash
 cd sync/fedlex
 uv sync
-uv run fedlex-sync --mode latest --langs de,fr,it --workers 8
+uv run python ../../scripts/sync_fedlex.py                 # incremental
+uv run python ../../scripts/sync_fedlex.py --mode latest   # current versions only
 ```
+
+The bare CLIs (`uv run lex-sync sync --store ../data`, `uv run fedlex-sync
+sync --store ../../data --mode include-history`) do the same without the
+validation pass; they also write a run log. What is on disk is the truth:
+a missing or lost file is fetched again on the next run, a failed or
+invalid download fails the whole law and is retried next time, and a
+language the source does not offer for a version is reported as a gap.
 
 ### Search index
 

@@ -3,12 +3,24 @@
 Trilingual sync: each version is fetched once per language (de, fr, it)
 and stored side by side.  Historical versions are stored in date-stamped
 subdirectories.
+
+Robustness rules:
+
+- A download that fails (after retries) or does not return AKN XML is a
+  **failure** for that act.  Nothing of the act is written and its index
+  entry is not updated, so the next run picks it up again.
+- A language Fedlex simply does not offer for a version is an **upstream
+  gap**: counted, logged as a warning, and recorded in ``stats.gaps``.  The
+  version is still stored in the languages that exist.
+- All files of an act are downloaded and validated first, then written in
+  one go, so a mid-way failure cannot leave the act half-updated.
+- The sync index is always persisted, even if a later step raises.
 """
 
 from __future__ import annotations
 
-import sys
 import time
+import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -16,10 +28,10 @@ from threading import Lock
 
 import httpx
 
+from lex_fedlex_sync.runlog import log, progress
 from lex_fedlex_sync.sparql import (
     SYNC_LANGS,
     FedlexEntry,
-    VersionInfo,
     fetch_all_xml_urls,
     fetch_index,
     fetch_law_status,
@@ -33,7 +45,21 @@ from lex_fedlex_sync.store import (
     write_index,
     write_meta,
     write_xml,
+    xml_present,
 )
+
+AKN_ROOT_TAG = "{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}akomaNtoso"
+
+# Download retry policy: transient transport errors and 5xx/429 responses are
+# retried with a short backoff; other HTTP errors fail immediately.
+DOWNLOAD_ATTEMPTS = 3
+DOWNLOAD_BACKOFF_SECONDS = 1.0
+DOWNLOAD_TIMEOUT_SECONDS = 60.0
+_RETRY_STATUS = frozenset({429, 500, 502, 503, 504})
+
+
+class DownloadError(Exception):
+    """A Fedlex file could not be downloaded or is not AKN XML."""
 
 
 @dataclass
@@ -47,7 +73,11 @@ class SyncStats:
     no_xml: int = 0
     downloads: int = 0
     repealed: int = 0
+    lang_gaps: int = 0
     failures: list[tuple[str, str]] = field(default_factory=list)
+    # (sr, version date, lang) for every requested language Fedlex did not
+    # offer as XML — upstream gaps, not download failures.
+    gaps: list[tuple[str, str, str]] = field(default_factory=list)
 
 
 def sync_all(
@@ -59,7 +89,6 @@ def sync_all(
     workers: int = 8,
     filter_pattern: str | None = None,
     force: bool = False,
-    quiet: bool = False,
 ) -> SyncStats:
     """Sync federal laws from Fedlex SPARQL to local store.
 
@@ -74,7 +103,6 @@ def sync_all(
         workers: Number of parallel download workers.
         filter_pattern: Filter laws by SR number or title substring.
         force: Re-download even if version hasn't changed.
-        quiet: Suppress per-law output.
 
     Returns:
         SyncStats with counts and failure details.
@@ -83,18 +111,18 @@ def sync_all(
         f"Invalid mode: {mode}"
     )
     assert len(langs) >= 1, "At least one language required"
+    assert workers >= 1, f"workers must be >= 1: {workers}"
 
     stats = SyncStats()
+    lang_label = "+".join(langs)
 
     with make_client() as client:
         # 1. Fetch trilingual index
-        if not quiet:
-            lang_label = "+".join(langs)
-            print(f"Fetching SR index from Fedlex SPARQL ({lang_label})...",
-                  file=sys.stderr)
+        log.info("Fetching SR index from Fedlex SPARQL (%s)...", lang_label)
         entries = fetch_index(client, langs=langs)
-        if not quiet:
-            print(f"Found {len(entries)} in-force federal laws", file=sys.stderr)
+        log.info("Found %d in-force federal laws", len(entries))
+        if not entries:
+            raise RuntimeError("Fedlex index query returned no in-force laws")
 
         # 2. Apply filter
         if filter_pattern:
@@ -116,52 +144,77 @@ def sync_all(
             entries = unsynced + already
 
         stats.total = len(entries)
-        if not quiet:
-            lang_label = "+".join(langs)
-            limit_msg = f", limit={limit}" if limit is not None else ""
-            print(f"Syncing {stats.total} laws ({lang_label}, mode={mode}, "
-                  f"workers={workers}{limit_msg})...",
-                  file=sys.stderr)
+        limit_msg = f", limit={limit}" if limit is not None else ""
+        log.info(
+            "Syncing %d laws (%s, mode=%s, workers=%d%s)...",
+            stats.total, lang_label, mode, workers, limit_msg,
+        )
 
-        # 5. Parallel sync (httpx.Client is thread-safe)
-        def do_sync(entry: FedlexEntry) -> None:
-            _sync_one(
-                client, entry, store_root, langs, mode,
-                sync_index, index_lock, stats, limit, force, quiet,
-            )
+        try:
+            # 5. Parallel sync (httpx.Client is thread-safe)
+            def do_sync(entry: FedlexEntry) -> None:
+                _sync_one(
+                    client, entry, store_root, langs, mode,
+                    sync_index, index_lock, stats, limit, force,
+                )
 
-        with ThreadPoolExecutor(max_workers=workers) as pool:
-            futures = {
-                pool.submit(do_sync, entry): entry
-                for entry in entries
-            }
-            for future in as_completed(futures):
-                exc = future.exception()
-                if exc is not None:
-                    entry = futures[future]
-                    with index_lock:
-                        stats.failed += 1
-                        stats.failures.append((entry.sr, str(exc)))
-                    if not quiet:
-                        print(f"  {entry.sr:>10}  FAIL: {exc}", file=sys.stderr)
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                futures = {
+                    pool.submit(do_sync, entry): entry
+                    for entry in entries
+                }
+                for future in as_completed(futures):
+                    exc = future.exception()
+                    if exc is not None:
+                        # _sync_one handles its own errors; anything escaping
+                        # is a programmer error — still record it, never
+                        # abort the run silently.
+                        entry = futures[future]
+                        _record_failure(stats, index_lock, entry.sr,
+                                        f"unexpected: {exc!r}")
 
-        # 6. Mark acts that dropped out of the in-force index as repealed.
-        # Keep their files + stable ELI URI (URI-MODEL.md Principle 6); they
-        # are excluded from search at index-build time.  Only on a full sync —
-        # a filtered or limited run isn't authoritative about the in-force set.
-        if filter_pattern is None and limit is None:
-            in_force_srs = {e.sr for e in entries}
-            dropped = [sr for sr in list(sync_index) if sr not in in_force_srs]
-            if dropped and not quiet:
-                print(f"Checking {len(dropped)} act(s) no longer in force...",
-                      file=sys.stderr)
-            for sr in dropped:
-                _mark_repealed(client, sr, store_root, sync_index, stats, quiet)
+            # 6. Mark acts that dropped out of the in-force index as repealed.
+            # Keep their files + stable ELI URI (URI-MODEL.md Principle 6);
+            # they are excluded from search at index-build time.  Only on a
+            # full sync — a filtered or limited run isn't authoritative about
+            # the in-force set.
+            if filter_pattern is None and limit is None:
+                in_force_srs = {e.sr for e in entries}
+                dropped = [sr for sr in list(sync_index) if sr not in in_force_srs]
+                if dropped:
+                    log.info("Checking %d act(s) no longer in force...", len(dropped))
+                for sr in dropped:
+                    try:
+                        _mark_repealed(client, sr, store_root, sync_index, stats)
+                    except Exception as exc:  # noqa: BLE001 — one act must not abort the run
+                        _record_failure(stats, index_lock, sr, f"repeal-check: {exc!r}")
+        finally:
+            # 7. Always persist what was completed — entries are only added
+            # once an act is fully written, so a partial index is consistent.
+            write_index(store_root, sync_index)
 
-    # 7. Write updated index
-    write_index(store_root, sync_index)
-
+    _log_summary(stats)
     return stats
+
+
+def _record_failure(stats: SyncStats, lock: Lock, sr: str, reason: str) -> None:
+    """Count and log a per-act failure (thread-safe)."""
+    with lock:
+        stats.failed += 1
+        stats.failures.append((sr, reason))
+    log.error("  %10s  FAIL: %s", sr, reason)
+
+
+def _log_summary(stats: SyncStats) -> None:
+    """Log the run summary and the full failure / gap lists."""
+    log.info(
+        "Sync complete: %d checked, %d synced, %d skipped, %d no-xml, "
+        "%d repealed, %d language gaps, %d failed, %d files downloaded",
+        stats.total, stats.synced, stats.skipped, stats.no_xml,
+        stats.repealed, stats.lang_gaps, stats.failed, stats.downloads,
+    )
+    for sr, reason in stats.failures:
+        log.error("  failed %10s: %s", sr, reason)
 
 
 def _mark_repealed(
@@ -170,7 +223,6 @@ def _mark_repealed(
     store_root: Path,
     sync_index: dict,
     stats: SyncStats,
-    quiet: bool,
 ) -> None:
     """Mark a dropped-out act as repealed in sync_index + meta.json.
 
@@ -183,12 +235,18 @@ def _mark_repealed(
         return
     law_uri = entry.get("law_uri")
     if not law_uri:
+        log.warning("  %10s  dropped from index but has no law_uri — cannot classify", sr)
         return
 
     status_code, repealed_date = fetch_law_status(client, law_uri)
     if status_code == "0":
-        # Still in force but absent from our in-force index — don't touch.
-        # (Not expected on a full sync; stay conservative.)
+        # Still in force per Fedlex but absent from our in-force index.  Not
+        # expected on a full sync; stay conservative and leave it untouched,
+        # but say so — this is a sign the index query is missing acts.
+        log.warning(
+            "  %10s  absent from in-force index but Fedlex still reports it in force — left untouched",
+            sr,
+        )
         return
 
     entry["status"] = "repealed"
@@ -201,11 +259,12 @@ def _mark_repealed(
         meta.status = "repealed"
         meta.repealed_date = repealed_date
         write_meta(store_root, meta)
+    else:
+        log.warning("  %10s  repealed but has no meta.json on disk", sr)
 
     stats.repealed += 1
-    if not quiet:
-        print(f"  {sr:>10}  REPEALED ({repealed_date or '?'}) — kept, "
-              f"excluded from index", file=sys.stderr)
+    progress("  %10s  REPEALED (%s) — kept, excluded from index",
+             sr, repealed_date or "?")
 
 
 def _sync_one(
@@ -219,9 +278,18 @@ def _sync_one(
     stats: SyncStats,
     limit: int | None,
     force: bool,
-    quiet: bool,
 ) -> None:
-    """Sync a single federal law in all requested languages."""
+    """Sync a single federal law in all requested languages.
+
+    What is on disk is the truth: every language Fedlex offers for a version
+    is downloaded if its file is missing (or, for the latest version, if the
+    applicability date changed).  This makes the sync self-healing — a gap
+    Fedlex fills later, or a file lost on disk, is picked up on the next run.
+
+    Never raises for per-act problems: failures are counted in ``stats``
+    and logged, and the act's index entry is left untouched so the next run
+    retries it.
+    """
     sr = entry.sr
 
     # Early exit if limit already reached
@@ -229,125 +297,155 @@ def _sync_one(
         if limit is not None and stats.synced >= limit:
             return
 
-    # Fetch all versions with all-language URLs in one SPARQL call
-    versions = fetch_all_xml_urls(client, entry.law_uri, langs=langs)
+    try:
+        versions = fetch_all_xml_urls(client, entry.law_uri, langs=langs)
+    except (httpx.HTTPError, ValueError, KeyError) as exc:
+        _record_failure(stats, index_lock, sr, f"SPARQL version query: {exc!r}")
+        return
     if mode == "latest" and versions:
         versions = versions[:1]
 
     if not versions:
         with index_lock:
             stats.no_xml += 1
-        if not quiet:
-            print(f"  {sr:>10}  SKIP (no XML)", file=sys.stderr)
+        log.warning("  %10s  SKIP (no XML offered upstream in %s)", sr, "+".join(langs))
         return
 
-    # Incremental check
     with index_lock:
         existing = sync_index.get(sr, {})
     existing_history = set(existing.get("synced_history", []))
     existing_latest = existing.get("latest_date")
-    existing_langs = set(existing.get("langs", []))
     latest_date = versions[0].date
+    latest_changed = existing_latest != latest_date
 
-    # Check if we need any work
-    langs_match = set(langs) <= existing_langs
-    if not force and mode == "latest" and existing_latest == latest_date and langs_match:
+    # Plan: which (lang, date) files to fetch, which languages are not offered.
+    plan: list[tuple[str, str | None, str]] = []  # (lang, date_dir, url)
+    gaps: list[tuple[str, str]] = []  # (version date, lang)
+    for i, ver in enumerate(versions):
+        date_dir = None if i == 0 else ver.date
+        for lang in langs:
+            url = ver.urls.get(lang)
+            if url is None:
+                gaps.append((ver.date, lang))
+                continue
+            needed = (
+                force
+                or (i == 0 and latest_changed)
+                or not xml_present(store_root, sr, lang, date=date_dir)
+            )
+            if needed:
+                plan.append((lang, date_dir, url))
+    history_dates = [v.date for v in versions[1:]]
+    new_history = [d for d in history_dates if d not in existing_history]
+    index_stale = (
+        latest_changed
+        or bool(new_history)
+        or not set(langs) <= set(existing.get("langs", []))
+        or existing.get("status") != "in_force"
+    )
+
+    if not plan and not index_stale and not force:
         with index_lock:
             stats.skipped += 1
         return
 
-    # Reserve a slot atomically before expensive download
+    # Reserve a slot atomically before the expensive downloads
     with index_lock:
         if limit is not None and stats.synced >= limit:
             return
         stats.synced += 1
         reserved_position = stats.synced
 
-    # Download and store
-    new_history: list[str] = []
-    downloaded_latest = False
-    n_downloads = 0
+    # Phase 1: download + validate everything for this act into memory, so a
+    # failure cannot leave the act half-updated on disk.
+    downloaded: list[tuple[str, str | None, bytes]] = []
     try:
-        for i, ver in enumerate(versions):
-            if i == 0:
-                # Latest version: always write (we passed the skip check above)
-                if not force and existing_latest == latest_date and langs_match:
-                    continue
-                for lang in langs:
-                    url = ver.urls.get(lang)
-                    if url is None:
-                        continue
-                    xml_bytes = _download_xml(client, url)
-                    if xml_bytes is None:
-                        continue
-                    write_xml(store_root, sr, lang, xml_bytes)
-                    n_downloads += 1
-                downloaded_latest = True
-            else:
-                # Historical version: skip if date already synced AND all langs present
-                if not force and ver.date in existing_history and langs_match:
-                    continue
-                for lang in langs:
-                    url = ver.urls.get(lang)
-                    if url is None:
-                        continue
-                    xml_bytes = _download_xml(client, url)
-                    if xml_bytes is None:
-                        continue
-                    write_xml(store_root, sr, lang, xml_bytes, date=ver.date)
-                    n_downloads += 1
-                new_history.append(ver.date)
+        for lang, date_dir, url in plan:
+            downloaded.append((lang, date_dir, _download_xml(client, url)))
+    except DownloadError as exc:
+        with index_lock:
+            stats.synced -= 1
+        _record_failure(stats, index_lock, sr, str(exc))
+        return
 
-        # Update meta.json
+    # Phase 2: write files, meta and index entry.
+    try:
+        for lang, date_dir, xml_bytes in downloaded:
+            write_xml(store_root, sr, lang, xml_bytes, date=date_dir)
         meta = LawMeta(
             sr=sr,
             titles=entry.titles,
             abbreviations=entry.abbreviations,
             law_uri=entry.law_uri,
-            versions=[
-                VersionMeta(date=v.date, urls=v.urls) for v in versions
-            ],
+            versions=[VersionMeta(date=v.date, urls=v.urls) for v in versions],
         )
         write_meta(store_root, meta)
-
-        # Update sync index
-        all_history = sorted(existing_history | set(new_history), reverse=True)
-        with index_lock:
-            sync_index[sr] = {
-                "law_uri": entry.law_uri,
-                "titles": entry.titles,
-                "abbreviations": entry.abbreviations,
-                "latest_date": latest_date,
-                "synced_history": all_history,
-                "langs": list(langs),
-                "status": "in_force",
-                "repealed_date": None,
-                "synced_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
-            }
-            stats.downloads += n_downloads
-    except Exception:
-        # Release the reserved slot on failure
+    except OSError as exc:
         with index_lock:
             stats.synced -= 1
-            stats.failed += 1
-            stats.failures.append((sr, "download failed"))
+        _record_failure(stats, index_lock, sr, f"write: {exc!r}")
         return
 
-    if not quiet:
-        new_count = (1 if downloaded_latest else 0) + len(new_history)
-        total_count = 1 + len(all_history)
-        print(
-            f"  [{reserved_position}/{limit or '∞'}] {sr:>10}  "
-            f"OK ({n_downloads} files, {new_count} new/{total_count} total versions)",
-            file=sys.stderr,
-        )
+    with index_lock:
+        sync_index[sr] = {
+            "law_uri": entry.law_uri,
+            "titles": entry.titles,
+            "abbreviations": entry.abbreviations,
+            "latest_date": latest_date,
+            "synced_history": sorted(existing_history | set(history_dates), reverse=True),
+            "langs": list(langs),
+            "status": "in_force",
+            "repealed_date": None,
+            "synced_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        }
+        stats.downloads += len(downloaded)
+        stats.lang_gaps += len(gaps)
+        stats.gaps.extend((sr, date, lang) for date, lang in gaps)
+
+    for date, lang in gaps:
+        log.warning("  %10s  version %s: no %s XML offered upstream", sr, date, lang)
+    progress(
+        "  [%d/%s] %10s  OK (%d files, %d new/%d total versions)",
+        reserved_position, limit or "∞", sr, len(downloaded),
+        len(new_history), len(versions),
+    )
 
 
-def _download_xml(client: httpx.Client, url: str) -> bytes | None:
-    """Download XML bytes from a Fedlex filestore URL."""
+def _download_xml(client: httpx.Client, url: str) -> bytes:
+    """Download one AKN XML file from the Fedlex filestore.
+
+    Retries transient failures (transport errors, 429/5xx) a few times, then
+    validates that the payload is well-formed XML with an ``akomaNtoso``
+    root.  Raises :class:`DownloadError` on any unrecoverable problem so the
+    caller can fail the act loudly instead of silently skipping the file.
+    """
+    assert url.startswith("https://"), f"unexpected download URL: {url}"
+    last_error = ""
+    for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
+        try:
+            resp = client.get(url, timeout=DOWNLOAD_TIMEOUT_SECONDS)
+        except httpx.HTTPError as exc:
+            last_error = f"{type(exc).__name__}: {exc}"
+        else:
+            if resp.status_code == 200:
+                return _validate_akn(resp.content, url)
+            last_error = f"HTTP {resp.status_code}"
+            if resp.status_code not in _RETRY_STATUS:
+                break
+        if attempt < DOWNLOAD_ATTEMPTS:
+            log.warning("  retry %d/%d for %s (%s)", attempt, DOWNLOAD_ATTEMPTS, url, last_error)
+            time.sleep(DOWNLOAD_BACKOFF_SECONDS * attempt)
+    raise DownloadError(f"download failed: {url} ({last_error})")
+
+
+def _validate_akn(content: bytes, url: str) -> bytes:
+    """Return ``content`` if it is well-formed AKN XML, else raise DownloadError."""
+    if not content.strip():
+        raise DownloadError(f"empty response: {url}")
     try:
-        resp = client.get(url, timeout=60)
-        resp.raise_for_status()
-        return resp.content
-    except httpx.HTTPError:
-        return None
+        root = ET.fromstring(content)
+    except ET.ParseError as exc:
+        raise DownloadError(f"not well-formed XML: {url} ({exc})") from exc
+    if root.tag != AKN_ROOT_TAG:
+        raise DownloadError(f"not an akomaNtoso document: {url} (root={root.tag})")
+    return content

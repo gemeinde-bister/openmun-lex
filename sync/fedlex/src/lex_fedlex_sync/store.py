@@ -62,6 +62,25 @@ class LawMeta:
         return next(iter(self.abbreviations.values()))
 
 
+def xml_path(
+    store_root: Path, sr: str, lang: str, *, date: str | None = None,
+) -> Path:
+    """Path of one XML file: latest ({sr}/{lang}.xml) or dated ({sr}/{date}/{lang}.xml)."""
+    assert sr and "/" not in sr, f"invalid SR: {sr!r}"
+    assert lang.isalpha() and len(lang) == 2, f"invalid lang: {lang!r}"
+    if date is not None:
+        return store_root / "ch" / sr / date / f"{lang}.xml"
+    return store_root / "ch" / sr / f"{lang}.xml"
+
+
+def xml_present(
+    store_root: Path, sr: str, lang: str, *, date: str | None = None,
+) -> bool:
+    """True if the XML file exists and is non-empty."""
+    p = xml_path(store_root, sr, lang, date=date)
+    return p.is_file() and p.stat().st_size > 0
+
+
 def write_xml(
     store_root: Path,
     sr: str,
@@ -77,13 +96,11 @@ def write_xml(
 
     Returns the path written.
     """
-    if date is not None:
-        xml_path = store_root / "ch" / sr / date / f"{lang}.xml"
-    else:
-        xml_path = store_root / "ch" / sr / f"{lang}.xml"
-    xml_path.parent.mkdir(parents=True, exist_ok=True)
-    xml_path.write_bytes(xml_bytes)
-    return xml_path
+    assert xml_bytes, "refusing to write an empty XML file"
+    xml_path_ = xml_path(store_root, sr, lang, date=date)
+    xml_path_.parent.mkdir(parents=True, exist_ok=True)
+    xml_path_.write_bytes(xml_bytes)
+    return xml_path_
 
 
 def write_meta(store_root: Path, meta: LawMeta) -> Path:
@@ -182,10 +199,10 @@ def read_index(store_root: Path) -> dict[str, dict]:
 
 def read_xml(store_root: Path, sr: str, lang: str) -> bytes | None:
     """Read the latest version XML, or None if not present."""
-    xml_path = store_root / "ch" / sr / f"{lang}.xml"
-    if not xml_path.exists():
+    p = xml_path(store_root, sr, lang)
+    if not p.exists():
         return None
-    return xml_path.read_bytes()
+    return p.read_bytes()
 
 
 def count_laws(store_root: Path) -> int:
