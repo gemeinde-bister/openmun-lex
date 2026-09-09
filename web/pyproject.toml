@@ -1,6 +1,6 @@
 [project]
 name = "openmun-lex"
-version = "0.2.2"
+version = "0.3.0"
 description = "AKN law viewer with full-text search (federal, cantonal, municipal)"
 requires-python = ">=3.12"
 license = "EUPL-1.2"
