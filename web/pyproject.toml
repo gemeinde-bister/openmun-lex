@@ -1,6 +1,6 @@
 [project]
 name = "openmun-lex"
-version = "0.3.1"
+version = "0.3.2"
 description = "AKN law viewer with full-text search (federal, cantonal, municipal)"
 requires-python = ">=3.12"
 license = "EUPL-1.2"
@@ -17,7 +17,11 @@ dependencies = [
     "python-multipart",
     "openmun-opendata",
     "openmun-editor",
-    "tantivy",
+    # Pinned: tantivy has no musllinux wheel, so an unpinned bump recompiles from source on the
+    # (musl) prod host, and the on-disk index format is tied to the tantivy version it was built
+    # with. Keep this == the version used to build search_index/ (index_format v7). See
+    # rx repo docs/hosts/vm-mun0.md → "Lex Deployment".
+    "tantivy==0.25.1",
 ]
 
 [project.optional-dependencies]
