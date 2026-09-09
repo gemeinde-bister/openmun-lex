@@ -364,6 +364,18 @@ T: dict[str, dict[str, str]] = {
         "fr": "Autres",
         "it": "Altri",
     },
+
+    # --- Footer ---
+    "footer_and": {
+        "de": "und",
+        "fr": "et",
+        "it": "e",
+    },
+    "footer_license_prefix": {
+        "de": "Lizenziert unter der",
+        "fr": "Sous licence",
+        "it": "Concesso in licenza",
+    },
 }
 
 # Mapping from SR category digit to i18n key
